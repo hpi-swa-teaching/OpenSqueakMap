@@ -7,7 +7,7 @@
 * **Pawel Böning** - *Some work* - [PawelBoe](https://github.com/PawelBoe)
 * **Carl Gödecken** - *Some work* - [TODO](https://github.com/PawelBoe)
 * **Lisa Ihde** - *Some work* - [TODO](https://github.com/PawelBoe)
-* **Daniel Thevessen** - *Some work* - [TODO](https://github.com/PawelBoe)
+* **Daniel Thevessen** - *Some work* - [danthe96](https://github.com/danthe96)
 
 ## License
 
