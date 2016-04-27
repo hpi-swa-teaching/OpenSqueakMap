@@ -1,6 +1,8 @@
 # SWT16-Project-04 [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-04.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-04)
 [Open Street Map](http://www.osm.org) browser for Smalltalk (Squeak)
 
+[Berlin XML dump](https://mapzen.com/data/metro-extracts/)
+
 ## Authors
 
 * **Lukas Behrendt** - *Some work* - [TODO](https://github.com/PawelBoe)
