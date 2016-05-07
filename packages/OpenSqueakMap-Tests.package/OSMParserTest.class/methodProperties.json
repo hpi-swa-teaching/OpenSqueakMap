@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"exampleDocument" : "CJ 5/7/2016 16:04",
 		"parser" : "CJ 5/7/2016 15:28",
 		"parser:" : "CJ 5/7/2016 15:28",
-		"setUp" : "CJ 5/7/2016 15:27" } }
+		"setUp" : "CJ 5/7/2016 16:24",
+		"testNodes" : "CJ 5/7/2016 16:36" } }
