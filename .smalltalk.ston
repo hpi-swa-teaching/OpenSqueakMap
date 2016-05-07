@@ -1,0 +1,9 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'OpenSqueakMap',
+      #directory : 'packages',
+      #platforms : [ #squeak ]
+    }
+  ]
+}
