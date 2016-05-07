@@ -5,10 +5,10 @@
 
 ## Authors
 
-* **Lukas Behrendt** - *Some work* - [TODO](https://github.com/PawelBoe)
+* **Lukas Behrendt** - *Some work* - [Blaidd-Drwg](https://github.com/Blaidd-Drwg)
 * **Pawel Böning** - *Some work* - [PawelBoe](https://github.com/PawelBoe)
-* **Carl Gödecken** - *Some work* - [TODO](https://github.com/PawelBoe)
-* **Lisa Ihde** - *Some work* - [TODO](https://github.com/PawelBoe)
+* **Carl Gödecken** - *Some work* - [MasterCarl](https://github.com/MasterCarl)
+* **Lisa Ihde** - *Some work* - [julisa99](https://github.com/julisa99)
 * **Daniel Thevessen** - *Some work* - [danthe96](https://github.com/danthe96)
 
 ## License
