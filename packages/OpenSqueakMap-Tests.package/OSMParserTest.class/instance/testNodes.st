@@ -13,6 +13,7 @@ testNodes
 	self assert: secondNode id = 318693749.
 	self assert: secondNode latitude = 52.3989957.
 	self assert: secondNode longitude = 13.1414180.
+	
 	self assert: secondNode tags size = 2.
 	self assert: (secondNode tags at: #railway) = 'switch'.
 	self assert: (secondNode tags at: #source) = 'Bing'.
