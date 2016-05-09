@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"nodes",
+		"ways",
+		"relations" ],
 	"name" : "OSMParser",
 	"pools" : [
 		 ],
