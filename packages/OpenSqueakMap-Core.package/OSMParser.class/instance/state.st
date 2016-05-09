@@ -1,3 +1,3 @@
 accessing
 state
-	^ state
+	^ self states top.

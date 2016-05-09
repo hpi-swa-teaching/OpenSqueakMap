@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"nodes",
-		"ways",
-		"relations",
-		"states" ],
-	"name" : "OSMParser",
+		 ],
+	"name" : "OSMParserOSMState",
 	"pools" : [
 		 ],
-	"super" : "SAXHandler",
+	"super" : "OSMParserState",
 	"type" : "normal" }

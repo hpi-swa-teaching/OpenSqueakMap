@@ -4,5 +4,6 @@ initialize
 		nodes: Dictionary new;
 		ways: Dictionary new;
 		relations: Dictionary new;
-		state: OSMParseInitialState new.
+		states: Stack new.
+	self states push: (OSMParseInitialState on: self).
 	super initialize.
