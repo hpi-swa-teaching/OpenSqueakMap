@@ -2,10 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "CJ 5/9/2016 11:15",
+		"endElement:" : "DOT 5/9/2016 11:58",
+		"initialize" : "DOT 5/9/2016 12:01",
 		"nodes" : "CJ 5/9/2016 11:10",
 		"nodes:" : "CJ 5/9/2016 11:10",
 		"relations" : "CJ 5/9/2016 11:10",
 		"relations:" : "CJ 5/9/2016 11:10",
+		"startElement:attributes:" : "DOT 5/9/2016 11:57",
+		"state" : "DOT 5/9/2016 11:54",
+		"state:" : "DOT 5/9/2016 11:54",
 		"ways" : "CJ 5/9/2016 11:10",
 		"ways:" : "CJ 5/9/2016 11:10" } }

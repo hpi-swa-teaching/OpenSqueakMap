@@ -8,7 +8,8 @@
 	"instvars" : [
 		"nodes",
 		"ways",
-		"relations" ],
+		"relations",
+		"state" ],
 	"name" : "OSMParser",
 	"pools" : [
 		 ],
