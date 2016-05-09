@@ -1,0 +1,14 @@
+{
+	"category" : "OpenSqueakMap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"callback" ],
+	"name" : "OSMParserState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
