@@ -16,6 +16,9 @@ exampleDocument
  <relation id="16349" visible="true" version="372" changeset="36059354" timestamp="2015-12-20T06:29:46Z" user="atpl_pilot" uid="881429">
   <member type="node" ref="27127283" role="state"/>
   <member type="way" ref="51763472" role="borough"/>
+  <member type="node" ref="12345" role="state"/>
+  <member type="way" ref="123456" role="borough"/>
+  <member type="relation" ref="1234567" role="borough"/>
   <tag k="addr:city" v="Berlin"/>
   <tag k="addr:country" v="DE"/>
  </relation>
