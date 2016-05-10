@@ -1,5 +1,7 @@
 as yet unclassified
 endElement: aQualifiedName
-	aQualifiedName = 'osm'
-		ifTrue: [self parser states pop]
-		ifFalse: [self error: 'Unmatched closing tag ', aQualifiedName].
+	
+	aQualifiedName caseOf: {
+		['osm']->[self parser states pop].
+		['bounds']->[].
+	} otherwise: [self error: 'Cannot handle element ', aQualifiedName]

@@ -1,3 +1,4 @@
 accessing
 endElement: aQualifiedName
-	self error: 'Cannot handle closing tag ', aQualifiedName.
+		
+		self error: 'Unidentified tag at root level: ', aQualifiedName.

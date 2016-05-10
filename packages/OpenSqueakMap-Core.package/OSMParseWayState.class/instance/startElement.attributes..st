@@ -2,5 +2,6 @@ as yet unclassified
 startElement: aQualifiedName attributes: aDictionary
 		
 	aQualifiedName caseOf: {
-		['tag']->[self node tags at: (aDictionary at: #k) put: (aDictionary at: #v)].
+		['tag']->[self way tags at: (aDictionary at: #k) put: (aDictionary at: #v)].
+		['nd']->[self way nodes add: (self parser getNode: (aDictionary at: #ref))].
 	} otherwise: [self error: 'Cannot handle element ', aQualifiedName]
