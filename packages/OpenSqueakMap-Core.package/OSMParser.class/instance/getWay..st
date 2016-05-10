@@ -1,4 +1,4 @@
 handling - content
 getWay: anId
 
-	self ways at: anId.
+	^ self ways at: anId.

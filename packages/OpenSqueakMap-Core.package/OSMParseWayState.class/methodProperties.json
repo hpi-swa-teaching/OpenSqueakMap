@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"on:with:" : "PB 5/10/2016 18:47" },
 	"instance" : {
 		"endElement:" : "PB 5/10/2016 18:10",
 		"initialize" : "PB 5/10/2016 18:13",
