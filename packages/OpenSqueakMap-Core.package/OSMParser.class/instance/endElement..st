@@ -1,4 +1,4 @@
-as yet unclassified
+handling - content
 endElement: anElement
 
 	^self state endElement: anElement.

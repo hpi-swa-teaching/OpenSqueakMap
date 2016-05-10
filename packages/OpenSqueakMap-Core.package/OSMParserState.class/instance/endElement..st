@@ -1,3 +1,3 @@
-as yet unclassified
+handling - content
 endElement: aQualifiedName
 	self subclassResponsibility.
