@@ -1,0 +1,14 @@
+{
+	"category" : "OpenSqueakMap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OpenSqueakMap",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

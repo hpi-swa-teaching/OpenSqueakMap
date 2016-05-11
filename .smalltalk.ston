@@ -3,6 +3,7 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'OpenSqueakMap',
       #directory : 'packages',
+	  #load : [ 'TravisCI' ],
       #platforms : [ #squeak ]
     }
   ]
