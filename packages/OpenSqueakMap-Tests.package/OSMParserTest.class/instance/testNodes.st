@@ -1,7 +1,7 @@
 as yet unclassified
 testNodes
 	| nodes firstNode secondNode thirdNode |
-	nodes := self parser nodes.
+	nodes := self dataSet nodes.
 	self assert: nodes size = 3.
 	
 	firstNode := nodes at: '27127283'.

@@ -1,7 +1,7 @@
 as yet unclassified
 testRelations
 	| relations firstRelation secondRelation |
-	relations := self parser relations.
+	relations := self dataSet relations.
 	self assert: relations size = 2.
 	
 	firstRelation := relations at: '16349'.

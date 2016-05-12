@@ -1,7 +1,7 @@
 as yet unclassified
 testWays
 	| ways firstWay secondWay |
-	ways := self parser ways.
+	ways := self dataSet ways.
 	self assert: ways size = 2.
 	
 	firstWay := ways at: '51763472'.

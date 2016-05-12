@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"dataSet" : "lx 5/12/2016 22:32",
+		"dataSet:" : "lx 5/12/2016 22:31",
 		"exampleDocument" : "lx 5/10/2016 22:53",
-		"parser" : "CJ 5/7/2016 15:28",
-		"parser:" : "CJ 5/7/2016 15:28",
-		"setUp" : "CJ 5/7/2016 16:24",
-		"testNodes" : "lx 5/10/2016 22:55",
-		"testRelations" : "lx 5/10/2016 22:58",
-		"testWays" : "lx 5/10/2016 22:54" } }
+		"setUp" : "lx 5/12/2016 22:35",
+		"testNodes" : "lx 5/12/2016 22:32",
+		"testRelations" : "lx 5/12/2016 22:32",
+		"testWays" : "lx 5/12/2016 22:32" } }
