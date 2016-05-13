@@ -1,0 +1,16 @@
+{
+	"category" : "OpenSqueakMap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mapMorph",
+		"dataSet",
+		"wayMorphs" ],
+	"name" : "OSMRenderer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
