@@ -1,4 +1,4 @@
 handling - content
 addRelation: aRelation
 
-	self relations at: aRelation id put: aRelation.
+	self dataSet relations at: aRelation id put: aRelation.

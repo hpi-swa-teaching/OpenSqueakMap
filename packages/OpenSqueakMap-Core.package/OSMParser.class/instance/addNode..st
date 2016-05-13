@@ -1,4 +1,4 @@
 handling - content
 addNode: aNode
 
-	self nodes at: aNode id put: aNode.
+	self dataSet nodes at: aNode id put: aNode.

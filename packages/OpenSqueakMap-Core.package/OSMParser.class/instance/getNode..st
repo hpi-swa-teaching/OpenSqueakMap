@@ -1,4 +1,4 @@
 handling - content
 getNode: anId
 
-	^ self nodes at: anId ifAbsentPut: [OSMNode new id: anId].
+	^ self dataSet nodes at: anId ifAbsentPut: [OSMNode new id: anId].

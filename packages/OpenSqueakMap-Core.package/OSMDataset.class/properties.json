@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dataSet",
-		"states" ],
-	"name" : "OSMParser",
+		"nodes",
+		"ways",
+		"relations" ],
+	"name" : "OSMDataset",
 	"pools" : [
 		 ],
-	"super" : "SAXHandler",
+	"super" : "Object",
 	"type" : "normal" }

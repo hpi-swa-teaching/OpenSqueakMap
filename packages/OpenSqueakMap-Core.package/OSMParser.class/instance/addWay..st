@@ -1,4 +1,4 @@
 handling - content
 addWay: aWay
 
-	self ways at: aWay id put: aWay.
+	self dataSet ways at: aWay id put: aWay.
