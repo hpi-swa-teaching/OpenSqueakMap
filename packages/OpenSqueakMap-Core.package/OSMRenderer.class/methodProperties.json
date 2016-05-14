@@ -2,15 +2,17 @@
 	"class" : {
 		"on:" : "DOT 5/13/2016 17:28" },
 	"instance" : {
+		"addWayMorph:at:" : "lx 5/14/2016 13:02",
 		"dataSet" : "DOT 5/13/2016 16:45",
 		"dataSet:" : "DOT 5/13/2016 16:45",
-		"initialize" : "DOT 5/13/2016 18:08",
+		"initialize" : "lx 5/14/2016 13:11",
 		"mapMorph" : "DOT 5/13/2016 17:13",
 		"mapMorph:" : "DOT 5/13/2016 17:13",
-		"render" : "DOT 5/13/2016 16:48",
-		"renderNodes" : "DOT 5/13/2016 16:48",
-		"renderRelations" : "DOT 5/13/2016 16:49",
-		"renderWays" : "DOT 5/13/2016 18:05",
-		"translate:" : "DOT 5/13/2016 18:14",
+		"pointsFrom:" : "lx 5/14/2016 13:04",
+		"render" : "lx 5/14/2016 12:18",
+		"renderNode:" : "lx 5/14/2016 12:20",
+		"renderRelation:" : "lx 5/14/2016 12:20",
+		"renderWay:" : "lx 5/14/2016 13:30",
+		"translate:bounds:" : "lx 5/14/2016 13:29",
 		"wayMorphs" : "DOT 5/13/2016 17:16",
 		"wayMorphs:" : "DOT 5/13/2016 17:16" } }

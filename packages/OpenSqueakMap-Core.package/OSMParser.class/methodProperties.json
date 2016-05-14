@@ -5,6 +5,7 @@
 		"addNode:" : "lx 5/12/2016 22:26",
 		"addRelation:" : "lx 5/12/2016 22:29",
 		"addWay:" : "lx 5/12/2016 22:29",
+		"boundsFrom:" : "lx 5/14/2016 12:53",
 		"dataSet" : "lx 5/12/2016 22:31",
 		"dataSet:" : "lx 5/12/2016 22:31",
 		"endDocument" : "CJ 5/10/2016 11:50",
@@ -13,14 +14,8 @@
 		"getRelation:" : "lx 5/12/2016 22:26",
 		"getWay:" : "lx 5/12/2016 22:26",
 		"initialize" : "lx 5/12/2016 22:30",
-		"nodes" : "CJ 5/9/2016 11:10",
-		"nodes:" : "CJ 5/9/2016 11:10",
 		"parseDocument" : "lx 5/12/2016 22:35",
-		"relations" : "CJ 5/9/2016 11:10",
-		"relations:" : "CJ 5/9/2016 11:10",
 		"startElement:attributes:" : "DOT 5/9/2016 11:57",
 		"state" : "CJ 5/9/2016 12:17",
 		"states" : "lx 5/12/2016 22:30",
-		"states:" : "CJ 5/9/2016 12:14",
-		"ways" : "CJ 5/9/2016 11:10",
-		"ways:" : "CJ 5/9/2016 11:10" } }
+		"states:" : "CJ 5/9/2016 12:14" } }
