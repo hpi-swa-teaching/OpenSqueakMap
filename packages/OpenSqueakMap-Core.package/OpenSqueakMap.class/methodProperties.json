@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"load:" : "lx 5/11/2016 10:19",
-		"loadAndShow:" : "lx 5/14/2016 11:57" },
+		"load:" : "lx 5/16/2016 10:43",
+		"loadAndShow:" : "lx 5/14/2016 11:57",
+		"loadFromDocument:" : "lx 5/16/2016 10:44",
+		"loadFromWebWithBoundsS:w:n:e:" : "lx 5/16/2016 10:48" },
 	"instance" : {
 		 } }

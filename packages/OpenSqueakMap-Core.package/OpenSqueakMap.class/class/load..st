@@ -1,4 +1,4 @@
 as yet unclassified
-load: aFileName
+load: aString
 
-	^ (OSMParser parseDocumentFromFileNamed: aFileName).
+	^ OSMParser parse: aString
