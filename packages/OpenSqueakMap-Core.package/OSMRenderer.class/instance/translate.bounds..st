@@ -1,4 +1,4 @@
 rendering
 translate: aGeoCoordinate bounds: aRectangle
 	
-	^self scaleFactor * (aGeoCoordinate - (aRectangle topLeft) * (1 @ -1) + (100@100))
+	^self scaleFactor * (aGeoCoordinate - (aRectangle topLeft) * (1 @ -1))

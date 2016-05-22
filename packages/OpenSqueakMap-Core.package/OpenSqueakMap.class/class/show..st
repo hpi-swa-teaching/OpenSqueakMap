@@ -1,4 +1,7 @@
 as yet unclassified
 show: aDataSet
 
-	(OSMRenderer on: aDataSet) render.
+	| osm |
+	osm := self new renderer: (OSMRenderer on: aDataSet).
+	osm renderer render.
+	^ osm.
