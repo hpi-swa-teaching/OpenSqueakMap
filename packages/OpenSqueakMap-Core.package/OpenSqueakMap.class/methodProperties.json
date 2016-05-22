@@ -1,8 +1,11 @@
 {
 	"class" : {
 		"load:" : "lx 5/16/2016 10:43",
+		"loadAndShow:" : "lx 5/14/2016 11:57",
+		"loadFromDocument:" : "lx 5/16/2016 10:44",
 		"loadFromFile:" : "lx 5/19/2016 20:08",
 		"loadFromWeb:" : "lx 5/19/2016 20:08",
+		"loadFromWebWithBoundsS:w:n:e:" : "DOT 5/22/2016 17:48",
 		"show:" : "lx 5/22/2016 12:36",
 		"showFromFile:" : "lx 5/22/2016 12:36",
 		"showFromWeb:" : "lx 5/22/2016 12:37" },
