@@ -1,0 +1,6 @@
+as yet unclassified
+exampleObject1
+
+	^ OSMRenderObject on: (OSMNode new id: 1).
+	
+	

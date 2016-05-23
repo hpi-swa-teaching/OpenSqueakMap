@@ -1,0 +1,4 @@
+accessing
+renderAttributes
+
+	^ renderAttributes

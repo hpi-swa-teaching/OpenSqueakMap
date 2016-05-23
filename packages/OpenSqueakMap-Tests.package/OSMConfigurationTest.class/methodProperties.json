@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"configurationRuleWithComputedAttributes" : "CJ 5/23/2016 18:24",
+		"exampleAttributes" : "CJ 5/23/2016 17:37",
+		"exampleConfigurationRule" : "CJ 5/23/2016 18:21",
+		"exampleObject1" : "CJ 5/23/2016 18:19",
+		"exampleObject2" : "CJ 5/23/2016 18:19",
+		"testConfigurationWithAttributes" : "CJ 5/23/2016 18:20",
+		"testRuleWithAttributes" : "CJ 5/23/2016 18:20",
+		"testRuleWithComputedAttributes" : "CJ 5/23/2016 18:24",
+		"unconcernedObject" : "CJ 5/23/2016 17:47" } }
