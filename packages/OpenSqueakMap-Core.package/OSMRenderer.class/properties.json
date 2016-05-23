@@ -9,7 +9,9 @@
 		"mapMorph",
 		"dataSet",
 		"wayMorphs",
-		"scaleFactor" ],
+		"scaleFactor",
+		"mPerDegrees",
+		"zoomLevel" ],
 	"name" : "OSMRenderer",
 	"pools" : [
 		 ],
