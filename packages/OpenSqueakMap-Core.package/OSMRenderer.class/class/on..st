@@ -4,4 +4,5 @@ on: aDataSet
 	^self new
 		dataSet: aDataSet;
 		configuration: OSMConfiguration defaultConfiguration;
+		applyConfiguration;
 		yourself

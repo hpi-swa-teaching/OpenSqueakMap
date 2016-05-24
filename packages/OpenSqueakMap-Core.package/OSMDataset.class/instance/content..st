@@ -1,3 +1,3 @@
 accessing
-content: anObject
-	content := anObject
+content: aDictionary
+	content := aDictionary
