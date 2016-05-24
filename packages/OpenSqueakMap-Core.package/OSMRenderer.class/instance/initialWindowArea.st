@@ -1,4 +1,4 @@
 rendering
-initialWindowSize
+initialWindowArea
 	
 	^ self currentWorld visibleClearArea

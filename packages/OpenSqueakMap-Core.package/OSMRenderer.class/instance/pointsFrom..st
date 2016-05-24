@@ -5,4 +5,4 @@ pointsFrom: aCollectionOfNodes
 		select: [:node | node isNilNode not]
 		thenCollect: [:node | | screenCoord |
 			screenCoord := self translate: node coordinates bounds: self dataSet bounds.
-			screenCoord + self mapMorph bounds origin].
+			screenCoord + self mapMorphBounds origin].
