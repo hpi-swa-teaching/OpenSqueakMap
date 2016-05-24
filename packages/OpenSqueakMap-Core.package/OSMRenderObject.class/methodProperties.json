@@ -1,13 +1,16 @@
 {
 	"class" : {
+		"defaultAttributes" : "DOT 5/24/2016 18:38",
 		"on:" : "CJ 5/23/2016 17:14" },
 	"instance" : {
 		"id" : "CJ 5/24/2016 15:21",
 		"initialize" : "lx 5/24/2016 15:19",
 		"osmEntity" : "CJ 5/23/2016 16:42",
 		"osmEntity:" : "CJ 5/23/2016 16:42",
+		"renderAttributeAt:" : "DOT 5/24/2016 18:12",
 		"renderAttributes" : "CJ 5/23/2016 16:42",
 		"renderAttributes:" : "CJ 5/23/2016 16:42",
 		"renderOn:" : "CJ 5/24/2016 12:24",
+		"shouldShowAt:" : "DOT 5/24/2016 18:34",
 		"tags" : "CJ 5/24/2016 15:24",
 		"type" : "CJ 5/24/2016 15:22" } }
