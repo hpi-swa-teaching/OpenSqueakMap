@@ -4,10 +4,10 @@ defaultConfiguration
 	|showWaysRule|
 	showWaysRule := OSMConfigurationRule
 		for: [:x | x type = #way]
-		setAttributes: [Dictionary new
+		setAttributes: (Dictionary new
 			at: #visible put: #true;
 			at: #color put: #red;
-			yourself].
+			yourself).
 	
 	^ self new
 		add: showWaysRule;

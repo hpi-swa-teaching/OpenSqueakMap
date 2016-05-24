@@ -2,4 +2,4 @@ accessing
 applyTo: aRenderObject
 	
 	(self filter value: aRenderObject)
-		ifTrue: [aRenderObject renderAttributes: (self attributesFor: aRenderObject).]
+		ifTrue: [aRenderObject renderAttributes addAll: (self attributesFor: aRenderObject).]
