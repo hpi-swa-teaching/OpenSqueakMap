@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"id",
 		"latitude",
-		"longitude",
-		"tags" ],
+		"longitude" ],
 	"name" : "OSMNode",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "OSMDatum",
 	"type" : "normal" }

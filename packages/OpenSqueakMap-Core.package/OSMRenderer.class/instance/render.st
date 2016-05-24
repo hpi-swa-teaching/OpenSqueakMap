@@ -2,6 +2,5 @@ rendering
 render
 
 	self scaleFactorFromBounds: self dataSet bounds.
-	self dataSet ways do: [:way | self renderWay: way].
-	self dataSet nodes do: [:node | self renderNode: node].
-	self dataSet relations do: [:relation | self renderRelation: relation].
+	(OSMConfiguration new add: (OSMConfigurationRule for: [:x | true] setAttributes: (Dictionary new at: #color put: #green; yourself))) applyToAll: self renderObjects.
+	self renderObjects do: [:x | x renderOn: self].

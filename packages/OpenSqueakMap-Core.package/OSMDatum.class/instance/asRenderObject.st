@@ -1,0 +1,4 @@
+accessing
+asRenderObject
+	
+	^ self subclassResponsibility.

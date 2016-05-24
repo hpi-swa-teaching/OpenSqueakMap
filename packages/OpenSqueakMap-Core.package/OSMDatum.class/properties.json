@@ -1,0 +1,15 @@
+{
+	"category" : "OpenSqueakMap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id",
+		"tags" ],
+	"name" : "OSMDatum",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

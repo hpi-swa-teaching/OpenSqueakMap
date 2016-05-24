@@ -2,12 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"asRenderDataSet" : "CJ 5/24/2016 12:17",
 		"bounds" : "lx 5/14/2016 12:52",
 		"bounds:" : "lx 5/14/2016 12:52",
-		"initialize" : "lx 5/12/2016 22:36",
-		"nodes" : "lx 5/11/2016 17:57",
-		"nodes:" : "lx 5/11/2016 17:57",
-		"relations" : "lx 5/11/2016 17:57",
-		"relations:" : "lx 5/11/2016 17:57",
-		"ways" : "lx 5/11/2016 17:57",
-		"ways:" : "lx 5/11/2016 17:57" } }
+		"content" : "CJ 5/24/2016 11:57",
+		"content:" : "CJ 5/24/2016 11:57",
+		"initialize" : "CJ 5/24/2016 11:57" } }

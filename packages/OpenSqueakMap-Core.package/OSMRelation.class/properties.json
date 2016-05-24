@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"id",
-		"tags",
 		"members" ],
 	"name" : "OSMRelation",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "OSMDatum",
 	"type" : "normal" }

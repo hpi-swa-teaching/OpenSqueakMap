@@ -1,5 +1,5 @@
-as yet unclassified
-initialize
+accessing
+initialize 
 
 	super initialize.
 	self tags: Dictionary new.

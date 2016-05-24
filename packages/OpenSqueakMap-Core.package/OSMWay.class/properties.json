@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"id",
-		"tags",
 		"nodes" ],
 	"name" : "OSMWay",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "OSMDatum",
 	"type" : "normal" }
