@@ -1,7 +1,7 @@
 as yet unclassified
 testWays
 	| ways firstWay secondWay |
-	ways := self dataSet ways.
+	ways := self dataSet content select: [:x | x type = #way].
 	self assert: ways size = 2.
 	
 	firstWay := ways at: '51763472'.

@@ -1,7 +1,7 @@
 as yet unclassified
 testNodes
 	| nodes firstNode secondNode thirdNode |
-	nodes := self dataSet nodes.
+	nodes := self dataSet content select: [:x | x type = #node].
 	self assert: nodes size = 3.
 	
 	firstNode := nodes at: '27127283'.

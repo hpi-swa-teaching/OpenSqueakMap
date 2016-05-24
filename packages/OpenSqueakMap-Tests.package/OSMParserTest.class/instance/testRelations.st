@@ -1,7 +1,7 @@
 as yet unclassified
 testRelations
 	| relations firstRelation secondRelation |
-	relations := self dataSet relations.
+	relations := self dataSet content select: [:x | x type = #relation].
 	self assert: relations size = 2.
 	
 	firstRelation := relations at: '16349'.

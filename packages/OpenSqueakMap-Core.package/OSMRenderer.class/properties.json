@@ -12,7 +12,8 @@
 		"wayMorphs",
 		"scaleFactor",
 		"mPerDegrees",
-		"zoomLevel" ],
+		"zoomLevel",
+		"configuration" ],
 	"name" : "OSMRenderer",
 	"pools" : [
 		 ],
