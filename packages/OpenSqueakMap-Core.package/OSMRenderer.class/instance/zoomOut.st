@@ -1,4 +1,5 @@
 rendering
 zoomOut
 
-	self scaleFactor: self scaleFactor / 2.
+	self zoomLevel: self zoomLevel - 1.
+	self rescale.

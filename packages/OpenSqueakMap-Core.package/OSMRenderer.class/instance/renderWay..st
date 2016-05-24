@@ -5,7 +5,7 @@ renderWay: aWay
 	(self wayMorphs includesKey: aWay id) ifFalse: [
 		points := self pointsFrom: aWay nodes.
 		(points size > 1) ifTrue: [
-			wayMorph := PolygonMorph
+			wayMorph := OSMMorph
 				vertices: points
 				color: Color red
 				borderWidth: 1

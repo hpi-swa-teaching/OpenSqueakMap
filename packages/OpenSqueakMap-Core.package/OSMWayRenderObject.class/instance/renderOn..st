@@ -4,7 +4,7 @@ renderOn: aRenderer
 	| points wayMorph |	
 		points := aRenderer pointsFrom: self osmEntity nodes.
 		(points size > 1) ifTrue: [
-			wayMorph := PolygonMorph
+			wayMorph := OSMMorph
 				vertices: points
 				color: (Color fromString: (self renderAttributes at: #color ifAbsent: [#blue]))
 				borderWidth: 1
