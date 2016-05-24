@@ -5,4 +5,5 @@ on: aDataSet with: aConfiguration
 		dataSet: aDataSet;
 		configuration: aConfiguration;
 		applyConfiguration;
+		resetMap;
 		yourself
