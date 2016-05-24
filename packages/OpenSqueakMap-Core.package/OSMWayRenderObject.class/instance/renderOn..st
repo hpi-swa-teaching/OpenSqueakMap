@@ -6,8 +6,8 @@ renderOn: aRenderer
 		(points size > 1) ifTrue: [
 			wayMorph := OSMMorph
 				vertices: points
-				color: (Color fromString: (self renderAttributes at: #color ifAbsent: [#blue]))
-				borderWidth: 1
-				borderColor: Color white.
+				color: Color transparent
+				borderWidth: (self renderAttributes at: #borderWidth ifAbsent: [1])
+				borderColor: (Color fromString: (self renderAttributes at: #color ifAbsent: [#blue])).
 			self osmEntity closed ifFalse: [wayMorph makeOpen].
 			aRenderer addWayMorph: wayMorph at: self osmEntity id].
