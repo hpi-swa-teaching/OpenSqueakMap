@@ -1,0 +1,14 @@
+{
+	"category" : "OpenSqueakMap-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dataSet" ],
+	"name" : "OSMWebLoaderTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
