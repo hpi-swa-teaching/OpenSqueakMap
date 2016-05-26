@@ -2,5 +2,4 @@ accessing
 initialize 
 
 	super initialize.
-	self
-		content: Dictionary new.
+	self content: Dictionary new.

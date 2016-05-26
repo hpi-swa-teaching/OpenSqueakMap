@@ -1,5 +1,5 @@
 as yet unclassified
-exampleAttributes
+exampleAttributes2
 	^ Dictionary new
-		add: #color->#testIndigo;
+		add: #color->#testBordeaux;
 		yourself.

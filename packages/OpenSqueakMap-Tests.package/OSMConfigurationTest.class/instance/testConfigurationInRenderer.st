@@ -3,7 +3,7 @@ testConfigurationInRenderer
 
 	| configuration osmObjects dataSet renderer |
 	configuration := OSMConfiguration new add: self exampleConfigurationRule.
-	osmObjects := Dictionary new at: 1 put: (OSMNode new id: 1); at:2 put: (OSMNode new id: 2); yourself.
+	osmObjects := Dictionary newFrom: {1 -> (OSMNode new id: 1). 2 -> (OSMNode new id: 2)}.
 	dataSet := OSMDataset new content: osmObjects; bounds: (Rectangle
 			left: 0
 			right: 10
