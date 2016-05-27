@@ -1,5 +1,6 @@
 rendering
-zoomOut
+zoomedOutMap
 
 	self zoomLevel: self zoomLevel - 1.
-	self rescale.
+	self redraw.
+	^ self mapMorph.

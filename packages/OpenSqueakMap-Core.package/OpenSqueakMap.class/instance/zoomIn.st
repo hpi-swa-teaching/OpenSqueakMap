@@ -1,4 +1,4 @@
 as yet unclassified
 zoomIn
 
-	self renderer zoomIn.
+	self viewport addMorph: self renderer zoomedInMap.

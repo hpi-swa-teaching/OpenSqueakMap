@@ -13,7 +13,8 @@
 		"scaleFactor",
 		"mPerDegrees",
 		"zoomLevel",
-		"configuration" ],
+		"configuration",
+		"offset" ],
 	"name" : "OSMRenderer",
 	"pools" : [
 		 ],
