@@ -11,7 +11,7 @@ testRuleWithAttributes
 		applyTo: unconcernedObject.
 		
 	self assert: (concernedObject renderAttributes size) equals: 1.
-	self assert: (concernedObject renderAttributes at: #color) equals: #testIndigo.
+	self assert: (concernedObject renderAttributes at: #color) equals: Color paleTan.
 	self assert: (unconcernedObject renderAttributes size) equals: 0.
 	
 	

@@ -9,7 +9,7 @@ testConfigurationWithAttributes
 	configuration applyToAll: objects.
 		
 	self assert: ((objects at: 1) renderAttributes size) equals: 1.
-	self assert: ((objects at: 1) renderAttributes at: #color) equals: #testIndigo.
+	self assert: ((objects at: 1) renderAttributes at: #color) equals: Color paleTan.
 	self assert: ((objects at: 2) renderAttributes size) equals: 0.
 	
 	

@@ -11,6 +11,6 @@ testObjectWithOverlappingRules
 	rule2 applyTo: object2.
 	rule1 applyTo: object1.
 
-	self assert: (object1 renderAttributes at: #color) equals: #testIndigo.
+	self assert: (object1 renderAttributes at: #color) equals: Color paleTan.
 	
 	

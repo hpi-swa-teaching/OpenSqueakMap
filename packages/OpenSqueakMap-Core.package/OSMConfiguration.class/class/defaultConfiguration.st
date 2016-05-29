@@ -6,7 +6,7 @@ defaultConfiguration
 		for: [:x | x type = #way]
 		setAttributes: (Dictionary new
 			at: #visible put: #true;
-			at: #color put: #red;
+			at: #color put: Color red;
 			yourself).
 	
 	^ self new

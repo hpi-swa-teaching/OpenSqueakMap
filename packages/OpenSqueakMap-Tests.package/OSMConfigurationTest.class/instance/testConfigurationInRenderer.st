@@ -11,7 +11,7 @@ testConfigurationInRenderer
 			bottom: 10);yourself.
 	renderer := OSMRenderer on: dataSet with: configuration.
 
-	self assert: ((renderer renderObjects at: 1) renderAttributes at: #color) equals: #testIndigo.
+	self assert: ((renderer renderObjects at: 1) renderAttributes at: #color) equals: Color paleTan.
 	self should: [(renderer renderObjects at: 2) renderAttributes at: #color] raise: KeyNotFound.
 	renderer mapMorph delete.
 	
