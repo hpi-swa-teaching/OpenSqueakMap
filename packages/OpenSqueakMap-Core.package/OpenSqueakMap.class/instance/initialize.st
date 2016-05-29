@@ -6,3 +6,5 @@ initialize
 		extent: 1000@500;
 		openInWorld).
 	self viewport clipSubmorphs: true.
+	self overlay: (OSMOverlay withBounds: (self viewport bounds) on: self).
+	self viewport addMorph: self overlay.

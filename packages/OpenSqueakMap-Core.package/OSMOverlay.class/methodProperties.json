@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"withBounds:on:" : "CJ 5/29/2016 16:02" },
+	"instance" : {
+		"addButtons" : "CJ 5/29/2016 16:27",
+		"buttons" : "CJ 5/29/2016 16:03",
+		"buttons:" : "CJ 5/29/2016 16:03",
+		"initialize" : "CJ 5/29/2016 16:00",
+		"osm" : "CJ 5/29/2016 16:02",
+		"osm:" : "CJ 5/29/2016 16:02" } }

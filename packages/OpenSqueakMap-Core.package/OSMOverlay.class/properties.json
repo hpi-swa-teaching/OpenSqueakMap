@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"renderer",
-		"viewport",
-		"overlay" ],
-	"name" : "OpenSqueakMap",
+		"buttons",
+		"osm" ],
+	"name" : "OSMOverlay",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Morph",
 	"type" : "normal" }

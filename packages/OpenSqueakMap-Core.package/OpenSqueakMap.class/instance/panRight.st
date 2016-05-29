@@ -1,4 +1,4 @@
 as yet unclassified
 panRight
 
-	self viewport addMorph: (self renderer pannedMap: (self viewport extent x / 2) @ 0).
+	self addMapMorph: (self renderer pannedMap: (self viewport extent x / 2) @ 0).
