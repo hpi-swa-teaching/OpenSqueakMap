@@ -2,4 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"download" : "PB 6/1/2016 17:42" } }
+		"addWayMorph:at:" : "DOT 6/1/2016 17:52",
+		"download" : "PB 6/1/2016 17:42",
+		"initialize" : "DOT 6/1/2016 17:56",
+		"objectsAtCurrentZoomLevel" : "DOT 6/1/2016 16:52",
+		"pointsFrom:" : "DOT 6/1/2016 16:57",
+		"renderObjects" : "DOT 6/1/2016 16:48",
+		"renderObjects:" : "DOT 6/1/2016 16:48",
+		"renderOn:" : "DOT 6/1/2016 18:23",
+		"renderer" : "DOT 6/1/2016 16:50",
+		"renderer:" : "DOT 6/1/2016 16:50",
+		"wayMorphs" : "DOT 6/1/2016 17:52",
+		"wayMorphs:" : "DOT 6/1/2016 17:52" } }

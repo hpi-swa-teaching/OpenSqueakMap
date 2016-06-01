@@ -1,4 +1,4 @@
 as yet unclassified
-renderOn: aRenderer
+renderOn: aChunk
 
 	^ self

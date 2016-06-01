@@ -1,13 +1,15 @@
 as yet unclassified
-renderOn: aRenderer
+renderOn: aChunk
 
-	| points wayMorph |	
-	points := aRenderer pointsFrom: self osmEntity nodes.
-	(points size > 1) ifTrue: [
-		wayMorph := OSMMorph
-			vertices: points
-			color: Color transparent
-			borderWidth: (self renderAttributes at: #borderWidth ifAbsent: [1])
-			borderColor: (self renderAttributes at: #color ifAbsent: [Color blue]).
-		self osmEntity closed ifFalse: [wayMorph makeOpen].
-		aRenderer addWayMorph: wayMorph at: self osmEntity id].
+	| points |	
+	self morph ifNil: [
+		points := aChunk pointsFrom: self osmEntity nodes.
+		(points size > 1) ifTrue: [
+			self morph: (OSMMorph
+				vertices: points
+				color: Color transparent
+				borderWidth: (self renderAttributes at: #borderWidth ifAbsent: [1])
+				borderColor: (self renderAttributes at: #color ifAbsent: [Color blue])).
+			self osmEntity closed ifFalse: [self morph makeOpen].
+			aChunk addWayMorph: self morph at: self osmEntity id]].
+	

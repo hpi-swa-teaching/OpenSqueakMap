@@ -1,4 +1,4 @@
 accessing
-renderOn: aRenderer
+renderOn: aChunk
 
 	^ self subclassResponsibility

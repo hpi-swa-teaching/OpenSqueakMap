@@ -6,9 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"rules" ],
+		"renderer",
+		"renderObjects",
+		"wayMorphs",
+		"minCoords",
+		"maxCoords" ],
 	"name" : "OSMRenderChunk",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Morph",
 	"type" : "normal" }
