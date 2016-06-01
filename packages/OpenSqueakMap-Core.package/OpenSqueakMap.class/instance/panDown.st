@@ -1,4 +1,5 @@
 as yet unclassified
 panDown
 
-	self addMapMorph: (self renderer pannedMap: 0@(self viewport extent y / 2)).
+	self renderer changeOffsetBy: 0@(self viewport extent y / 2).
+	self addMapMorph: self renderer mapMorph.

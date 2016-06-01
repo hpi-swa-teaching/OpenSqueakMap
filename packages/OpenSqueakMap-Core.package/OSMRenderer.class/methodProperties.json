@@ -5,6 +5,9 @@
 	"instance" : {
 		"addWayMorph:at:" : "lx 5/14/2016 13:02",
 		"applyConfiguration" : "CJ 5/24/2016 17:38",
+		"changeOffsetBy:" : "PB 6/1/2016 17:17",
+		"chunks" : "PB 6/1/2016 16:51",
+		"chunks:" : "PB 6/1/2016 16:51",
 		"configuration" : "CJ 5/24/2016 15:17",
 		"configuration:" : "CJ 5/24/2016 15:17",
 		"dataSet" : "CJ 5/24/2016 11:22",
@@ -21,7 +24,6 @@
 		"objectsAtCurrentZoomLevel" : "DOT 5/24/2016 18:31",
 		"offset" : "lx 5/27/2016 18:58",
 		"offset:" : "lx 5/27/2016 18:58",
-		"pannedMap:" : "lx 5/27/2016 19:25",
 		"pointsFrom:" : "lx 5/27/2016 19:12",
 		"redraw" : "lx 5/27/2016 22:10",
 		"render" : "lx 5/27/2016 22:04",
