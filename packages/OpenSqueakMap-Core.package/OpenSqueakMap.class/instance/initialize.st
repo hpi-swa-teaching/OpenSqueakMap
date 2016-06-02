@@ -8,3 +8,4 @@ initialize
 	self viewport clipSubmorphs: true.
 	self overlay: (OSMOverlay withBounds: (self viewport bounds) on: self).
 	self viewport addMorph: self overlay.
+	self chunkManager: OSMChunkManager new.
