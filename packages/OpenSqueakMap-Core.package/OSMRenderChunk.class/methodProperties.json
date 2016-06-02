@@ -1,9 +1,12 @@
 {
 	"class" : {
-		 },
+		"boundsFrom:" : "lx 6/2/2016 10:03",
+		"withIndex:" : "lx 6/2/2016 10:02" },
 	"instance" : {
 		"addWayMorph:at:" : "DOT 6/1/2016 17:52",
-		"download" : "PB 6/1/2016 17:42",
+		"dataSet" : "lx 6/2/2016 10:08",
+		"dataSet:" : "lx 6/2/2016 10:08",
+		"download" : "lx 6/2/2016 10:06",
 		"initialize" : "DOT 6/1/2016 17:56",
 		"objectsAtCurrentZoomLevel" : "DOT 6/1/2016 16:52",
 		"pointsFrom:" : "DOT 6/1/2016 16:57",

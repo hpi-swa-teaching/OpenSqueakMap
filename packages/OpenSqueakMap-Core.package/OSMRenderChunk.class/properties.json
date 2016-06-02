@@ -7,10 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"renderer",
+		"dataSet",
 		"renderObjects",
 		"wayMorphs",
-		"minCoords",
-		"maxCoords" ],
+		"coordBounds" ],
 	"name" : "OSMRenderChunk",
 	"pools" : [
 		 ],
