@@ -9,7 +9,8 @@
 		"renderer",
 		"viewport",
 		"overlay",
-		"chunkManager" ],
+		"chunkManager",
+		"chunkBounds" ],
 	"name" : "OpenSqueakMap",
 	"pools" : [
 		 ],
