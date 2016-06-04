@@ -1,3 +1,0 @@
-accessing
-wayMorphs
-	^ wayMorphs

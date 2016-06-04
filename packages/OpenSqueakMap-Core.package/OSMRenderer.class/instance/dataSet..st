@@ -2,5 +2,5 @@ accessing
 dataSet: anObject
 
 	dataSet := anObject.
-	self getInitialZoomLevel: dataSet bounds.
+	self zoomLevel: 18.
 	self renderObjects: (dataSet content collect: [:d | d asRenderObject]).
