@@ -1,4 +1,4 @@
 initialize-release
 setInitialOffset 
 
-	self offset: (self translate: self dataSet bounds centerFloat).
+	self offset: self dataSet bounds.

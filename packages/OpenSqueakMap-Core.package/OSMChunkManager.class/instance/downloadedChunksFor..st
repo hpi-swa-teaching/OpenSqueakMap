@@ -1,4 +1,4 @@
 as yet unclassified
 downloadedChunksFor: anIndexCollection
-	^ (anIndexCollection collect: [:x | chunks at: x ifAbsent: [nil]])
+	^ (anIndexCollection collect: [:x | self chunks at: x ifAbsent: [nil]])
 		reject: [:x | x = nil]
