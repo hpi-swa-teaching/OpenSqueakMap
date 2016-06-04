@@ -13,7 +13,8 @@
 		"zoomLevel",
 		"configuration",
 		"offset",
-		"chunks" ],
+		"chunks",
+		"viewport" ],
 	"name" : "OSMRenderer",
 	"pools" : [
 		 ],
