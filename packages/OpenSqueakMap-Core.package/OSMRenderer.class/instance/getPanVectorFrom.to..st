@@ -2,6 +2,6 @@ rendering
 getPanVectorFrom: aSource to: aDestination
 
  	|transSource transDestination| 
-	transSource := self translate: self offset topLeft + aSource.
-	transDestination := self translate: self offset topLeft + aDestination.
+	transSource := (self offset topLeft + aSource) coordsToPixelsAt: self zoomLevel.
+	transDestination := (self offset topLeft + aDestination) coordsToPixelsAt: self zoomLevel.
 	^ (transSource toGeoCoordsAt: self zoomLevel) - (transDestination toGeoCoordsAt: self zoomLevel).
