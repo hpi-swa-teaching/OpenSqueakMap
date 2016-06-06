@@ -1,16 +1,14 @@
 {
 	"class" : {
-		"on:" : "lx 6/4/2016 20:58",
-		"on:with:" : "lx 6/4/2016 20:57" },
+		"on:" : "lx 6/6/2016 22:39",
+		"on:with:" : "lx 6/6/2016 22:39" },
 	"instance" : {
-		"applyConfiguration" : "CJ 5/24/2016 17:38",
+		"applyConfiguration" : "lx 6/6/2016 20:37",
 		"chunks" : "PB 6/1/2016 16:51",
 		"chunks:" : "PB 6/1/2016 16:51",
 		"configuration" : "CJ 5/24/2016 15:17",
 		"configuration:" : "CJ 5/24/2016 15:17",
 		"containsMorph:" : "DOT 6/1/2016 18:22",
-		"dataSet" : "CJ 5/24/2016 11:22",
-		"dataSet:" : "lx 6/4/2016 21:00",
 		"getPanVectorFrom:to:" : "lx 6/6/2016 11:44",
 		"initialWindowArea" : "CJ 5/24/2016 23:39",
 		"initialize" : "PB 6/4/2016 17:31",
@@ -23,7 +21,7 @@
 		"redraw" : "lx 6/4/2016 20:57",
 		"render" : "PB 6/4/2016 17:30",
 		"resetMap" : "CJ 5/24/2016 23:39",
-		"setInitialOffset" : "PB 6/4/2016 15:25",
+		"setInitialOffsetFrom:" : "lx 6/6/2016 20:43",
 		"translate:" : "lx 6/4/2016 20:55",
 		"viewport" : "PB 6/4/2016 17:36",
 		"viewport:" : "PB 6/4/2016 17:36",

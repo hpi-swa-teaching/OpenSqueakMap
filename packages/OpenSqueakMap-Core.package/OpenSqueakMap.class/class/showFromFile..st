@@ -1,4 +1,5 @@
 as yet unclassified
 showFromFile: aFileName
 
-	^ self show: (self loadFromFile: aFileName).
+	self error: 'Currently broken'
+	"^ self show: (self loadFromFile: aFileName)."

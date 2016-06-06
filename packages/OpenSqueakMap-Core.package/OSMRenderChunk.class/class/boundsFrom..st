@@ -1,4 +1,6 @@
 as yet unclassified
-boundsFrom: anInteger
+boundsFrom: aPoint
 
-	"TODO: map integers to coordinates"
+	| topLeft |
+	topLeft := aPoint * OSMChunkManager chunkSize.
+	^ Rectangle origin: topLeft corner: topLeft + OSMChunkManager chunkSize.

@@ -1,4 +1,5 @@
 rendering
 applyConfiguration
 	
-	self configuration applyToAll: self renderObjects.
+	self chunks do: [:chunk |
+		self configuration applyToAll: chunk renderObjects].

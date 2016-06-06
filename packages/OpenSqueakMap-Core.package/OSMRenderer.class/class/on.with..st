@@ -1,9 +1,9 @@
 as yet unclassified
-on: aDataSet with: aConfiguration
+on: aRectangle with: aConfiguration
 
 	^self new
-		dataSet: aDataSet;
-		setInitialOffset;
+		zoomLevel: 20;
+		setInitialOffsetFrom: aRectangle;
 		configuration: aConfiguration;
 		applyConfiguration;
 		yourself

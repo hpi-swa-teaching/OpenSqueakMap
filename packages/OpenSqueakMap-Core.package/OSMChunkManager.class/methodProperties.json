@@ -1,11 +1,11 @@
 {
 	"class" : {
-		 },
+		"chunkSize" : "lx 6/6/2016 20:09" },
 	"instance" : {
-		"chunkIndicesIn:" : "CJ 6/1/2016 18:07",
+		"chunkIndicesIn:" : "lx 6/6/2016 20:22",
 		"chunks" : "PB 6/4/2016 17:20",
 		"chunks:" : "PB 6/4/2016 17:20",
-		"didChangeViewportOn:" : "CJ 6/1/2016 19:08",
+		"didChangeViewportOn:" : "lx 6/6/2016 22:23",
 		"downloadedChunksFor:" : "PB 6/2/2016 11:36",
 		"initialize" : "CJ 6/1/2016 17:59",
 		"missingChunksFor:" : "PB 6/2/2016 11:36" } }

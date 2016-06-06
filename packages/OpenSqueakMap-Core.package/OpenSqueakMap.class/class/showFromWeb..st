@@ -1,4 +1,5 @@
 as yet unclassified
 showFromWeb: aRectangle
 
-	^ self show: (self loadFromWeb: aRectangle).
+	self error: 'Deprecated'
+	"^ self show: (self loadFromWeb: aRectangle)."

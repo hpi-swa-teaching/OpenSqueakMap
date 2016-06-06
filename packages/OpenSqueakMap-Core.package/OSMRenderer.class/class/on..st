@@ -1,4 +1,4 @@
 as yet unclassified
-on: aDataSet
+on: aRectangle 
 
-	^self on: aDataSet with: self defaultConfiguration.
+	^self on: aRectangle with: OSMConfiguration defaultConfiguration.
