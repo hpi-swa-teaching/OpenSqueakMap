@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"renderer",
 		"dataSet",
 		"renderObjects",
 		"wayMorphs",
-		"coordBounds" ],
+		"coordBounds",
+		"viewport" ],
 	"name" : "OSMRenderChunk",
 	"pools" : [
 		 ],

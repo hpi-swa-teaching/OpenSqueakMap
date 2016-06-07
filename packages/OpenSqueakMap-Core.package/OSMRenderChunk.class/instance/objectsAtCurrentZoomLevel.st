@@ -1,4 +1,4 @@
 as yet unclassified
 objectsAtCurrentZoomLevel
 
-	^self renderObjects select: [:x | x shouldShowAt: self renderer zoomLevel]
+	^self renderObjects select: [:x | x shouldShowAt: self viewport zoomLevel]

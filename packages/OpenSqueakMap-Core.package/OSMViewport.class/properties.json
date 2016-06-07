@@ -7,14 +7,12 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"mapMorph",
-		"dataSet",
 		"zoomLevel",
 		"configuration",
 		"offset",
-		"chunks",
-		"viewport" ],
-	"name" : "OSMRenderer",
+		"chunks" ],
+	"name" : "OSMViewport",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Morph",
 	"type" : "normal" }

@@ -1,8 +1,12 @@
 as yet unclassified
-show: aDataSet
+show: aRectangle
 
 	| osm |
 	osm := self new
-		renderer: (OSMRenderer on: aDataSet).
-	osm addMapMorph: osm renderer render.
+		viewport: (OSMViewport on: aRectangle).
+		"TODO pls.."
+	osm viewport addMorph: osm viewport render behind: osm overlay.
+	osm overlay: (OSMOverlay withBounds: (osm viewport bounds) on: osm viewport).
+	osm viewport addMorph: osm overlay.
+	osm chunkManager didChangeViewportOn: osm viewport.
 	^ osm.
