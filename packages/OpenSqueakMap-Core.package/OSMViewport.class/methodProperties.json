@@ -1,9 +1,9 @@
 {
 	"class" : {
 		"on:" : "lx 6/6/2016 22:39",
-		"on:with:" : "lx 6/6/2016 22:39" },
+		"on:with:" : "PB 6/7/2016 21:21" },
 	"instance" : {
-		"addChunk:" : "PB 6/7/2016 19:50",
+		"addChunk:" : "PB 6/7/2016 21:45",
 		"applyConfiguration" : "lx 6/6/2016 20:37",
 		"chunks" : "PB 6/1/2016 16:51",
 		"chunks:" : "PB 6/1/2016 16:51",
@@ -12,7 +12,7 @@
 		"containsMorph:" : "PB 6/7/2016 19:14",
 		"getPanVectorFrom:to:" : "lx 6/6/2016 11:44",
 		"initialWindowArea" : "PB 6/7/2016 17:59",
-		"initialize" : "PB 6/7/2016 17:59",
+		"initialize" : "PB 6/7/2016 21:12",
 		"mapMorph" : "DOT 5/13/2016 17:13",
 		"mapMorph:" : "DOT 5/13/2016 17:13",
 		"mapMorphBounds" : "CJ 5/24/2016 23:43",
@@ -30,5 +30,6 @@
 		"translate:" : "lx 6/4/2016 20:55",
 		"zoomLevel" : "lx 5/23/2016 16:19",
 		"zoomLevel:" : "lx 5/23/2016 16:26",
+		"zoomOut" : "PB 6/7/2016 21:10",
 		"zoomedInMap" : "lx 5/27/2016 18:11",
 		"zoomedOutMap" : "lx 5/27/2016 18:11" } }

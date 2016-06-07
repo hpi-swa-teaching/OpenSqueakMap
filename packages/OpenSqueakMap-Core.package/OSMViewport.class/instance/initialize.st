@@ -5,5 +5,5 @@ initialize
 	self bounds: self initialWindowArea.
 	self clipSubmorphs: true.
 	self chunks: OrderedCollection new.
-	self mapMorph: (Morph new bounds: self initialWindowArea).
+	self mapMorph: ((Morph new bounds: self initialWindowArea) color: Color red).
 	self openInWorld.
