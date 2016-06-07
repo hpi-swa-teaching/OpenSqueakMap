@@ -8,7 +8,7 @@ download
 		self coordBounds top, ',', 
 		self coordBounds right, ')'.
 	contentString := '(node', boundsString, ';way', boundsString, ';rel', boundsString, ';);out;'.
-	self dataSet: (WebClient
+	self dataSet: (OSMParser on: (WebClient
 		httpPost: 'http://overpass-api.de/api/interpreter'
 		content: contentString
-		type: nil) content.
+		type: nil) content) parseDocument.

@@ -1,12 +1,14 @@
 {
 	"class" : {
-		"boundsFrom:" : "lx 6/6/2016 20:32",
+		"boundsFrom:" : "PB 6/7/2016 18:29",
 		"withIndex:" : "lx 6/2/2016 10:02" },
 	"instance" : {
 		"addWayMorph:at:" : "DOT 6/1/2016 17:52",
+		"coordBounds" : "PB 6/7/2016 18:15",
+		"coordBounds:" : "PB 6/7/2016 18:15",
 		"dataSet" : "lx 6/2/2016 10:08",
-		"dataSet:" : "lx 6/2/2016 10:08",
-		"download" : "lx 6/2/2016 10:06",
+		"dataSet:" : "PB 6/7/2016 18:15",
+		"download" : "PB 6/7/2016 18:35",
 		"initialize" : "DOT 6/1/2016 17:56",
 		"objectsAtCurrentZoomLevel" : "PB 6/7/2016 17:49",
 		"pointsFrom:" : "PB 6/7/2016 17:49",
