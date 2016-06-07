@@ -3,6 +3,5 @@ pointsFrom: aCollectionOfNodes
 
 	^ aCollectionOfNodes 
 		select: [:node | node isNilNode not]
-		thenCollect: [:node | | screenCoord |
-			screenCoord := (node coordinates coordsToPixelsAt: self viewport zoomLevel) - (self offset).
-			screenCoord + self mapMorphBounds origin].
+		thenCollect: [:node |
+			(node coordinates - self viewport offset topLeft) coordsToPixelsAt: self viewport zoomLevel].

@@ -6,4 +6,5 @@ didChangeOn: aViewport
 	aViewport render.
 	(self missingChunksFor: indices) keysAndValuesDo: [:index :chunk |
 		self chunks at: index put: chunk.
-		aViewport addChunk: chunk download].
+		aViewport addChunk: chunk download.
+		aViewport render].
