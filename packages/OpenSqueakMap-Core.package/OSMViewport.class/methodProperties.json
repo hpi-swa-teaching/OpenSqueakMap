@@ -1,9 +1,9 @@
 {
 	"class" : {
 		"on:" : "lx 6/6/2016 22:39",
-		"on:with:" : "PB 6/7/2016 21:21" },
+		"on:with:" : "lx 6/8/2016 12:18" },
 	"instance" : {
-		"addChunk:" : "PB 6/7/2016 21:45",
+		"addChunk:" : "lx 6/8/2016 11:17",
 		"applyConfiguration" : "lx 6/6/2016 20:37",
 		"chunks" : "PB 6/1/2016 16:51",
 		"chunks:" : "PB 6/1/2016 16:51",
@@ -12,10 +12,7 @@
 		"containsMorph:" : "PB 6/7/2016 19:14",
 		"getPanVectorFrom:to:" : "lx 6/6/2016 11:44",
 		"initialWindowArea" : "PB 6/7/2016 17:59",
-		"initialize" : "PB 6/7/2016 21:12",
-		"mapMorph" : "DOT 5/13/2016 17:13",
-		"mapMorph:" : "DOT 5/13/2016 17:13",
-		"mapMorphBounds" : "CJ 5/24/2016 23:43",
+		"initialize" : "lx 6/8/2016 11:31",
 		"moveViewportBy:" : "PB 6/4/2016 17:00",
 		"offset" : "lx 5/27/2016 18:58",
 		"offset:" : "lx 5/27/2016 18:58",
@@ -24,12 +21,11 @@
 		"panRight" : "PB 6/7/2016 17:47",
 		"panUp" : "PB 6/7/2016 17:47",
 		"redraw" : "lx 6/4/2016 20:57",
-		"render" : "PB 6/4/2016 17:30",
+		"render" : "lx 6/8/2016 11:30",
 		"resetMap" : "CJ 5/24/2016 23:39",
-		"setInitialOffsetFrom:" : "PB 6/7/2016 18:13",
-		"translate:" : "lx 6/4/2016 20:55",
+		"setInitialOffsetFrom:" : "lx 6/8/2016 11:09",
 		"zoomLevel" : "lx 5/23/2016 16:19",
 		"zoomLevel:" : "lx 5/23/2016 16:26",
-		"zoomOut" : "PB 6/7/2016 21:10",
-		"zoomedInMap" : "lx 5/27/2016 18:11",
-		"zoomedOutMap" : "lx 5/27/2016 18:11" } }
+		"zoomOut" : "lx 6/8/2016 11:30",
+		"zoomedInMap" : "lx 6/8/2016 11:30",
+		"zoomedOutMap" : "lx 6/8/2016 11:30" } }

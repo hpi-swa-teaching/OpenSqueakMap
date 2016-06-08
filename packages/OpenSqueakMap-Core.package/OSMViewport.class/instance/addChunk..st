@@ -3,4 +3,7 @@ addChunk: aRenderChunk
 
 	self chunks add: aRenderChunk.
 	self addMorph: aRenderChunk.
-	aRenderChunk position: ((self offset topLeft coordsToPixelsAt: self zoomLevel) - (aRenderChunk topLeft coordsToPixelsAt: self zoomLevel)).
+	aRenderChunk position: 
+		self bounds topLeft + 
+		(aRenderChunk coordBounds topLeft coordsToPixelsAt: self zoomLevel) -
+		((self offset topLeft coordsToPixelsAt: self zoomLevel)).
