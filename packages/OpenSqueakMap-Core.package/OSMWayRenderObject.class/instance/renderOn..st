@@ -1,7 +1,7 @@
 as yet unclassified
 renderOn: aChunk
 
-	| points |	
+	| points |
 	self morph ifNil: [
 		points := aChunk pointsFrom: self osmEntity nodes.
 		(points size > 1) ifTrue: [

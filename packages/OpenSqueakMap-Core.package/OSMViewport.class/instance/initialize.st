@@ -6,5 +6,5 @@ initialize
 		bounds: self initialWindowArea;
 		clipSubmorphs: true;
 		chunks: OrderedCollection new;
-		color: Color red;
+		color: Color gray;
 		openInWorld.

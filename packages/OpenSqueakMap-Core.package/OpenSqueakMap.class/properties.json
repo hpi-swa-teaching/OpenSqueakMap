@@ -8,8 +8,7 @@
 	"instvars" : [
 		"viewport",
 		"overlay",
-		"chunkManager",
-		"chunkBounds" ],
+		"chunkManager" ],
 	"name" : "OpenSqueakMap",
 	"pools" : [
 		 ],

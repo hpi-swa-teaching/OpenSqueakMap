@@ -1,4 +1,7 @@
 as yet unclassified
-on: aRectangle 
+on: aRectangle
 
-	^self on: aRectangle with: OSMConfiguration defaultConfiguration.
+	^self new
+		zoomLevel: 19;
+		setInitialOffsetFrom: aRectangle;
+		yourself

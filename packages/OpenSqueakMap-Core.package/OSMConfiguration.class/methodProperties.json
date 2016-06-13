@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"defaultConfiguration" : "lx 5/29/2016 14:50" },
+		"defaultConfiguration" : "lx 6/13/2016 16:14",
+		"testConfig" : "lx 6/13/2016 16:41" },
 	"instance" : {
 		"add:" : "lx 5/26/2016 19:14",
 		"applyTo:" : "CJ 5/23/2016 16:45",
