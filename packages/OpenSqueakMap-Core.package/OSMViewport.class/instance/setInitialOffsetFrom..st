@@ -3,6 +3,6 @@ setInitialOffsetFrom: aRectangle
 
 	| topLeft |
 	topLeft := aRectangle topLeft coordsToPixelsAt: self zoomLevel.
-	self offset: (Rectangle 
+	self coordBounds: (Rectangle 
 		origin: (topLeft toGeoCoordsAt: self zoomLevel)  
 		corner: ((topLeft + self extent) toGeoCoordsAt: self zoomLevel)).

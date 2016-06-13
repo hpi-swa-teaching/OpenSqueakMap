@@ -7,4 +7,4 @@ addChunk: aRenderChunk
 	aRenderChunk position: 
 		self bounds topLeft + 
 		(aRenderChunk coordBounds topLeft coordsToPixelsAt: self zoomLevel) -
-		((self offset topLeft coordsToPixelsAt: self zoomLevel)).
+		((self coordBounds topLeft coordsToPixelsAt: self zoomLevel)).

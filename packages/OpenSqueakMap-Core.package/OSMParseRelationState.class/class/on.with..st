@@ -1,7 +1,7 @@
 as yet unclassified
 on: aParser with: aDictionary
 
-	| tmp |
-	tmp := super on: aParser with: aDictionary.
-	tmp relation id: (aDictionary at: #id).
-	^ tmp.
+	| state |
+	state := super on: aParser.
+	state relation id: (aDictionary at: #id).
+	^ state.

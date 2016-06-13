@@ -1,9 +1,8 @@
 as yet unclassified
 didChangeOn: aViewport
+
 	| indices|
-	indices := self chunkIndicesIn: aViewport offset.
-	aViewport chunks: (self downloadedChunksFor: indices).
-	aViewport render.
+	indices := self chunkIndicesIn: aViewport coordBounds.
 	(self downloadMissingChunksFor: indices) keysAndValuesDo: [:index :chunk |
 		aViewport addChunk: chunk].
 	self applyConfiguration.

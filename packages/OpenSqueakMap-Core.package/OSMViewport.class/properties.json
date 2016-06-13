@@ -9,8 +9,8 @@
 		"mapMorph",
 		"zoomLevel",
 		"configuration",
-		"offset",
-		"chunks" ],
+		"chunks",
+		"coordBounds" ],
 	"name" : "OSMViewport",
 	"pools" : [
 		 ],

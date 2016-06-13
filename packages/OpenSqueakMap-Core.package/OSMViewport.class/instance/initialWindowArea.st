@@ -1,4 +1,4 @@
 rendering
 initialWindowArea
 	
-	^ self currentWorld visibleClearArea
+	^ (self currentWorld visibleClearArea) / 2
