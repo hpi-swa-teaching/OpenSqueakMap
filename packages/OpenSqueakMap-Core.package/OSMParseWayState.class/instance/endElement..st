@@ -4,7 +4,7 @@ endElement: aQualifiedName
 	aQualifiedName caseOf: {
 		['way']->[
 			self parser states pop.
-			self parser add: self way].
+			self parser addWay: self way].
 		['nd']->[].
 		['tag']->[].
 	} otherwise: [self error: 'Cannot handle element ', aQualifiedName].

@@ -2,10 +2,21 @@
 	"class" : {
 		"chunkSize" : "lx 6/6/2016 20:09" },
 	"instance" : {
+		"addChunkWith:" : "lx 6/13/2016 00:47",
+		"backupChunks" : "lx 6/11/2016 18:08",
+		"backupChunks:" : "lx 6/11/2016 18:08",
+		"backupChunksFor:" : "lx 6/11/2016 18:42",
 		"chunkIndicesIn:" : "lx 6/6/2016 20:22",
 		"chunks" : "PB 6/4/2016 17:20",
 		"chunks:" : "PB 6/4/2016 17:20",
-		"didChangeOn:" : "PB 6/7/2016 19:04",
+		"deleteChunk:" : "lx 6/13/2016 00:45",
+		"didChangeOn:" : "lx 6/11/2016 20:47",
+		"downloadMissingChunksFor:" : "lx 6/11/2016 20:47",
 		"downloadedChunksFor:" : "PB 6/2/2016 11:36",
-		"initialize" : "CJ 6/1/2016 17:59",
-		"missingChunksFor:" : "PB 6/2/2016 11:36" } }
+		"for:setRenderingChunk:" : "lx 6/11/2016 18:45",
+		"initialize" : "lx 6/11/2016 18:08",
+		"nodes" : "lx 6/11/2016 18:08",
+		"nodes:" : "lx 6/11/2016 18:08",
+		"renderingChunks" : "lx 6/11/2016 18:08",
+		"renderingChunks:" : "lx 6/11/2016 18:08",
+		"switchRenderingChunkFor:from:" : "lx 6/13/2016 00:43" } }

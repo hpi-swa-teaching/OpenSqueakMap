@@ -1,5 +1,5 @@
 as yet unclassified
-missingChunksFor: anIndexCollection
+downloadMissingChunksFor: anIndexCollection
 
 	^ (anIndexCollection reject: [:i | self chunks includesKey: i])
-		collect: [:x | OSMRenderChunk withIndex: x].
+		collect: [:x | self addChunkWith: x].

@@ -1,4 +1,4 @@
 handling - content
 findRelation: anId
 
-	^ self dataSet content at: anId ifAbsentPut: [OSMRelation new id: anId].
+	^ self dataSet relations at: anId ifAbsentPut: [OSMRelation new id: anId].

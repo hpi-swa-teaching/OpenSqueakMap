@@ -7,7 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"content",
-		"bounds" ],
+		"bounds",
+		"nodes",
+		"ways",
+		"relations" ],
 	"name" : "OSMDataset",
 	"pools" : [
 		 ],

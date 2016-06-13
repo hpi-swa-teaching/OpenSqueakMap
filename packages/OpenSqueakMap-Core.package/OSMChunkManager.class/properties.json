@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"chunks" ],
+		"chunks",
+		"nodes",
+		"renderingChunks",
+		"backupChunks" ],
 	"name" : "OSMChunkManager",
 	"pools" : [
 		 ],

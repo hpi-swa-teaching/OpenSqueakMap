@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"chunkManager",
 		"dataSet",
 		"renderObjects",
 		"wayMorphs",
