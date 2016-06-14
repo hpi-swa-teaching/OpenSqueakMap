@@ -7,7 +7,7 @@ renderOn: aChunk
 		(points size > 1) ifTrue: [
 			self morph: (OSMMorph
 				vertices: points
-				color: Color transparent
+				color: (self renderAttributes at: #fillColor ifAbsent: [Color transparent])
 				borderWidth: (self renderAttributes at: #borderWidth ifAbsent: [1])
 				borderColor: (self renderAttributes at: #color ifAbsent: [Color blue])).
 			self osmEntity closed ifFalse: [self morph makeOpen].

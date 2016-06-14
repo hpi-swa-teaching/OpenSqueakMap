@@ -3,17 +3,24 @@ testConfig
 
 	^ OSMConfiguration new
 		add: (OSMConfigurationRule 
-			for: [:x | x osmEntity isHighway] 
+			for: [:x | x osmEntity isCarway] 
+			setAttributes: {
+				#visible -> true.
+				#color -> Color yellow lighter.
+				#borderWidth -> 5});
+		add: (OSMConfigurationRule 
+			for: [:x | x osmEntity isFootway] 
 			setAttributes: {
 				#visible -> true.
 				#color -> Color yellow.
-				#borderWidth -> 5});
+				#borderWidth -> 2});
 		add: (OSMConfigurationRule 
 			for: [:x | x osmEntity isBuilding] 
 			setAttributes: {
 				#visible -> true.
-				#color -> Color red.
-				#borderWidth -> 2.
+				#color -> Color darkGray.
+				#fillColor -> Color lightGray.
+				#borderWidth -> 1.
 				#minZoom -> 17});
 		add: (OSMConfigurationRule 
 			for: [:x | x osmEntity isHumanUsedLand] 
