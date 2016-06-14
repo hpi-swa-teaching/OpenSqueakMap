@@ -6,7 +6,8 @@
 		"loadFromWeb:" : "lx 5/19/2016 20:08",
 		"show:" : "lx 6/8/2016 11:59",
 		"showFromFile:" : "lx 6/6/2016 22:21",
-		"showFromWeb:" : "lx 6/6/2016 22:20" },
+		"showFromWeb:" : "lx 6/6/2016 22:20",
+		"showWithProgress:" : "PB 6/14/2016 11:24" },
 	"instance" : {
 		"chunkManager" : "PB 6/2/2016 10:18",
 		"chunkManager:" : "PB 6/2/2016 10:18",
