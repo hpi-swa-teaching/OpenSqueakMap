@@ -1,16 +1,6 @@
 as yet unclassified
-show: aRectangle
+show: aPoint
 
-	| osm progressBar |
-	osm := self new viewport: (OSMViewport on: aRectangle).
-	osm overlay: (OSMOverlay withBounds: (osm viewport bounds) on: osm viewport).
-	osm viewport addMorph: osm overlay.
-
-	progressBar := ProgressMorph new.
-	progressBar center: osm viewport center.
-	osm viewport addMorph: progressBar.
-
-	osm chunkManager didChangeOn: osm viewport progress: progressBar.
-	
-	progressBar delete.
-	^ osm.
+	(aPoint isKindOf: Rectangle)
+		ifTrue: [	self error: 'Usage: OpenSqueakMap show: aPoint']
+		ifFalse: [self show: aPoint at: 17].

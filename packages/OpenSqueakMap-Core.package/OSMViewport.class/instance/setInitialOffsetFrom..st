@@ -1,8 +1,8 @@
 initialize-release
-setInitialOffsetFrom: aRectangle 
+setInitialOffsetFrom: aPoint 
 
 	| topLeft |
-	topLeft := aRectangle topLeft coordsToPixelsAt: self zoomLevel.
+	topLeft := aPoint coordsToPixelsAt: self zoomLevel.
 	self coordBounds: (Rectangle 
 		origin: (topLeft toGeoCoordsAt: self zoomLevel)  
 		corner: ((topLeft + self extent) toGeoCoordsAt: self zoomLevel)).
