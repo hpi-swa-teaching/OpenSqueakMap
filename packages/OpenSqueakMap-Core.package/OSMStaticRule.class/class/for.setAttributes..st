@@ -5,5 +5,3 @@ for: anElementFilter setAttributes: aDictionary
 	filter: anElementFilter;
 	basicAttributes: aDictionary;
 	yourself.
-	
-	

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"filter" ],
-	"name" : "OSMConfigurationRule",
+		"basicAttributes" ],
+	"name" : "OSMStaticRule",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "OSMConfigurationRule",
 	"type" : "normal" }

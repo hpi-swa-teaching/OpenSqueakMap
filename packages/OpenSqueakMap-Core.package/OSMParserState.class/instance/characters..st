@@ -1,0 +1,4 @@
+accessing
+characters: aString
+
+	^ self.

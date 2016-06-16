@@ -2,7 +2,7 @@ as yet unclassified
 defaultConfiguration
 
 	|showWaysRule|
-	showWaysRule := OSMConfigurationRule
+	showWaysRule := OSMStaticRule
 		for: [:x | x type = #way]
 		setAttributes: {
 			#visible -> #true.

@@ -5,5 +5,3 @@ for: anElementFilter computeProperties: aBlock
 		filter: anElementFilter;
 		attributeComputer: aBlock;
 		yourself.
-	
-	

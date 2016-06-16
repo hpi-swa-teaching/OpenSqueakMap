@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"filter" ],
-	"name" : "OSMConfigurationRule",
+		"reading",
+		"errorString" ],
+	"name" : "OSMParserHTMLState",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "OSMParserState",
 	"type" : "normal" }

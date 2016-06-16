@@ -1,13 +1,8 @@
 {
 	"class" : {
-		"for:computeProperties:" : "CJ 5/23/2016 16:22",
-		"for:setAttributes:" : "CJ 5/23/2016 16:21" },
+		 },
 	"instance" : {
 		"applyTo:" : "CJ 6/15/2016 15:49",
-		"attributeComputer" : "CJ 5/23/2016 17:32",
-		"attributeComputer:" : "CJ 5/23/2016 15:45",
-		"attributesFor:" : "CJ 6/16/2016 10:19",
-		"basicAttributes" : "CJ 5/23/2016 17:03",
-		"basicAttributes:" : "CJ 5/23/2016 15:45",
+		"attributesFor:" : "lx 6/16/2016 15:33",
 		"filter" : "CJ 5/23/2016 15:27",
 		"filter:" : "CJ 5/23/2016 15:27" } }

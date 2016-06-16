@@ -1,6 +1,6 @@
 as yet unclassified
-withIndex: anInteger on: aChunkManager
+withIndex: aPoint on: aChunkManager
 
 	^ self new
-		coordBounds: (self boundsFrom: anInteger);
+		coordBounds: (self boundsFrom: aPoint);
 		chunkManager: aChunkManager.
