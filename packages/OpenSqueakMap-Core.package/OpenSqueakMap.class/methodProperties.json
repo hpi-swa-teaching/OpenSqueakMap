@@ -1,9 +1,7 @@
 {
 	"class" : {
-		"load:" : "lx 5/16/2016 10:43",
-		"loadFromFile:" : "lx 5/19/2016 20:08",
 		"show:" : "lx 6/15/2016 12:15",
-		"show:at:" : "lx 6/15/2016 12:11" },
+		"show:at:" : "lx 6/18/2016 01:26" },
 	"instance" : {
 		"chunkManager" : "PB 6/2/2016 10:18",
 		"chunkManager:" : "PB 6/2/2016 10:18",

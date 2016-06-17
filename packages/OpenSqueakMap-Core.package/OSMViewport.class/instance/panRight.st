@@ -3,6 +3,6 @@ panRight
 	
 	| offset |
 	offset := self
-		getPanVectorFrom: (self viewport extent x) @ (self viewport extent y / 2) 
-		to: (self viewport extent x / 2) @ (self viewport extent y / 2).
+		getPanVectorFrom: (self extent x) @ (self extent y / 2) 
+		to: (self extent x / 2) @ (self extent y / 2).
 	self moveViewportBy: offset.

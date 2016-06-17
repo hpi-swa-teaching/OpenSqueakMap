@@ -10,6 +10,7 @@
 		"zoomLevel",
 		"configuration",
 		"chunks",
+		"chunkManager",
 		"coordBounds" ],
 	"name" : "OSMViewport",
 	"pools" : [

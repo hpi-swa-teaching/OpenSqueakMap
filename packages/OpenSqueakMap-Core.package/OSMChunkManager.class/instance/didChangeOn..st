@@ -6,4 +6,5 @@ didChangeOn: aViewport
 	(self downloadMissingChunksFor: indices) keysAndValuesDo: [:index :chunk |
 		aViewport addChunk: chunk].
 	self applyConfiguration.
+	aViewport chunks do: [:chunk | chunk moveToPositionIn: aViewport].
 	aViewport render.
