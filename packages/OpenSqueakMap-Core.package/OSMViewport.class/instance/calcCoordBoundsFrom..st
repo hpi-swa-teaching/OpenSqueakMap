@@ -1,5 +1,5 @@
 initialize-release
-setInitialOffsetFrom: aPoint 
+calcCoordBoundsFrom: aPoint 
 
 	| topLeft |
 	topLeft := aPoint coordsToPixelsAt: self zoomLevel.

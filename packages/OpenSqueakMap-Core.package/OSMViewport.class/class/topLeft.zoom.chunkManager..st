@@ -3,6 +3,6 @@ topLeft: aPoint zoom: anInteger chunkManager: aChunkManager
 
 	^self new
 		zoomLevel: anInteger;
-		setInitialOffsetFrom: aPoint;
+		calcCoordBoundsFrom: aPoint;
 		chunkManager: aChunkManager;
 		yourself

@@ -12,7 +12,7 @@
 		"wayMorphs",
 		"coordBounds",
 		"viewport" ],
-	"name" : "OSMRenderChunk",
+	"name" : "OSMChunk",
 	"pools" : [
 		 ],
 	"super" : "Morph",

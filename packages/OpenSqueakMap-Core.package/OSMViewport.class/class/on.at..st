@@ -3,5 +3,5 @@ on: aPoint at: aZoomLevel
 
 	^self new
 		zoomLevel: aZoomLevel;
-		setInitialOffsetFrom: aPoint;
+		calcCoordBoundsFrom: aPoint;
 		yourself
