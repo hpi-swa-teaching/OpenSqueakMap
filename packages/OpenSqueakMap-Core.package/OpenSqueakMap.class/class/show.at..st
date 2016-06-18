@@ -10,6 +10,6 @@ show: aPoint at: aZoomLevel
 	progressBar := ProgressMorph new.
 	progressBar center: osm viewport center.
 	osm viewport addMorph: progressBar.
-	osm chunkManager didChangeOn: osm viewport "progress: progressBar".
+	osm chunkManager didChangeOn: osm viewport redrawChunks: false "progress: progressBar".
 	progressBar delete.
 	^ osm.

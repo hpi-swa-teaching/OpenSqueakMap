@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"content",
 		"bounds",
 		"nodes",
 		"ways",

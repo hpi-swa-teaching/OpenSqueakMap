@@ -26,6 +26,6 @@ testConfig
 			for: [:x | x osmEntity isHumanUsedLand] 
 			setAttributes: {
 				#visible -> true.
-				#color -> Color red.
-				#borderWidth -> 5.
+				#color -> Color darkGray.
+				#borderWidth -> 2.
 				#maxZoom -> 16}).

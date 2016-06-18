@@ -1,5 +1,5 @@
 as yet unclassified
-didChangeOn: aViewport
+didChangeOn: aViewport redrawChunks: aBoolean
 
 	| indices newChunks |
 	indices := self chunkIndicesIn: aViewport coordBounds.
@@ -8,4 +8,6 @@ didChangeOn: aViewport
 		aViewport addChunk: chunk].
 	self applyConfiguration.
 	aViewport chunks do: [:chunk | chunk moveToPositionIn: aViewport].
-	newChunks do: [:chunk | chunk render].
+	aBoolean 
+		ifTrue: [self chunks do: [:chunk | chunk render]]
+		ifFalse: [newChunks do: [:chunk | chunk render]].
