@@ -6,14 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"chunks",
-		"configuration",
-		"nodes",
-		"renderingChunks",
-		"backupChunks",
-		"progressBar" ],
-	"name" : "OSMChunkManager",
+		"total",
+		"currentItem" ],
+	"name" : "OSMProgressMorph",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ProgressMorph",
 	"type" : "normal" }
