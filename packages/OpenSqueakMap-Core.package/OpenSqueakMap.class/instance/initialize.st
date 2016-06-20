@@ -9,4 +9,4 @@ initialize
 	"progressBar center: osm viewport center.
 	osm viewport addMorph: progressBar."
 	self chunkManager progressBar openInWorld hide.
-	self chunkManager didChangeOn: self viewport redrawChunks: false.
+	self chunkManager didChangeOn: self viewport.

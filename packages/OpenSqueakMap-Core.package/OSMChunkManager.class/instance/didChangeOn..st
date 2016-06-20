@@ -7,4 +7,4 @@ didChangeOn: aViewport
 	newChunks do: [:chunk | aViewport addChunk: chunk].
 	aViewport chunks do: [:chunk | chunk moveToPositionIn: aViewport].
 	self applyConfiguration.
-	newChunks do: [:chunk | chunk render].
+	self chunks do: [:chunk | chunk render].

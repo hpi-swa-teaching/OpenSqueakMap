@@ -5,6 +5,4 @@ show: aString total: anInt
 		label: aString;
 		total: anInt;
 		currentItem: 0;
-		updateSubLabel;
-		updatePercentage;
 		show.

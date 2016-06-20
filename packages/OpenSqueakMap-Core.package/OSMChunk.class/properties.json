@@ -11,7 +11,8 @@
 		"renderObjects",
 		"wayMorphs",
 		"coordBounds",
-		"viewport" ],
+		"viewport",
+		"dirty" ],
 	"name" : "OSMChunk",
 	"pools" : [
 		 ],

@@ -5,4 +5,5 @@ initialize
 	self
 		renderObjects: Bag new;
 		color: Color transparent;
-		wayMorphs: Dictionary new.
+		wayMorphs: Dictionary new;
+		dirty: true.

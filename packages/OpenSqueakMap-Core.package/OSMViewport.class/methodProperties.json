@@ -5,6 +5,7 @@
 	"instance" : {
 		"addChunk:" : "lx 6/17/2016 16:51",
 		"calcCoordBoundsFrom:" : "lx 6/18/2016 01:33",
+		"changeZoomBy:" : "lx 6/20/2016 16:27",
 		"chunkManager" : "lx 6/17/2016 16:32",
 		"chunkManager:" : "lx 6/17/2016 16:32",
 		"chunks" : "PB 6/1/2016 16:51",
@@ -17,14 +18,14 @@
 		"getPanVectorFrom:to:" : "lx 6/18/2016 01:22",
 		"initialWindowArea" : "lx 6/13/2016 17:56",
 		"initialize" : "lx 6/18/2016 01:26",
-		"moveViewportBy:" : "lx 6/18/2016 22:42",
+		"moveViewportBy:" : "lx 6/20/2016 16:26",
 		"panDown" : "lx 6/18/2016 01:22",
 		"panLeft" : "lx 6/17/2016 16:34",
 		"panRight" : "lx 6/17/2016 00:46",
 		"panUp" : "lx 6/18/2016 01:22",
 		"render" : "lx 6/11/2016 20:08",
 		"resetMap" : "CJ 5/24/2016 23:39",
-		"zoomIn" : "lx 6/18/2016 22:42",
+		"zoomIn" : "lx 6/20/2016 16:27",
 		"zoomLevel" : "lx 5/23/2016 16:19",
 		"zoomLevel:" : "lx 5/23/2016 16:26",
-		"zoomOut" : "lx 6/18/2016 22:42" } }
+		"zoomOut" : "lx 6/20/2016 16:27" } }
