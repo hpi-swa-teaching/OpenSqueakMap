@@ -4,7 +4,7 @@ didChangeOn: aViewport
 	| indices newChunks |
 	indices := self chunkIndicesIn: aViewport coordBounds.
 	newChunks := self downloadMissingChunksFor: indices.
-	newChunks keysAndValuesDo: [:index :chunk |
+	newChunks do: [:chunk |
 		aViewport addChunk: chunk].
 	self applyConfiguration.
 	aViewport chunks do: [:chunk | chunk moveToPositionIn: aViewport].
