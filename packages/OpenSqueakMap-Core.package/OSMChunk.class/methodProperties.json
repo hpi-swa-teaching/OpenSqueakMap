@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"apiURL" : "lx 6/21/2016 18:56",
 		"boundsFrom:" : "PB 6/7/2016 18:52",
 		"withIndex:on:" : "lx 6/16/2016 10:11" },
 	"instance" : {
@@ -14,7 +15,7 @@
 		"dataSet:" : "lx 6/12/2016 23:57",
 		"dirty" : "lx 6/20/2016 16:10",
 		"dirty:" : "lx 6/20/2016 16:10",
-		"download" : "lx 6/8/2016 12:14",
+		"download" : "lx 6/21/2016 18:55",
 		"initialize" : "lx 6/20/2016 16:10",
 		"moveToPositionIn:" : "lx 6/17/2016 18:19",
 		"objectsAtCurrentZoomLevel" : "PB 6/7/2016 17:49",

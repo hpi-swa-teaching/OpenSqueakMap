@@ -3,7 +3,7 @@ download
 
 	| apiAnswer |
 	apiAnswer := (WebClient
-		httpPost: 'http://overpass-api.de/api/interpreter'
+		httpPost: self class apiURL
 		content: self apiQuery
 		type: nil) content.
 	self dataSet: (OSMParser on: apiAnswer) parseDocument.
