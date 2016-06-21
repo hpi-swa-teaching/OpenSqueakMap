@@ -2,5 +2,5 @@ accessing
 addChunk: aRenderChunk
 
 	self chunks add: aRenderChunk.
-	self addMorph: aRenderChunk.
+	self addMorphBack: aRenderChunk.
 	aRenderChunk viewport: self.
