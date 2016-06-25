@@ -1,4 +1,5 @@
 accessing
 apiError: aString
 
-	^OSMApiException new signal: aString.
+	self dataSet errorString: aString.
+	"^OSMApiException new signal: aString."
