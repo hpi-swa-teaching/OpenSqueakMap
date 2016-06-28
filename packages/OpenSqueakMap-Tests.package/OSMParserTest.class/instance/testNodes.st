@@ -2,7 +2,7 @@ as yet unclassified
 testNodes
 	| nodes firstNode secondNode thirdNode |
 	nodes := self dataSet nodes select: [:x | x type = #node].
-	self assert: nodes size = 3.
+	self assert: nodes size = 2.
 	
 	firstNode := nodes at: '27127283'.
 	self assert: firstNode id = '27127283'.
@@ -18,7 +18,7 @@ testNodes
 	self assert: (secondNode tags at: #railway) = 'switch'.
 	self assert: (secondNode tags at: #source) = 'Bing'.
 	
-	thirdNode := nodes at: '12345'.
+	"thirdNode := nodes at: '12345'.
 	self assert: thirdNode id = '12345'.
 	self assert: thirdNode latitude = nil.
-	self assert: thirdNode longitude = nil.
+	self assert: thirdNode longitude = nil."

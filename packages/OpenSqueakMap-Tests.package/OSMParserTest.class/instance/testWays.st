@@ -2,7 +2,7 @@ as yet unclassified
 testWays
 	| ways firstWay secondWay |
 	ways := self dataSet ways select: [:x | x type = #way].
-	self assert: ways size = 2.
+	self assert: ways size = 1.
 	
 	firstWay := ways at: '51763472'.
 	self assert: firstWay id = '51763472'.
@@ -16,6 +16,6 @@ testWays
 	self assert: firstWay tags size = 1.
 	self assert: (firstWay tags at: #highway) = 'footway'.
 	
-	secondWay := ways at: '123456'.
+	"secondWay := ways at: '123456'.
 	self assert: secondWay id = '123456'.
-	self assert: secondWay nodes size = 0.
+	self assert: secondWay nodes size = 0."

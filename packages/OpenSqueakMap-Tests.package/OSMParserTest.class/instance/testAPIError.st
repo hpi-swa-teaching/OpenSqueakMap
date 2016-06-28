@@ -3,7 +3,7 @@ testAPIError
 
 	<timeout: 60>
 	| chunk semaphore |
-	chunk := OSMRenderChunk withIndex: 9668@14249 on: nil.
+	chunk := OSMChunk withIndex: 9668@14249 on: nil.
 	semaphore := Semaphore new.
 	[chunk download. semaphore signal.] fork.
 	[chunk download. semaphore signal.] fork.
