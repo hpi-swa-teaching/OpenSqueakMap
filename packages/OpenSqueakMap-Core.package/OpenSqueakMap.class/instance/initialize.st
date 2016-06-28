@@ -2,7 +2,7 @@ as yet unclassified
 initialize 
 
 	super initialize.
-	self viewport openInWorld.
+	self buildWindow.
 	self overlay: (OSMOverlay withBounds: (self viewport bounds) on: self viewport).
 	self viewport addMorph: self overlay.
 	self chunkManager progressBar: OSMProgressMorph new.
