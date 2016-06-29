@@ -1,0 +1,14 @@
+{
+	"category" : "OpenSqueakMap-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"members" ],
+	"name" : "OSMRelation",
+	"pools" : [
+		 ],
+	"super" : "OSMDatum",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "OpenSqueakMap-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OSMRelationRenderObject",
+	"pools" : [
+		 ],
+	"super" : "OSMRenderObject",
+	"type" : "normal" }

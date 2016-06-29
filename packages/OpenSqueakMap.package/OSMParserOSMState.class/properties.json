@@ -1,0 +1,14 @@
+{
+	"category" : "OpenSqueakMap-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OSMParserOSMState",
+	"pools" : [
+		 ],
+	"super" : "OSMParserState",
+	"type" : "normal" }

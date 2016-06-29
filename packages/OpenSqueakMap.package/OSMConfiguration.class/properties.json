@@ -1,0 +1,14 @@
+{
+	"category" : "OpenSqueakMap-Configuration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rules" ],
+	"name" : "OSMConfiguration",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

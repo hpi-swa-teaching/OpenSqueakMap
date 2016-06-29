@@ -1,0 +1,17 @@
+{
+	"category" : "OpenSqueakMap-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bounds",
+		"nodes",
+		"ways",
+		"relations" ],
+	"name" : "OSMDataset",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

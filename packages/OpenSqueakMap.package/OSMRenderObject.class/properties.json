@@ -1,0 +1,16 @@
+{
+	"category" : "OpenSqueakMap-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"osmEntity",
+		"renderAttributes",
+		"morph" ],
+	"name" : "OSMRenderObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "OpenSqueakMap-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"latitude",
+		"longitude" ],
+	"name" : "OSMNode",
+	"pools" : [
+		 ],
+	"super" : "OSMDatum",
+	"type" : "normal" }

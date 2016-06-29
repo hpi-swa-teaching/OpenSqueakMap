@@ -1,0 +1,15 @@
+{
+	"category" : "OpenSqueakMap-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dataSet",
+		"states" ],
+	"name" : "OSMParser",
+	"pools" : [
+		 ],
+	"super" : "SAXHandler",
+	"type" : "normal" }

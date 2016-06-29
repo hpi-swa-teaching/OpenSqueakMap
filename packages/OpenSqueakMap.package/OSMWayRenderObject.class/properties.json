@@ -1,0 +1,14 @@
+{
+	"category" : "OpenSqueakMap-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OSMWayRenderObject",
+	"pools" : [
+		 ],
+	"super" : "OSMRenderObject",
+	"type" : "normal" }

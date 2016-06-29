@@ -10,6 +10,9 @@ baseline: spec
 				versionString: #stable].
 		spec
 			package: 'OpenSqueakMap-Core' with: [spec requires: #('libraries')];
+			package: 'OpenSqueakMap-Data' with: [spec requires: #('default')];
+			package: 'OpenSqueakMap-Parser' with: [spec requires: #('default')];
+			package: 'OpenSqueakMap-Configuration' with: [spec requires: #('default')];
 			package: 'OpenSqueakMap-Tests' with: [spec requires: #('default')].
 		spec
 			group: 'default' with: #('OpenSqueakMap-Core');
