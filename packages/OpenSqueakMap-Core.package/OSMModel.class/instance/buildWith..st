@@ -3,7 +3,11 @@ buildWith: builder
 
 	| windowSpec window |
 	windowSpec := self buildWindowWith: builder specs: {
-		(0@0 corner: 1@1) -> [self buildViewportWith: builder]}.
+		(0@0 corner: 1@1) -> [self buildViewportWith: builder].
+		(LayoutFrame fractions: (0@0.5 corner: 0@0.5) offsets: (0@(self buttonHeight / 2 negated) corner: self buttonWidth @ (self buttonHeight / 2))) -> [self buildLeftButtonWith: builder].
+		(LayoutFrame fractions: (0.5@0 corner: 0.5@0) offsets: ((self buttonWidth / 2 negated) @ 0 corner: (self buttonWidth / 2) @ self buttonHeight)) -> [self buildUpButtonWith: builder].
+		(LayoutFrame fractions: (1@0.5 corner: 1@0.5) offsets: ((self buttonWidth negated) @ (self buttonHeight / 2 negated) corner: 0 @ (self buttonHeight / 2))) -> [self buildRightButtonWith: builder].
+		(LayoutFrame fractions: (0.5@1 corner: 0.5@1) offsets: ((self buttonWidth / 2 negated) @ (self buttonHeight negated) corner: (self buttonWidth / 2) @ 0)) -> [self buildDownButtonWith: builder]}.
 	windowSpec extent: self initialExtent.
 	window := builder build: windowSpec.
 	self scrollPane: (builder widgetAt: #scrollPane).

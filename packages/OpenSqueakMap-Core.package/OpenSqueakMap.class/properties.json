@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"viewport",
-		"overlay",
 		"chunkManager",
 		"window" ],
 	"name" : "OpenSqueakMap",
