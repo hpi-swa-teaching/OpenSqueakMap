@@ -1,13 +1,14 @@
 {
 	"class" : {
-		"show:" : "lx 6/15/2016 12:15",
+		"defaultZoomLevel" : "PB 6/29/2016 17:55",
+		"show:" : "PB 6/29/2016 17:55",
 		"show:at:" : "lx 6/20/2016 15:58" },
 	"instance" : {
 		"buildWindow" : "lx 6/28/2016 23:59",
 		"chunkManager" : "PB 6/2/2016 10:18",
 		"chunkManager:" : "PB 6/2/2016 10:18",
 		"configuration:" : "lx 6/13/2016 16:06",
-		"initialize" : "lx 6/29/2016 12:58",
+		"initialize" : "PB 6/29/2016 17:59",
 		"viewport" : "lx 5/27/2016 18:13",
 		"viewport:" : "lx 5/27/2016 18:13",
 		"window" : "lx 6/28/2016 23:38",
