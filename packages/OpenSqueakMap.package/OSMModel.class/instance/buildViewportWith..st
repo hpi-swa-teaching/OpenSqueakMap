@@ -2,8 +2,7 @@ as yet unclassified
 buildViewportWith: aBuilder
 
 	| viewportSpec |
-	viewportSpec := aBuilder pluggableScrollPaneSpec new.
+	viewportSpec := aBuilder pluggablePanelSpec new.
 	^ viewportSpec
-		name: #scrollPane;
-		morphClass: OSMViewport;
+		name: #panel;
 		model: self.

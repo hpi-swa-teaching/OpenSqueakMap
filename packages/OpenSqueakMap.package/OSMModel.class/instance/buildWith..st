@@ -13,6 +13,6 @@ buildWith: builder
 		}.
 	windowSpec extent: self initialExtent.
 	window := builder build: windowSpec.
-	self scrollPane: (builder widgetAt: #scrollPane).
-	window extent: self viewport extent + (20@40).
+	self panel: (builder widgetAt: #panel).
+	self panel layoutPolicy: TableLayout new.
 	^ window.

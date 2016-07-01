@@ -1,1 +1,1 @@
-(name 'OpenSqueakMap-PB.1' message 'added all packages' id '766552ca-573f-4bea-b69d-2af04d060a45' date '29 June 2016' time '7:36:33.897204 pm' author 'PB' ancestors () stepChildren ())
+(name 'OpenSqueakMap-lx.2' message 'Fucking finally resize viewport with window' id '922d147f-2998-4d16-b38f-c6e8b53a1e32' date '2 July 2016' time '1:08:11.797183 am' author 'lx' ancestors ((name 'OpenSqueakMap-PB.1' message 'added all packages' id '766552ca-573f-4bea-b69d-2af04d060a45' date '29 June 2016' time '7:36:33.897204 pm' author 'PB' ancestors () stepChildren ())) stepChildren ())

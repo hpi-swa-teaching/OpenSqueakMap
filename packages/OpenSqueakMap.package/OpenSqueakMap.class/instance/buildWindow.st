@@ -4,4 +4,4 @@ buildWindow
 	| model |
 	model := OSMModel new.
 	self window: (ToolBuilder default open: model).
-	model viewport: self viewport.
+	model addViewport: self viewport.

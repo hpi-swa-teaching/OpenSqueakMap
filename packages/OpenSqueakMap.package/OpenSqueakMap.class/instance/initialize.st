@@ -3,6 +3,5 @@ initialize
 
 	super initialize.
 	self buildWindow.
-	self chunkManager progressBar: OSMProgressMorph new.
 	self viewport addMorph: self chunkManager progressBar hide.
 	self chunkManager didChangeOn: self viewport.

@@ -7,10 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"zoomLevel",
-		"configuration",
 		"chunks",
 		"chunkManager",
-		"coordBounds" ],
+		"topLeftCoord" ],
 	"name" : "OSMViewport",
 	"pools" : [
 		 ],

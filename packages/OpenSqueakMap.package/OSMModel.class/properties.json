@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"scrollPane" ],
+		"viewport",
+		"panel" ],
 	"name" : "OSMModel",
 	"pools" : [
 		 ],
