@@ -1,4 +1,4 @@
-*OpenSqueakMap-Core
+*OpenSqueakMap
 worldCircumference
 
 	^ 40075160

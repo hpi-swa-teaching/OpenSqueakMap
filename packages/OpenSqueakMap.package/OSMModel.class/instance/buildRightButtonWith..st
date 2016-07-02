@@ -3,4 +3,9 @@ buildRightButtonWith: aBuilder
 
 	^ (self buildButtonWith: aBuilder)
 		label: '>';
-		action: #panRight.
+		action: #panRight;
+		frame: (LayoutFrame
+			fractions: (1@0.5 corner: 1@0.5)
+			offsets: (Rectangle
+				origin: (self buttonWidth negated) @ (self buttonHeight / 2 negated)
+				corner: 0 @ (self buttonHeight / 2))).

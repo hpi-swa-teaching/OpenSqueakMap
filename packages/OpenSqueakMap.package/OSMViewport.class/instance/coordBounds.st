@@ -2,7 +2,7 @@ initialize-release
 coordBounds
 
 	| topLeft |
-	topLeft := self topLeftCoord coordsToPixelsAt: self zoomLevel.
+	topLeft := self topLeftCoord coordAsPixelAt: self zoomLevel.
 	^ (Rectangle 
-		origin: (topLeft toGeoCoordsAt: self zoomLevel)  
-		corner: ((topLeft + self extent) toGeoCoordsAt: self zoomLevel)).
+		origin: (topLeft pixelAsCoordAt: self zoomLevel)  
+		corner: ((topLeft + self extent) pixelAsCoordAt: self zoomLevel)).

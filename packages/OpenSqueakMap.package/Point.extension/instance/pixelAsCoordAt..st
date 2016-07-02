@@ -1,5 +1,5 @@
-*OpenSqueakMap-Core
-toGeoCoordsAt: aZoomLevel
+*OpenSqueakMap
+pixelAsCoordAt: aZoomLevel
 	"optimizable by precalculating constant factors"
 
 	|dx dy ycos|	

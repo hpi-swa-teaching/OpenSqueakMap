@@ -1,5 +1,5 @@
-*OpenSqueakMap-Core
-coordsToPixelsAt: aZoomLevel
+*OpenSqueakMap
+coordAsPixelAt: aZoomLevel
 
 	| px py |
 	py := (self y * (2 raisedTo: aZoomLevel + 8) * 110574) / self worldCircumference.

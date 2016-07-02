@@ -6,5 +6,5 @@ pointsFrom: aCollectionOfNodes
 		reject: [:x | x isNil or: [x isNilNode]])
 		collect: [:node |
 			self bounds topLeft +
-			(node coordinates coordsToPixelsAt: self viewport zoomLevel) - 
-			(self coordBounds topLeft coordsToPixelsAt: self viewport zoomLevel)].
+			(node coordinates coordAsPixelAt: self viewport zoomLevel) - 
+			(self coordBounds topLeft coordAsPixelAt: self viewport zoomLevel)].

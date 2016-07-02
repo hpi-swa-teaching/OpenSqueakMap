@@ -1,4 +1,4 @@
-*OpenSqueakMap-Core
+*OpenSqueakMap
 centerFloat
 	"Answer the point at the center of the receiver."
 

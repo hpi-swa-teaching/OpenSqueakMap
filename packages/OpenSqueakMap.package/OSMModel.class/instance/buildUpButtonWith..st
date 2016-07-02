@@ -3,4 +3,9 @@ buildUpButtonWith: aBuilder
 
 	^ (self buildButtonWith: aBuilder)
 		label: '^';
-		action: #panUp.
+		action: #panUp;
+		frame: (LayoutFrame
+			fractions: (0.5@0 corner: 0.5@0)
+			offsets: (Rectangle
+				origin: (self buttonWidth / 2 negated) @ 0
+				corner: (self buttonWidth / 2) @ self buttonHeight)).

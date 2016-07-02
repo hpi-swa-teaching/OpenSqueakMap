@@ -2,7 +2,7 @@ rendering
 getPanVectorFrom: aSource to: aDestination
 
 	| topLeftPixel absoluteSource absoluteDestination |
-	topLeftPixel := self topLeftCoord coordsToPixelsAt: self zoomLevel.
+	topLeftPixel := self topLeftCoord coordAsPixelAt: self zoomLevel.
 	absoluteSource := topLeftPixel + aSource.
 	absoluteDestination := topLeftPixel + aDestination.
-	^ (absoluteSource toGeoCoordsAt: self zoomLevel) - (absoluteDestination toGeoCoordsAt: self zoomLevel).
+	^ (absoluteSource pixelAsCoordAt: self zoomLevel) - (absoluteDestination pixelAsCoordAt: self zoomLevel).

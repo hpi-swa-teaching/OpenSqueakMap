@@ -3,4 +3,9 @@ buildDownButtonWith: aBuilder
 
 	^ (self buildButtonWith: aBuilder)
 		label: 'v';
-		action: #panDown.
+		action: #panDown;
+		frame: (LayoutFrame
+			fractions: (0.5@1 corner: 0.5@1)
+			offsets: (Rectangle
+				origin: (self buttonWidth / 2 negated) @ (self buttonHeight negated)
+				corner: (self buttonWidth / 2) @ 0)).

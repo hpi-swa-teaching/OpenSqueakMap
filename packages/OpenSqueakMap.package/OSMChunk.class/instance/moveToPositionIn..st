@@ -5,5 +5,5 @@ moveToPositionIn: aViewport
 	zoom := aViewport zoomLevel.
 	self position: 
 		aViewport bounds topLeft + 
-		(self coordBounds topLeft coordsToPixelsAt: zoom) -
-		(aViewport coordBounds topLeft coordsToPixelsAt: zoom).
+		(self coordBounds topLeft coordAsPixelAt: zoom) -
+		(aViewport coordBounds topLeft coordAsPixelAt: zoom).
