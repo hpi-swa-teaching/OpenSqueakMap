@@ -3,7 +3,7 @@
 		"backgroundColor" : "lx 6/14/2016 12:27",
 		"topLeft:zoom:chunkManager:" : "lx 7/2/2016 00:57" },
 	"instance" : {
-		"addChunk:" : "lx 6/21/2016 14:14",
+		"addChunk:" : "lx 7/5/2016 19:03",
 		"changeZoomBy:" : "lx 7/2/2016 11:29",
 		"chunkManager" : "lx 6/17/2016 16:32",
 		"chunkManager:" : "lx 6/17/2016 16:32",
@@ -19,6 +19,7 @@
 		"panLeft" : "lx 7/2/2016 12:44",
 		"panRight" : "lx 7/2/2016 12:44",
 		"panUp" : "lx 7/2/2016 12:45",
+		"pixelOffset" : "lx 7/5/2016 19:39",
 		"render" : "lx 6/11/2016 20:08",
 		"topLeftCoord" : "lx 7/2/2016 00:54",
 		"topLeftCoord:" : "lx 7/2/2016 00:54",

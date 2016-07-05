@@ -4,6 +4,6 @@ initialize
 	super initialize.
 	self
 		renderObjects: Bag new;
-		color: Color transparent;
 		wayMorphs: Dictionary new;
+		position: 0@0;
 		dirty: true.

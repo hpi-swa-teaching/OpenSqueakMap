@@ -12,9 +12,10 @@
 		"wayMorphs",
 		"coordBounds",
 		"viewport",
-		"dirty" ],
+		"dirty",
+		"position" ],
 	"name" : "OSMChunk",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

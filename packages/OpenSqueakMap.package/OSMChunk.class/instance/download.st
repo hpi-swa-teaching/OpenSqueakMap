@@ -2,7 +2,7 @@ as yet unclassified
 download
 
 	[self tryDownload]
-		on: NameLookupFailure, OSMApiException
+		on: self exceptionSet
 		do: [:ex |
 			(self askIfRetry: ex messageText)
 				ifTrue: [self download]
