@@ -9,13 +9,9 @@ baseline: spec
 				repository: 'http://www.squeaksource.com/MetacelloRepository';
 				versionString: #stable].
 		spec
-			package: 'OpenSqueakMap-Core' with: [spec requires: #('libraries')];
-			package: 'OpenSqueakMap-Data' with: [spec requires: #('default')];
-			package: 'OpenSqueakMap-Parser' with: [spec requires: #('default')];
-			package: 'OpenSqueakMap-Configuration' with: [spec requires: #('default')];
-			package: 'OpenSqueakMap-Tests' with: [spec requires: #('default')].
+			package: 'OpenSqueakMap' with: [spec requires: #('libraries')].
 		spec
-			group: 'default' with: #('OpenSqueakMap-Core');
+			group: 'default' with: #('OpenSqueakMap');
 			group: 'libraries' with: #('XMLSupport');
-			group: 'Tests' with: #('OpenSqueakMap-Tests');
+			group: 'Tests' with: #('OpenSqueakMap');
 			group: 'TravisCI' with: #('Tests')].
