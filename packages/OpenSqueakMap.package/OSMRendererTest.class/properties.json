@@ -1,0 +1,16 @@
+{
+	"category" : "OpenSqueakMap-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dataSet",
+		"viewport",
+		"chunkmanager" ],
+	"name" : "OSMRendererTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
