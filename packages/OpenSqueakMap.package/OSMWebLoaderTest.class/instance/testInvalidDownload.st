@@ -1,6 +1,7 @@
 as yet unclassified
 testInvalidDownload
 
+	<timeout: 60>
 	| b data |
 	self should: [
 		b := self invalidBounds.
