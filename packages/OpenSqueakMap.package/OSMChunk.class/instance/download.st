@@ -6,4 +6,4 @@ download
 		do: [:ex |
 			(self askIfRetry: ex messageText)
 				ifTrue: [self download]
-				ifFalse: [self dataSet: OSMDataset new]].
+				ifFalse: [self dataSet: OSMDataset empty]].

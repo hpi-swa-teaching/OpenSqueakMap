@@ -1,8 +1,11 @@
 as yet unclassified
 setUp
 	
-	super setUp.
-	self chunkmanager: OSMChunkManager new;
-		 viewport: (OSMViewport topLeft: self exampleCoord zoom: self exampleZoom chunkManager: self chunkmanager).
+	self
+		chunkManager: (OSMChunkManager) new;
+		viewport: (OSMViewport
+			topLeft: self exampleCoord
+			zoom: self exampleZoom
+			chunkManager: self chunkManager).
 	self viewport hide.
-	self chunkmanager didChangeOn: self viewport. 
+	self chunkManager didChangeOn: self viewport. 

@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dataSet",
-		"viewport",
-		"chunkManager" ],
-	"name" : "OSMRendererTest",
+		"dataSet" ],
+	"name" : "OSMDownloadTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

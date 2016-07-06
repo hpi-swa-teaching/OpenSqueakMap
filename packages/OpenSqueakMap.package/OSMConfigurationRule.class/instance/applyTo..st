@@ -1,7 +1,7 @@
 accessing
 applyTo: aRenderObject
 	
-	(self filter value: aRenderObject)
-		ifTrue: [(self attributesFor: aRenderObject) associationsDo: [:ass |
-			aRenderObject renderAttributes add: ass copy]].
+	(self filter value: aRenderObject) 
+		ifTrue: [aRenderObject renderAttributes
+			addAll: (self attributesFor: aRenderObject) copy].
 	^ self.

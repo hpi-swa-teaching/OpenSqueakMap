@@ -21,11 +21,11 @@ testConfig
 				#color -> Color darkGray.
 				#fillColor -> Color lightGray.
 				#borderWidth -> 1.
-				#minZoom -> 17});
+				#minZoom -> 16});
 		add: (OSMStaticRule 
 			for: [:x | x osmEntity isHumanUsedLand] 
 			setAttributes: {
 				#visible -> true.
 				#color -> Color darkGray.
 				#borderWidth -> 2.
-				#maxZoom -> 16}).
+				#maxZoom -> 15}).

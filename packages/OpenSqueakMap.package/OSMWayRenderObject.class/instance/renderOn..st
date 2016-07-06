@@ -9,5 +9,5 @@ renderOn: aChunk
 			color: (self renderAttributes at: #fillColor ifAbsent: [Color transparent])
 			borderWidth: (self renderAttributes at: #borderWidth ifAbsent: [1])
 			borderColor: (self renderAttributes at: #color ifAbsent: [Color blue])).
-		self osmEntity closed ifFalse: [self morph makeOpen].
+		self osmEntity isOpen ifTrue: [self morph makeOpen].
 		aChunk addWayMorph: self morph at: self osmEntity id].

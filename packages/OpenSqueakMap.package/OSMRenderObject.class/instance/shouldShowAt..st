@@ -1,4 +1,6 @@
 as yet unclassified
 shouldShowAt: aZoomLevel
 	
-	^ (self renderAttributeAt: #minZoom) <= aZoomLevel and: [(self renderAttributeAt: #maxZoom) >= aZoomLevel]
+	^ aZoomLevel 
+		between: (self renderAttributeAt: #minZoom)
+		and: (self renderAttributeAt: #maxZoom).
