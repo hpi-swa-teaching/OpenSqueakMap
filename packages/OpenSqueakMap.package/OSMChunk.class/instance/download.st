@@ -4,6 +4,6 @@ download
 	[self tryDownload]
 		on: self exceptionSet
 		do: [:ex |
-			(self askIfRetry: ex messageText)
-				ifTrue: [self download]
-				ifFalse: [self dataSet: OSMDataset empty]].
+			(self askIfRetry: ex messageText) caseOf: {
+				[#retry] ->[ex retry].
+				[#continue] -> [self dataSet: OSMDataset empty]}].

@@ -1,4 +1,4 @@
 accessing
 deleteMorph 
 
-	self morph ifNotNil: [self morph delete].
+	self owner ifNotNil: [self owner removeMorph: self].

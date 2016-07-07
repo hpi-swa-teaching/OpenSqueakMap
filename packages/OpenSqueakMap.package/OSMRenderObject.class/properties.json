@@ -7,10 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"osmEntity",
-		"renderAttributes",
-		"morph" ],
+		"renderAttributes" ],
 	"name" : "OSMRenderObject",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PolygonMorph",
 	"type" : "normal" }
