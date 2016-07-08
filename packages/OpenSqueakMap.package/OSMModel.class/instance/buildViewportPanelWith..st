@@ -2,7 +2,7 @@ as yet unclassified
 buildViewportPanelWith: aBuilder
 
 	| panelSpec |
-	panelSpec := aBuilder pluggablePanelSpec new.
+	panelSpec := aBuilder pluggableOSMPanelSpec new.
 	^ panelSpec
 		name: #panel;
 		model: self;

@@ -1,0 +1,3 @@
+*OpenSqueakMap
+pluggableOSMPanelSpec
+	^PluggableOSMPanelSpec
