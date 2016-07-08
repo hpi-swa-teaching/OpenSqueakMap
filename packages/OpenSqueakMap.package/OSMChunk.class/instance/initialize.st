@@ -5,5 +5,5 @@ initialize
 	self
 		renderObjects: Bag new;
 		wayMorphs: Dictionary new;
-		position: 0@0;
+		positionInViewport: 0@0;
 		dirty: true.

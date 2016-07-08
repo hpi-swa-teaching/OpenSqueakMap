@@ -13,7 +13,7 @@
 		"coordBounds",
 		"viewport",
 		"dirty",
-		"position" ],
+		"positionInViewport" ],
 	"name" : "OSMChunk",
 	"pools" : [
 		 ],
