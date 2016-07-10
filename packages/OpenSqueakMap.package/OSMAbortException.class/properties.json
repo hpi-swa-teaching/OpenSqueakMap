@@ -1,0 +1,14 @@
+{
+	"category" : "OpenSqueakMap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OSMAbortException",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"type" : "normal" }

@@ -7,5 +7,5 @@ download
 			(self askIfRetry: ex messageText) caseOf: {
 				[#continue] -> [self dataSet: OSMDataset empty].
 				[#retry] ->[ex retry].
-				[#abort] ->[self error: 'test1'].
+				[#abort] ->[OSMAbortException new signal].
 				[#debug] ->[ToolSet debugError: ex]}].
