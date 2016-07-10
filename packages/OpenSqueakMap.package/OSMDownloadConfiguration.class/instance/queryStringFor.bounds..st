@@ -3,7 +3,7 @@ queryStringFor: aZoomLevel bounds: aRectangle
 
 	| boundsString boundedRules combinedRules|
 	boundsString := self boundsStringFor: aRectangle.
-	boundedRules := (self rules at: aZoomLevel) collect: [:r | | fullRule |
+	boundedRules := (self rules at: aZoomLevel ifAbsent: [OrderedCollection new]) collect: [:r | | fullRule |
 		fullRule := r queryString, boundsString, ';'.
 		'node', fullRule,
 		'way', fullRule,

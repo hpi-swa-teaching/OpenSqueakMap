@@ -2,7 +2,7 @@
 	"class" : {
 		"chunkSize" : "PB 6/29/2016 18:11" },
 	"instance" : {
-		"addChunkWithIndex:" : "lx 7/6/2016 01:23",
+		"addChunkWithIndex:" : "PB 7/10/2016 16:17",
 		"applyConfiguration" : "lx 6/13/2016 16:18",
 		"backupChunks" : "lx 6/11/2016 18:08",
 		"backupChunks:" : "lx 6/11/2016 18:08",
@@ -14,10 +14,12 @@
 		"configuration:" : "lx 6/13/2016 15:30",
 		"deleteChunk:" : "lx 7/6/2016 01:25",
 		"didChangeOn:" : "lx 6/21/2016 13:32",
+		"downloadConfig" : "PB 7/10/2016 16:09",
+		"downloadConfig:" : "PB 7/10/2016 16:09",
 		"downloadMessage" : "lx 7/6/2016 01:32",
 		"downloadMissingChunksFor:" : "PB 7/10/2016 13:54",
 		"for:setRenderingChunk:" : "lx 6/11/2016 18:45",
-		"initialize" : "lx 7/7/2016 18:45",
+		"initialize" : "PB 7/10/2016 16:21",
 		"invalidateChunks" : "lx 6/20/2016 16:28",
 		"nodes" : "lx 6/11/2016 18:08",
 		"nodes:" : "lx 6/11/2016 18:08",

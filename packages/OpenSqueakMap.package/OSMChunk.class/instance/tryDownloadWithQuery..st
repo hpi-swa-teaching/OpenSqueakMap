@@ -1,10 +1,10 @@
 as yet unclassified
-tryDownload
+tryDownloadWithQuery: aString
 
 	| apiAnswer |
 	apiAnswer := (WebClient
 		httpPost: self class apiURL
-		content: self apiQuery
+		content: aString
 		type: nil) content.
 	self dataSet: (OSMParser on: apiAnswer) parseDocument.
 		

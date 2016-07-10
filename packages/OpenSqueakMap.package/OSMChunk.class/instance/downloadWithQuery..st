@@ -1,7 +1,7 @@
 as yet unclassified
-download
+downloadWithQuery: aString
 
-	[self tryDownload]
+	[self tryDownloadWithQuery: aString]
 		on: self exceptionSet
 		do: [:ex |
 			(self askIfRetry: ex messageText) caseOf: {
