@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"where:equals:" : "PB 7/10/2016 15:31",
+		"where:like:" : "PB 7/10/2016 15:31",
+		"whereExists:" : "PB 7/10/2016 15:31" },
+	"instance" : {
+		"queryString" : "PB 7/10/2016 15:30",
+		"queryString:" : "PB 7/10/2016 14:37" } }

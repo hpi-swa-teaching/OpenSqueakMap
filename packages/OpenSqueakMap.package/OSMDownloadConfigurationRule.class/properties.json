@@ -1,0 +1,14 @@
+{
+	"category" : "OpenSqueakMap-Configuration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"queryString" ],
+	"name" : "OSMDownloadConfigurationRule",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
