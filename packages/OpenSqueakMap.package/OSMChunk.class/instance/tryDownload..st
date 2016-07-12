@@ -1,5 +1,5 @@
 as yet unclassified
-tryDownloadWithQuery: aString
+tryDownload: aString
 
 	| apiAnswer |
 	apiAnswer := (WebClient

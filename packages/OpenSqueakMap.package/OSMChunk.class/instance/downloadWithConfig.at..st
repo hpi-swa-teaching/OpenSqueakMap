@@ -1,7 +1,9 @@
 as yet unclassified
-downloadWithQuery: aString
+downloadWithConfig: aDownloadConfig at: aZoomLevel
 
-	[self tryDownloadWithQuery: aString]
+	| query |
+	query := aDownloadConfig queryStringFor: aZoomLevel bounds: self coordBounds.
+	[self tryDownload: query]
 		on: self exceptionSet
 		do: [:ex |
 			(self askIfRetry: ex messageText) caseOf: {

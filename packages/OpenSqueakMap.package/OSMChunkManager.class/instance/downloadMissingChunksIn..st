@@ -1,12 +1,13 @@
 as yet unclassified
-downloadMissingChunksFor: anIndexCollection
+downloadMissingChunksIn: aViewport
 
 	| newChunks missingIndices |
-	missingIndices := (anIndexCollection reject: [:i | self chunks includesKey: i]).
+	missingIndices := self missingIndicesIn: aViewport.
 	self progressBar show: self downloadMessage total: missingIndices size.
 	newChunks := OrderedCollection new.
 	[missingIndices do: [:x |
 		self progressBar next.
-		newChunks add: (self addChunkWithIndex: x)]] on: OSMAbortException do: [].
+		newChunks add: (self addChunkWithIndex: x at: aViewport zoomLevel)]
+	] on: OSMAbortException do: [].
 	self progressBar hide.
 	^ newChunks
