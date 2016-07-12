@@ -5,6 +5,6 @@ tryDownload: aString
 	apiAnswer := (WebClient
 		httpPost: self class apiURL
 		content: aString
-		type: nil) content.
+		type: nil) content utf8ToSqueak.
 	self dataSet: (OSMParser on: apiAnswer) parseDocument.
 		

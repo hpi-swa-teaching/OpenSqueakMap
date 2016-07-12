@@ -1,4 +1,4 @@
 accessing
 asRenderObject
 	
-	^OSMWayRenderObject new osmEntity: self
+	^OSMWayRenderObject on: self
