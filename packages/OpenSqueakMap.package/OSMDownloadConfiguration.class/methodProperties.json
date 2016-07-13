@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"testConfig" : "lx 7/12/2016 11:08" },
+		"testConfig" : "DOT 7/13/2016 02:51" },
 	"instance" : {
-		"at:add:" : "PB 7/10/2016 15:50",
+		"at:add:" : "DOT 7/13/2016 02:43",
 		"boundsStringFor:" : "PB 7/10/2016 15:45",
-		"initialize" : "PB 7/10/2016 14:45",
-		"queryStringFor:bounds:" : "PB 7/10/2016 16:20",
+		"initialize" : "DOT 7/13/2016 02:49",
+		"queryStringFor:bounds:" : "DOT 7/13/2016 03:05",
 		"rules" : "PB 7/10/2016 14:42",
 		"rules:" : "PB 7/10/2016 14:42" } }

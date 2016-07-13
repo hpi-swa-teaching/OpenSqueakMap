@@ -1,4 +1,4 @@
 as yet unclassified
-at: aZoomLevel add: aRule
+at: aZoomLevelInterval add: aRule
 
-	(self rules at: aZoomLevel ifAbsentPut: [OrderedCollection new]) add: aRule.
+	(self rules at: aZoomLevelInterval ifAbsentPut: [OrderedCollection new]) add: aRule.

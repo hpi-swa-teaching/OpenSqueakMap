@@ -1,9 +1,12 @@
 as yet unclassified
 queryStringFor: aZoomLevel bounds: aRectangle
 
-	| boundsString boundedRules combinedRules|
+	| boundsString boundedRules combinedRules eligibleRules | 
 	boundsString := self boundsStringFor: aRectangle.
-	boundedRules := (self rules at: aZoomLevel ifAbsent: [OrderedCollection new]) collect: [:r | | fullRule |
+	eligibleRules := OrderedCollection new.
+	self rules keysAndValuesDo: [:aKey :aValue | (aKey includes: aZoomLevel) ifTrue: [eligibleRules addAll: aValue]].
+	boundedRules := eligibleRules collect: [:r | 
+		| fullRule |
 		fullRule := r queryString, boundsString, ';'.
 		'node', fullRule,
 		'way', fullRule,
