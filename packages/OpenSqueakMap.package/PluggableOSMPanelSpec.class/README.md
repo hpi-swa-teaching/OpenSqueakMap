@@ -1,0 +1,1 @@
+I am the spec for building an OSMPanelMorph.

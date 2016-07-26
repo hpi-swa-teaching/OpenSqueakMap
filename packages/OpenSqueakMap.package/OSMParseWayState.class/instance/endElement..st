@@ -7,4 +7,4 @@ endElement: aQualifiedName
 			self parser addWay: self way].
 		['nd']->[].
 		['tag']->[].
-	} otherwise: [self error: 'Cannot handle element ', aQualifiedName].
+	} otherwise: [self unknownTag: aQualifiedName].

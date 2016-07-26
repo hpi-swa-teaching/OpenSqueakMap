@@ -1,0 +1,1 @@
+I am thrown when the Overpass API returns an error message instead of OSM data

@@ -7,4 +7,4 @@ endElement: aQualifiedName
 			self parser addRelation: self relation].
 		['member']->[].
 		['tag']->[].
-	} otherwise: [self error: 'Cannot handle element ', aQualifiedName].
+	} otherwise: [self unknownTag: aQualifiedName].

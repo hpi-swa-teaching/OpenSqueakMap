@@ -1,0 +1,1 @@
+I am a PluggablePanelMorph that is meant to contain an OSMViewport. I do not accept halo clicks, which means you need one less click to open the Viewport's halo.

@@ -1,0 +1,1 @@
+I am thrown when the user decides to abort the download of Chunks.

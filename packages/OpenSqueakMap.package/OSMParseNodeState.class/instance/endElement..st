@@ -6,5 +6,5 @@ endElement: aQualifiedName
 			self parser states pop.
 			self parser addNode: self node].
 		['tag']->[].
-	} otherwise: [self error: 'Cannot handle element ', aQualifiedName].
+	} otherwise: [self unknownTag: aQualifiedName].
 	
