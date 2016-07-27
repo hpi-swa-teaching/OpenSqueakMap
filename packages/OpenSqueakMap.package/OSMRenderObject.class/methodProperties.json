@@ -1,20 +1,20 @@
 {
 	"class" : {
 		"defaultAttributes" : "DOT 5/24/2016 18:38",
-		"on:" : "lx 7/12/2016 23:42" },
+		"on:" : "lx 7/27/2016 00:44" },
 	"instance" : {
+		"dataObject" : "lx 7/27/2016 00:44",
+		"dataObject:" : "lx 7/27/2016 00:44",
 		"deleteMorph" : "lx 7/7/2016 19:02",
-		"id" : "CJ 5/24/2016 15:21",
+		"id" : "lx 7/27/2016 00:44",
 		"initialize" : "lx 5/24/2016 15:19",
 		"isVisible" : "lx 7/6/2016 01:48",
-		"osmEntity" : "CJ 5/23/2016 16:42",
-		"osmEntity:" : "CJ 5/23/2016 16:42",
 		"renderAttributeAt:" : "DOT 5/24/2016 18:12",
 		"renderAttributes" : "CJ 5/23/2016 16:42",
 		"renderAttributes:" : "CJ 5/23/2016 16:42",
 		"renderOn:" : "DOT 6/1/2016 17:52",
-		"setName" : "lx 7/12/2016 23:47",
+		"setName" : "lx 7/27/2016 00:44",
 		"shouldShowAt:" : "lx 7/6/2016 01:05",
-		"tags" : "CJ 5/24/2016 15:24",
-		"type" : "CJ 5/24/2016 15:22",
+		"tags" : "lx 7/27/2016 00:44",
+		"type" : "lx 7/27/2016 00:44",
 		"wantsSteps" : "lx 7/7/2016 19:02" } }

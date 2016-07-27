@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "lx 7/27/2016 01:30",
 	"instvars" : [
-		"osmEntity",
-		"renderAttributes" ],
+		"renderAttributes",
+		"dataObject" ],
 	"name" : "OSMRenderObject",
 	"pools" : [
 		 ],

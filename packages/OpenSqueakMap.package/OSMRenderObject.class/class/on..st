@@ -2,6 +2,6 @@ as yet unclassified
 on: anOSMEntity
 
 	^ self new
-		osmEntity: anOSMEntity;
+		dataObject: anOSMEntity;
 		setName;
 		yourself.

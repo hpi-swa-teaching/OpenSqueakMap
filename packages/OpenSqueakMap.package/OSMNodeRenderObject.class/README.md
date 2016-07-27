@@ -1,0 +1,1 @@
+I am a Morph that represents an OSMNode.

@@ -1,4 +1,4 @@
 accessing
 tags
 	
-	^ self osmEntity tags
+	^ self dataObject tags

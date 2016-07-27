@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "lx 7/27/2016 01:45",
 	"instvars" : [
 		"nodes" ],
 	"name" : "OSMWay",
 	"pools" : [
 		 ],
-	"super" : "OSMDatum",
+	"super" : "OSMDataObject",
 	"type" : "normal" }

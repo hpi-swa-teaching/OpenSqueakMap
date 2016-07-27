@@ -4,9 +4,8 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "lx 7/27/2016 02:40",
 	"instvars" : [
-		"bounds",
 		"nodes",
 		"ways",
 		"relations" ],

@@ -3,19 +3,19 @@ defaultConfiguration
 
 	^ OSMConfiguration new
 		add: (OSMStaticRule 
-			for: [:x | x osmEntity isCarway] 
+			for: [:x | x dataObject isCarway] 
 			setAttributes: {
 				#visible -> true.
 				#color -> Color yellow lighter.
 				#borderWidth -> 5});
 		add: (OSMStaticRule 
-			for: [:x | x osmEntity isFootway] 
+			for: [:x | x dataObject isFootway] 
 			setAttributes: {
 				#visible -> true.
 				#color -> Color yellow.
 				#borderWidth -> 2});
 		add: (OSMStaticRule 
-			for: [:x | x osmEntity isBuilding] 
+			for: [:x | x dataObject isBuilding] 
 			setAttributes: {
 				#visible -> true.
 				#color -> Color darkGray.
@@ -23,7 +23,7 @@ defaultConfiguration
 				#borderWidth -> 1.
 				#minZoom -> 16});
 		add: (OSMStaticRule 
-			for: [:x | x osmEntity isHumanUsedLand] 
+			for: [:x | x dataObject isHumanUsedLand] 
 			setAttributes: {
 				#visible -> true.
 				#color -> Color darkGray.

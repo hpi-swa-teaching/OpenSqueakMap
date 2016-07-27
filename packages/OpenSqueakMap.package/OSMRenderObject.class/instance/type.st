@@ -1,4 +1,4 @@
 accessing
 type
 	
-	^ self osmEntity type
+	^ self dataObject type

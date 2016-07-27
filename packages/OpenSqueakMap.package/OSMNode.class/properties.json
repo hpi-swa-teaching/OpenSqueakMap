@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "lx 7/27/2016 01:44",
 	"instvars" : [
 		"latitude",
 		"longitude" ],
 	"name" : "OSMNode",
 	"pools" : [
 		 ],
-	"super" : "OSMDatum",
+	"super" : "OSMDataObject",
 	"type" : "normal" }

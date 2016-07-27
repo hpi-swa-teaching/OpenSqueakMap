@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "lx 7/27/2016 01:45",
 	"instvars" : [
 		"id",
 		"tags" ],
-	"name" : "OSMDatum",
+	"name" : "OSMDataObject",
 	"pools" : [
 		 ],
 	"super" : "Object",

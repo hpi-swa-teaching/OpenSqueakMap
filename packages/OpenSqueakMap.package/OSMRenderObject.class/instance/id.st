@@ -1,4 +1,4 @@
 accessing
 id
 	
-	^ self osmEntity id
+	^ self dataObject id
