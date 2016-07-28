@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "lx 7/28/2016 02:02",
 	"instvars" : [
 		"queryString" ],
 	"name" : "OSMDownloadConfigurationRule",

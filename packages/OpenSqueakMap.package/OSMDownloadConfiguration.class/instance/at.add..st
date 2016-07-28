@@ -1,4 +1,5 @@
 as yet unclassified
-at: aZoomLevelInterval add: aRule
-
-	(self rules at: aZoomLevelInterval ifAbsentPut: [OrderedCollection new]) add: aRule.
+at: aZoomLevel add: aRule
+	"If the current zoom level is >= aZoomLevel, the rule will apply"
+	
+	(self rules at: aZoomLevel ifAbsentPut: [OrderedCollection new]) add: aRule.

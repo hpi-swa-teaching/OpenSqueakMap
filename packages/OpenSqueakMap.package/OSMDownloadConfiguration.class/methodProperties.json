@@ -2,9 +2,14 @@
 	"class" : {
 		"testConfig" : "DOT 7/13/2016 02:51" },
 	"instance" : {
-		"at:add:" : "DOT 7/13/2016 02:43",
-		"boundsStringFor:" : "PB 7/10/2016 15:45",
-		"initialize" : "DOT 7/13/2016 02:49",
-		"queryStringFor:bounds:" : "DOT 7/13/2016 03:05",
+		"at:add:" : "lx 7/28/2016 01:57",
+		"boundRules:bounds:" : "lx 7/28/2016 02:04",
+		"boundsStringFor:" : "lx 7/28/2016 01:49",
+		"concatenateRules:" : "lx 7/28/2016 02:01",
+		"eligibleRules:" : "lx 7/28/2016 02:09",
+		"initialize" : "lx 7/28/2016 01:55",
+		"printOperator" : "lx 7/28/2016 01:54",
+		"queryStringFor:bounds:" : "lx 7/28/2016 02:10",
+		"recursionOperator" : "lx 7/28/2016 01:54",
 		"rules" : "PB 7/10/2016 14:42",
 		"rules:" : "PB 7/10/2016 14:42" } }
