@@ -6,4 +6,4 @@ initialize
 		renderObjects: Bag new;
 		wayMorphs: Dictionary new;
 		positionInViewport: 0@0;
-		dirty: true.
+		shouldRedraw: true.

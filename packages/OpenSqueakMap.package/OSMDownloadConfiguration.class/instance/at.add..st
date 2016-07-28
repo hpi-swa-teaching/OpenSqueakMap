@@ -1,5 +1,5 @@
 as yet unclassified
 at: aZoomLevel add: aRule
-	"If the current zoom level is >= aZoomLevel, the rule will apply"
+	"The rule will apply to zoomLevels greater than or equal to aZoomLevel"
 	
-	(self rules at: aZoomLevel ifAbsentPut: [OrderedCollection new]) add: aRule.
+	(self rulesForZoomLevel at: aZoomLevel ifAbsentPut: [OrderedCollection new]) add: aRule.

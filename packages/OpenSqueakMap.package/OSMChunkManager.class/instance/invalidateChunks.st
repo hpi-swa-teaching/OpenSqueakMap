@@ -1,4 +1,4 @@
 as yet unclassified
 invalidateChunks 
 
-	self chunks do: [:chunk | chunk dirty: true].
+	self chunks do: [:chunk | chunk shouldRedraw: true].

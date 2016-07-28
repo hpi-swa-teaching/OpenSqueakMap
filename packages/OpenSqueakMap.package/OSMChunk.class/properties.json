@@ -12,8 +12,8 @@
 		"wayMorphs",
 		"coordBounds",
 		"viewport",
-		"dirty",
-		"positionInViewport" ],
+		"positionInViewport",
+		"shouldRedraw" ],
 	"name" : "OSMChunk",
 	"pools" : [
 		 ],

@@ -1,5 +1,4 @@
 as yet unclassified
-isRenderingChunkOf: aRenderObject
+isRenderingChunkOf: aWayRenderObject
 
-	(aRenderObject isKindOf: OSMWayRenderObject) ifFalse: [^true].
-	^ (self chunkManager renderingChunks at: aRenderObject id) = self.
+	^ (self chunkManager renderingChunkFor: aWayRenderObject) = self.

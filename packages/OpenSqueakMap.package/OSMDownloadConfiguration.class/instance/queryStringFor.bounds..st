@@ -1,8 +1,7 @@
 as yet unclassified
 queryStringFor: aZoomLevel bounds: aRectangle
 
-	| boundedRules combinedRules eligibleRules |
-	eligibleRules := self eligibleRules: aZoomLevel.
-	boundedRules := self boundRules: eligibleRules bounds: aRectangle.
-	combinedRules := self concatenateRules: boundedRules.
-	^ '(', combinedRules, ');', self recursionOperator, self printOperator.
+	| applicableRules queryString |
+	applicableRules := self rulesApplyingTo: aZoomLevel.	
+	queryString := self buildQueryFrom: applicableRules forBounds: aRectangle.
+	^ '(', queryString, ');', self recursionOperator, self printOperator.

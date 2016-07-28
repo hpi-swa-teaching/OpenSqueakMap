@@ -2,7 +2,6 @@ as yet unclassified
 didChangeOn: aViewport
 
 	| newChunks |
-	self progressBar center: aViewport center.
 	aViewport chunks do: [:chunk | chunk moveToPositionIn: aViewport].
 	newChunks := self downloadMissingChunksIn: aViewport.
 	newChunks do: [:chunk |

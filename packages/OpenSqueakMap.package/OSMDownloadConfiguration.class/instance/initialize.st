@@ -2,4 +2,4 @@ as yet unclassified
 initialize
 
 	super initialize.
-	self rules: Dictionary new.
+	self rulesForZoomLevel: Dictionary new.
