@@ -1,5 +1,5 @@
 Examples
-ShowRenderConfiguration
+showRenderConfiguration
 	"This exampe shows how to compose configurations and rules for rendering"
 
 	| osm |

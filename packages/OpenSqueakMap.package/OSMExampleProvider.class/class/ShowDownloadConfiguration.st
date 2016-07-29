@@ -1,5 +1,5 @@
 Examples
-ShowDownloadConfiguration
+showDownloadConfiguration
 	"This exampe shows how to compose configurations and rules for selective downloading"
 
 	| osm |
