@@ -13,7 +13,8 @@
 		"coordBounds",
 		"viewport",
 		"positionInViewport",
-		"shouldRedraw" ],
+		"shouldRedraw",
+		"index" ],
 	"name" : "OSMChunk",
 	"pools" : [
 		 ],

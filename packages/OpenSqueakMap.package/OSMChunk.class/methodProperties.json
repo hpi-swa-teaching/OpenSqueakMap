@@ -2,7 +2,7 @@
 	"class" : {
 		"apiURL" : "PB 7/29/2016 10:44",
 		"boundsFrom:" : "PB 6/7/2016 18:52",
-		"withIndex:on:" : "lx 6/16/2016 10:11" },
+		"withIndex:on:" : "CJ 7/29/2016 22:18" },
 	"instance" : {
 		"addWayMorph:at:" : "lx 7/5/2016 19:11",
 		"apiQuery" : "PB 7/29/2016 11:24",
@@ -17,6 +17,8 @@
 		"downloadWithConfig:at:" : "lx 7/12/2016 17:49",
 		"exceptionSet" : "PB 7/29/2016 11:25",
 		"fullMoveBy:" : "PB 7/29/2016 10:27",
+		"index" : "CJ 7/29/2016 22:18",
+		"index:" : "CJ 7/29/2016 22:18",
 		"initialize" : "CJ 7/28/2016 22:30",
 		"isRenderingChunkOf:" : "CJ 7/28/2016 22:49",
 		"moveToPositionIn:" : "PB 7/10/2016 13:17",
