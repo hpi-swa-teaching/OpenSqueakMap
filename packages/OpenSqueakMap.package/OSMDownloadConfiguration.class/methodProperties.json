@@ -8,7 +8,9 @@
 		"boundsStringFor:" : "lx 7/28/2016 01:49",
 		"buildQueryFrom:forBounds:" : "PB 7/29/2016 10:56",
 		"initialize" : "CJ 7/28/2016 23:21",
+		"printOperator" : "lx 7/28/2016 01:54",
 		"queryStringFor:bounds:" : "CJ 7/29/2016 11:38",
+		"recursionOperator" : "PB 7/29/2016 10:56",
 		"rulesApplyingTo:" : "CJ 7/28/2016 23:21",
 		"rulesForZoomLevel" : "CJ 7/28/2016 23:14",
 		"rulesForZoomLevel:" : "CJ 7/28/2016 23:14" } }
