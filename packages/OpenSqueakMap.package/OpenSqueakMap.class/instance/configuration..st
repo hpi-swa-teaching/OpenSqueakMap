@@ -1,4 +1,4 @@
-accessing
+convenience
 configuration: aConfiguration
 
 	self chunkManager

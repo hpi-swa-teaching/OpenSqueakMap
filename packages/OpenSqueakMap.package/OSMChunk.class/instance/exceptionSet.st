@@ -1,4 +1,4 @@
-as yet unclassified
+downloading
 exceptionSet
 
 	^ NameLookupFailure, OSMApiException, ConnectionTimedOut, ConnectionRefused

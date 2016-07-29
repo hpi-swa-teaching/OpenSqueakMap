@@ -1,3 +1,3 @@
-as yet unclassified
+building
 buildWith: builder
 	^builder buildOSMPanel: self.

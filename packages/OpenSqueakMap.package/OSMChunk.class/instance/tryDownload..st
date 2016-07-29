@@ -1,4 +1,4 @@
-as yet unclassified
+downloading
 tryDownload: aString
 
 	| apiAnswer |

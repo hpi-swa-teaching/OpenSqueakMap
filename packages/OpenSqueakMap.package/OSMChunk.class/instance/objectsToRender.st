@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 objectsToRender 
 
 	^ self renderObjects select: [:object |

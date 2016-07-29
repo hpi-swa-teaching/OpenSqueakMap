@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testNodes
 	| nodes firstNode secondNode thirdNode |
 	nodes := self dataSet nodes select: [:x | x type = #node].

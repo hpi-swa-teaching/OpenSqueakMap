@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 addWayMorph: aMorph at: anId
 
 	self wayMorphs at: anId put: aMorph.

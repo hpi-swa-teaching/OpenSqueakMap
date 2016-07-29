@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 panRight
 
 	self viewport panRight.

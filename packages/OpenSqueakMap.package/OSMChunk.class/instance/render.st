@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 render
 
 	self shouldRedraw ifTrue: [ 

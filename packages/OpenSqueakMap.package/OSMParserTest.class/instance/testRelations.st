@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testRelations
 	| relations firstRelation secondRelation |
 	relations := self dataSet relations select: [:x | x type = #relation].

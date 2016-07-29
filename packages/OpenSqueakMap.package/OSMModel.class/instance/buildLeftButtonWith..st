@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildLeftButtonWith: aBuilder
 
 	^ (self buildButtonWith: aBuilder)
@@ -7,5 +7,5 @@ buildLeftButtonWith: aBuilder
 		frame: (LayoutFrame
 			fractions: (0@0.5 corner: 0@0.5)
 			offsets: (Rectangle
-				origin:0@(self buttonHeight / 2 negated)
-				corner: self buttonWidth @ (self buttonHeight / 2))).
+				origin:0@(self class buttonHeight / 2 negated)
+				corner: self class buttonWidth @ (self buttonHeight / 2))).

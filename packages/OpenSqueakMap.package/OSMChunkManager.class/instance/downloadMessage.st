@@ -1,4 +1,4 @@
-as yet unclassified
+downloading
 downloadMessage 
 
 	^ 'Downloading chunks...'.

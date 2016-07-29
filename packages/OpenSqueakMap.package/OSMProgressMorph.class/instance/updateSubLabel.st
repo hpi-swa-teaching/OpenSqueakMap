@@ -1,4 +1,4 @@
-as yet unclassified
+progress
 updateSubLabel 
 
 	self subLabel: self currentItem asString , '/' , self total.

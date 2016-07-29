@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildWith: builder
 
 	| windowSpec window |

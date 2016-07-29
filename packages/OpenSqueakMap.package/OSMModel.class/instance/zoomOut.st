@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 zoomOut
 
 	self viewport zoomOut.

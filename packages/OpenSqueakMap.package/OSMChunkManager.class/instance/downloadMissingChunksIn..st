@@ -1,4 +1,4 @@
-as yet unclassified
+downloading
 downloadMissingChunksIn: aViewport
 
 	| newChunks missingIndices |

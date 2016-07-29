@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testWays
 	| ways firstWay secondWay |
 	ways := self dataSet ways select: [:x | x type = #way].

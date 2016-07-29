@@ -1,4 +1,4 @@
-rendering
+actions
 panRight
 	
 	| offset |

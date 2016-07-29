@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 applyConfiguration: aConfiguration 
 
 	aConfiguration applyToAll: self renderObjects.

@@ -1,4 +1,4 @@
-as yet unclassified
+chunk assignment
 for: aWay setRenderingChunk: aChunk
 
 	self renderingChunks at: aWay id ifPresent: [:oldChunk |

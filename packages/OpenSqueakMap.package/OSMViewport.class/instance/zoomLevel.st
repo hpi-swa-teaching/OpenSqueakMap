@@ -1,4 +1,4 @@
-rendering
+accessing
 zoomLevel
 
 	^ zoomLevel.

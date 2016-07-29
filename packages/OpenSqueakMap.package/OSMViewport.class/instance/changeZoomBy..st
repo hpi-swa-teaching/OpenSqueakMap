@@ -1,4 +1,4 @@
-initialize-release
+rendering
 changeZoomBy: anInt
 
 	self zoomLevel: self zoomLevel + anInt.

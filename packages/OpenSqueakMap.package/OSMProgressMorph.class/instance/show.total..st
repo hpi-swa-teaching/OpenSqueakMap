@@ -1,4 +1,4 @@
-as yet unclassified
+progress
 show: aString total: anInt
 
 	self 

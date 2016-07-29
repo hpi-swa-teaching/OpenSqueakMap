@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildWindowWith: builder specs: specs
 	| windowSpec |
 	windowSpec := self buildWindowWith: builder.

@@ -1,4 +1,4 @@
-as yet unclassified
+chunk assignment
 switchRenderingChunkFor: anId from: aChunk
 
 	| newChunk |

@@ -1,4 +1,4 @@
-as yet unclassified
+chunk assignment
 deleteChunk: aChunk
 
 	aChunk ways do: [:way |

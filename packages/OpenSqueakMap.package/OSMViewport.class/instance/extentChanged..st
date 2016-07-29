@@ -1,4 +1,4 @@
-accessing
+rendering
 extentChanged: aPoint
 
 	super extentChanged: aPoint.

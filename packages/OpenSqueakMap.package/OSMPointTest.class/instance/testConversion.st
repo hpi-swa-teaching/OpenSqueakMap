@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testConversion
 
 	"by in order to speed up test and check non-integer values"
