@@ -1,10 +1,8 @@
 chunk assignment
-switchRenderingChunkFor: anId from: aChunk
+switchRenderingChunkFor: aWayMorph from: oldChunk
 
 	| newChunk |
 	newChunk := self backupChunks anyOne.
 	self backupChunks remove: newChunk.
-	self renderingChunks at: anId put: newChunk.
-	newChunk
-		addWayMorph: (aChunk wayMorphs at: anId)
-		at: anId.
+	self for: aWayMorph setRenderingChunk: newChunk.
+	newChunk addWayMorph: (oldChunk wayMorphs at: aWayMorph).

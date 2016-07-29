@@ -10,7 +10,6 @@
 		"chunkIndicesIn:" : "CJ 7/29/2016 00:07",
 		"chunks" : "PB 7/29/2016 10:34",
 		"chunks:" : "PB 7/29/2016 10:34",
-		"deleteChunk:" : "lx 7/6/2016 01:25",
 		"didChangeOn:" : "PB 7/29/2016 19:13",
 		"downloadConfiguration" : "PB 7/29/2016 19:20",
 		"downloadConfiguration:" : "PB 7/29/2016 19:21",
@@ -25,10 +24,11 @@
 		"processDataSetOf:" : "CJ 7/29/2016 22:31",
 		"progressBar" : "PB 7/29/2016 10:36",
 		"progressBar:" : "PB 7/29/2016 10:36",
+		"removeWayMorphsFrom:" : "lx 7/30/2016 00:19",
 		"renderConfiguration" : "PB 7/29/2016 19:30",
 		"renderConfiguration:" : "PB 7/29/2016 19:30",
 		"renderingChunkFor:" : "CJ 7/28/2016 23:43",
 		"renderingChunks" : "PB 7/29/2016 10:36",
 		"renderingChunks:" : "PB 7/29/2016 10:36",
 		"save:" : "CJ 7/29/2016 22:32",
-		"switchRenderingChunkFor:from:" : "lx 6/13/2016 00:43" } }
+		"switchRenderingChunkFor:from:" : "lx 7/30/2016 00:23" } }
