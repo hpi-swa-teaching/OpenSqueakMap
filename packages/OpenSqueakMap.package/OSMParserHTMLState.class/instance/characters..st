@@ -1,4 +1,4 @@
-as yet unclassified
+handling - content
 characters: aString
 
 	self reading ifTrue: 

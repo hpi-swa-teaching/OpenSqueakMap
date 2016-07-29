@@ -1,4 +1,4 @@
-accessing
+conversion
 asRenderObject
 	
 	^ OSMWayRenderObject on: self.

@@ -1,4 +1,4 @@
-accessing
+applying
 applyTo: aRenderObject
 	
 	(self filter value: aRenderObject) 

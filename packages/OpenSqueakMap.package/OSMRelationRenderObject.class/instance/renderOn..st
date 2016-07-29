@@ -1,4 +1,4 @@
-as yet unclassified
+morphic
 renderOn: aChunk
 
 	^ self.

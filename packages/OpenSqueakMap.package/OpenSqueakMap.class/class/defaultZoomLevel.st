@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 defaultZoomLevel
 
 	^ 17.

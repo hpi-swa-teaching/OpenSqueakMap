@@ -1,4 +1,4 @@
-accessing
+handling - content
 startElement: aQualifiedName attributes: aDictionary
 
 	aQualifiedName caseOf: {

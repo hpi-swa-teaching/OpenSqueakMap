@@ -1,4 +1,4 @@
-as yet unclassified
+conversion
 asRenderObject
 	
 	^ OSMNodeRenderObject new dataObject: self.

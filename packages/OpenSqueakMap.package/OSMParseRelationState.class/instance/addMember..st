@@ -1,4 +1,4 @@
-as yet unclassified
+handling - content
 addMember: aDictionary
 
 	(aDictionary at: #type) caseOf: {

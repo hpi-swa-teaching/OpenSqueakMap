@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 at: aZoomLevel add: aRule
 	"The rule will apply to zoomLevels greater than or equal to aZoomLevel"
 	

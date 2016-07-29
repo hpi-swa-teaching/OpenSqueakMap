@@ -1,4 +1,4 @@
-as yet unclassified
+identity
 isNilNode
 
 	^ latitude isNil or: [longitude isNil].

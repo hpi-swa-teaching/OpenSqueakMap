@@ -1,4 +1,4 @@
-as yet unclassified
+API
 printOperator
 
 	^ ' out;'.

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 topLeft: aPoint zoom: anInteger chunkManager: aChunkManager
 
 	^ self new

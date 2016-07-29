@@ -1,4 +1,4 @@
-as yet unclassified
+API
 apiURL
 
 	^ 'http://api.openstreetmap.fr/oapi/interpreter'.

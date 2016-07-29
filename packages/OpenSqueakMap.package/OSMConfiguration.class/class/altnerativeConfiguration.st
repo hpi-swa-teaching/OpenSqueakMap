@@ -1,5 +1,5 @@
-as yet unclassified
-oldConfiguration
+defaults
+altnerativeConfiguration
 
 	|showWaysRule|
 	showWaysRule := OSMStaticRule
