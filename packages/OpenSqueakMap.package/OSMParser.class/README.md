@@ -2,7 +2,7 @@ I parse XML files into an OSMDataSet. I am a subclass from SaxHandler, which imp
 I implement the State pattern. My current state is the top element of my states instance variable.
 
 Instance Variables
-	dataSet:		<OSMDataSet>
+	dataSet:		<OSMDataset>
 	states:		<Stack>
 
 dataSet

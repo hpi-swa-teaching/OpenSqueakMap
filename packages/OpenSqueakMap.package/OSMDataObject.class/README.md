@@ -8,4 +8,4 @@ id
 	- Uniquely identifies the OpenStreetMap element I represent.
 
 tags
-	- Holds the key-value pairs that describe my OpenStreetMap element, i.e. building->residential.
+	- Holds the key-value pairs that describe my OpenStreetMap element, (key->value, i.e. building->residential).

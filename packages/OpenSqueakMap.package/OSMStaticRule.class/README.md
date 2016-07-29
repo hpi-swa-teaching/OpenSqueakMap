@@ -4,4 +4,4 @@ Instance Variables
 	basicAttributes:		<Dictionary>
 
 basicAttributes
-	- Dictionary that gets directly added to a RenderObject's renderAttributes in case my filter applies.
+	- Dictionary that gets directly added to a RenderObject's renderAttributes in case my filter applies (attribute->value).

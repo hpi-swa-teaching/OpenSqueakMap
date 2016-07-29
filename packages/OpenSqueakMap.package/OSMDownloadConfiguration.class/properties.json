@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "CJ 7/28/2016 23:48",
+	"commentStamp" : "lx 7/29/2016 12:28",
 	"instvars" : [
 		"rulesForZoomLevel" ],
 	"name" : "OSMDownloadConfiguration",

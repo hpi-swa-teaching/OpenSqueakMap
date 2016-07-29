@@ -8,4 +8,4 @@ dataObject
 	- The DataObject that I represent.
 
 renderAttributes
-	- Attributes that define how my DataObject has to be rendered. To be set through a RenderConfiguration. Should probably be turned into its own class as soon as we have a better grasp of what attributes should go in there.
+	- Attributes that define how my DataObject has to be rendered (attribute->value). To be set through a RenderConfiguration. Should probably be turned into its own class as soon as we have a better grasp of what attributes should go in there.
