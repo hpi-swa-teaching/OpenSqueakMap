@@ -1,0 +1,4 @@
+accessing
+downloadConfiguration
+
+	^ downloadConfiguration.

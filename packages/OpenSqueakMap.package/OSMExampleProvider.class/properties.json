@@ -1,13 +1,13 @@
 {
-	"category" : "OpenSqueakMap-Configuration",
+	"category" : "OpenSqueakMap-Examples",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "lx 7/28/2016 01:36",
+	"commentStamp" : "",
 	"instvars" : [
-		"rules" ],
-	"name" : "OSMConfiguration",
+		 ],
+	"name" : "OSMExampleProvider",
 	"pools" : [
 		 ],
 	"super" : "Object",

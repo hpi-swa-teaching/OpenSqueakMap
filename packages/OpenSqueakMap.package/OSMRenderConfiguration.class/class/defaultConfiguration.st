@@ -1,7 +1,7 @@
 defaults
 defaultConfiguration
 
-	^ OSMConfiguration new
+	^ OSMRenderConfiguration new
 		add: (OSMStaticRule 
 			for: [:x | x dataObject isCarway] 
 			setAttributes: {

@@ -2,7 +2,7 @@ as yet unclassified
 testConfigurationWithAttributes
 
 	| configuration objects |
-	configuration := OSMConfiguration new add: self exampleStaticRule.
+	configuration := OSMRenderConfiguration new add: self exampleStaticRule.
 	
 	objects := OrderedCollection new add: self exampleObject1; add: self exampleObject2; yourself.
 	

@@ -7,8 +7,8 @@
 	"commentStamp" : "lx 7/29/2016 12:25",
 	"instvars" : [
 		"chunks",
-		"downloadConfig",
-		"configuration",
+		"downloadConfiguration",
+		"renderConfiguration",
 		"nodes",
 		"renderingChunks",
 		"backupChunks",

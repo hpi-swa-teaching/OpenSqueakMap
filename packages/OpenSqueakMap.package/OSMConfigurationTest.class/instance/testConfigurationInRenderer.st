@@ -2,7 +2,7 @@ as yet unclassified
 testConfigurationInRenderer
 
 	| configuration osmObjects dataSet chunk |
-	configuration := OSMConfiguration new add: self exampleStaticRule.
+	configuration := OSMRenderConfiguration new add: self exampleStaticRule.
 	osmObjects := Dictionary newFrom: {1 -> (OSMNode new id: 1). 2 -> (OSMNode new id: 2)}.
 	dataSet := OSMDataset new nodes: osmObjects; yourself.
 	chunk := OSMChunk new coordBounds: (Rectangle

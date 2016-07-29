@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "lx 7/28/2016 01:35",
+	"commentStamp" : "lx 7/28/2016 01:17",
 	"instvars" : [
-		"attributeComputer" ],
-	"name" : "OSMComputedRule",
+		"filter" ],
+	"name" : "OSMRenderConfigurationRule",
 	"pools" : [
 		 ],
-	"super" : "OSMRenderConfigurationRule",
+	"super" : "Object",
 	"type" : "normal" }

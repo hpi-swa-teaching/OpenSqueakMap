@@ -7,6 +7,6 @@ initialize
 		nodes: Dictionary new;
 		renderingChunks: Dictionary new;
 		backupChunks: Dictionary new;
-		configuration: OSMConfiguration defaultConfiguration;
+		renderConfiguration: OSMRenderConfiguration defaultConfiguration;
 		progressBar: OSMProgressMorph new;
-		downloadConfig: OSMDownloadConfiguration defaultConfiguration.
+		downloadConfiguration: OSMDownloadConfiguration defaultConfiguration.

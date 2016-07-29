@@ -1,6 +1,6 @@
 defaults
 defaultConfiguration
 
-	^ OSMDownloadConfiguration new
+	^ self new
 		at: 14 add: (OSMDownloadConfigurationRule whereExists: 'building');
 		at: 14 add: (OSMDownloadConfigurationRule whereExists: 'highway').

@@ -10,5 +10,5 @@
 	"name" : "OSMStaticRule",
 	"pools" : [
 		 ],
-	"super" : "OSMConfigurationRule",
+	"super" : "OSMRenderConfigurationRule",
 	"type" : "normal" }
