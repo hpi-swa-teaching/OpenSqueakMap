@@ -2,10 +2,10 @@ as yet unclassified
 testRuleWithComputedAttributes
 
 	| object1 object2 object3 |
-	object1 := self class exampleObject1.
-	object2 := self class exampleObject2.
-	object3 := self class exampleObject3.
-	self class exampleComputedRule
+	object1 := self exampleObject1.
+	object2 := self exampleObject2.
+	object3 := self exampleObject3.
+	self exampleComputedRule
 		applyTo: object1;
 		applyTo: object2;
 		applyTo: object3.

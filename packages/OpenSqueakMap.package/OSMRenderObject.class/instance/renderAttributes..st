@@ -1,4 +1,4 @@
 accessing
-renderAttributes: anObject
+renderAttributes: aDictionary
 
-	renderAttributes := anObject
+	renderAttributes := aDictionary.

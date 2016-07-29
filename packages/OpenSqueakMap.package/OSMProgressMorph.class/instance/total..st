@@ -1,4 +1,4 @@
 accessing
-total: anObject
+total: anInt
 
-	total := anObject
+	total := anInt.

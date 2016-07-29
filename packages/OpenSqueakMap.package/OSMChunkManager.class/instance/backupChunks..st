@@ -1,4 +1,4 @@
 accessing
-backupChunks: anObject
+backupChunks: aDictionary
 
-	backupChunks := anObject
+	backupChunks := aDictionary.

@@ -9,4 +9,4 @@ initialize
 		backupChunks: Dictionary new;
 		configuration: OSMConfiguration defaultConfiguration;
 		progressBar: OSMProgressMorph new;
-		downloadConfig: OSMDownloadConfiguration testConfig .
+		downloadConfig: OSMDownloadConfiguration testConfig.

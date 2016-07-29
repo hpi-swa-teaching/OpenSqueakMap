@@ -1,4 +1,4 @@
 accessing
 type
 	
-	^ self dataObject type
+	^ self dataObject type.

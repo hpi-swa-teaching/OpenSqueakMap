@@ -1,4 +1,4 @@
 accessing
-members: anObject
+members: aOrderedCollection
 
-	members := anObject
+	members := aOrderedCollection.

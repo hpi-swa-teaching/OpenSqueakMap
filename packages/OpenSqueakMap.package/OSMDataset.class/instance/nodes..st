@@ -1,4 +1,4 @@
 accessing
-nodes: anObject
+nodes: aDictionary
 
-	nodes := anObject
+	nodes := aDictionary.

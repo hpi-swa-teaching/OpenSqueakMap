@@ -1,4 +1,4 @@
 accessing
 applyToAll: aCollection
 
-	aCollection do: [:x | self applyTo: x]
+	aCollection do: [:x | self applyTo: x].

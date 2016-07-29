@@ -1,4 +1,4 @@
 accessing
-relations: anObject
+relations: aDictionary
 
-	relations := anObject
+	relations := aDictionary.

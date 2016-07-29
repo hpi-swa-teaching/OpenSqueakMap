@@ -1,4 +1,4 @@
 accessing
-basicAttributes: anObject
+basicAttributes: aDictionary
 
-	basicAttributes := anObject
+	basicAttributes := aDictionary.

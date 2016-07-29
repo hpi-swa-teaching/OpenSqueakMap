@@ -2,10 +2,10 @@ as yet unclassified
 testObjectWithOverlappingRules
 
 	| object1 object2 rule1 rule2 |
-	object1 := self class exampleObject1.
-	object2 := self class exampleObject2.
-	rule1 := self class exampleStaticRule1.
-	rule2 := self class exampleStaticRule2.
+	object1 := self exampleObject1.
+	object2 := self exampleObject2.
+	rule1 := self exampleStaticRule1.
+	rule2 := self exampleStaticRule2.
 	
 	rule1 applyTo: object2.
 	rule2 applyTo: object2.

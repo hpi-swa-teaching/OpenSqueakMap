@@ -2,4 +2,4 @@ accessing
 recursionOperator
 	"automatically selects all nodes that appear in a selected way"
 
-	^ ' (._;>;);'
+	^ ' (._;>;);'.

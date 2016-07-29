@@ -1,3 +1,4 @@
 accessing
 renderObjects
-	^ renderObjects
+
+	^ renderObjects.

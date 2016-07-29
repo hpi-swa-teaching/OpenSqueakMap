@@ -1,4 +1,4 @@
 accessing
-currentItem: anObject
+currentItem: anInt 
 
-	currentItem := anObject
+	currentItem := anInt.

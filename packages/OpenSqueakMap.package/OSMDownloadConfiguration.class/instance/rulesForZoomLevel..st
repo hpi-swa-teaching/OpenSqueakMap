@@ -1,3 +1,4 @@
 accessing
 rulesForZoomLevel: aDictionary
-	rulesForZoomLevel := aDictionary
+
+	rulesForZoomLevel := aDictionary.

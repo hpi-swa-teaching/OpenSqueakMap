@@ -1,4 +1,4 @@
 accessing
 renderAttributes
 
-	^ renderAttributes
+	^ renderAttributes.

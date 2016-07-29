@@ -1,3 +1,4 @@
 accessing
 configuration
-	^ configuration
+
+	^ configuration.

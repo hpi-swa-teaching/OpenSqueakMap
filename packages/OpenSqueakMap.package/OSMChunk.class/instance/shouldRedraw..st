@@ -1,3 +1,4 @@
 accessing
 shouldRedraw: aBoolean
-	shouldRedraw := aBoolean
+
+	shouldRedraw := aBoolean.

@@ -8,4 +8,4 @@ startElement: aQualifiedName attributes: aDictionary
 		['node']->[self parser states push: (OSMParseNodeState on: self parser with: aDictionary)].
 		['way']->[self parser states push: (OSMParseWayState on: self parser with: aDictionary)].
 		['relation']->[self parser states push: (OSMParseRelationState on: self parser with: aDictionary)].
-	} otherwise: [self unknownTag: aQualifiedName]
+	} otherwise: [self unknownTag: aQualifiedName].

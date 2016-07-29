@@ -1,4 +1,4 @@
 accessing
 currentItem
 
-	^ currentItem
+	^ currentItem.

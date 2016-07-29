@@ -1,4 +1,4 @@
 accessing
 isVisible
 
-	^ self renderAttributes at: #visible ifAbsent: [false]
+	^ self renderAttributes at: #visible ifAbsent: [false].

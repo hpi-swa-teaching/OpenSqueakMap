@@ -1,4 +1,4 @@
 accessing
 dataObject
 
-	^ dataObject
+	^ dataObject.

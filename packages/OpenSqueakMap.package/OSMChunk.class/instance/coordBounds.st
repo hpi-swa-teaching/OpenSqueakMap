@@ -1,3 +1,4 @@
 accessing
 coordBounds
-	^ coordBounds
+
+	^ coordBounds.

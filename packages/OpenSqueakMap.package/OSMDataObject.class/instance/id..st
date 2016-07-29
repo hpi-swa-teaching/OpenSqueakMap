@@ -1,4 +1,4 @@
 accessing
-id: anObject
+id: anId
 
-	id := anObject
+	id := anId.

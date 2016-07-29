@@ -12,4 +12,4 @@ downloadMissingChunksIn: aViewport
 		newChunks add: (self addChunkWithIndex: x at: aViewport zoomLevel)]
 	] on: OSMAbortException do: [].
 	self progressBar hide.
-	^ newChunks
+	^ newChunks.

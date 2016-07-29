@@ -1,4 +1,4 @@
 accessing
 tags
 	
-	^ self dataObject tags
+	^ self dataObject tags.

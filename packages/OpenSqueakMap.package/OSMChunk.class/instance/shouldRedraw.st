@@ -1,3 +1,4 @@
 accessing
 shouldRedraw
-	^ shouldRedraw
+
+	^ shouldRedraw.

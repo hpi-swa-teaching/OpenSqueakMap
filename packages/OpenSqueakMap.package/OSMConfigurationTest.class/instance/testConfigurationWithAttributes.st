@@ -2,12 +2,9 @@ as yet unclassified
 testConfigurationWithAttributes
 
 	| configuration objects |
-	configuration := OSMConfiguration new add: self class exampleStaticRule.
+	configuration := OSMConfiguration new add: self exampleStaticRule.
 	
-	objects := OrderedCollection new
-		add: self class exampleObject1;
-		add: self class exampleObject2;
-		yourself.
+	objects := OrderedCollection new add: self exampleObject1; add: self exampleObject2; yourself.
 	
 	configuration applyToAll: objects.
 		

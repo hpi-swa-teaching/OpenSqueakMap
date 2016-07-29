@@ -1,4 +1,4 @@
 downloading
 exceptionSet
 
-	^ NameLookupFailure, OSMApiException, ConnectionTimedOut, ConnectionRefused
+	^ NameLookupFailure, OSMApiException, ConnectionTimedOut, ConnectionRefused.

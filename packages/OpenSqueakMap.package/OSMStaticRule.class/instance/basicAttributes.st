@@ -1,4 +1,4 @@
 accessing
 basicAttributes
 
-	^ basicAttributes
+	^ basicAttributes.

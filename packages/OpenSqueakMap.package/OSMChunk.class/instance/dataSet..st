@@ -1,7 +1,7 @@
 accessing
-dataSet: anObject
+dataSet: aDataset
 
-	dataSet := anObject.
+	dataSet := aDataset.
 	self renderObjects: Dictionary new.
 	self renderObjects
 		addAll: (dataSet nodes collect: [:node | node asRenderObject]);

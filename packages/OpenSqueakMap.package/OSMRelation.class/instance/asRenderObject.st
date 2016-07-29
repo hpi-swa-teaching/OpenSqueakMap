@@ -1,4 +1,4 @@
 accessing
 asRenderObject
 	
-	^ OSMRelationRenderObject new dataObject: self
+	^ OSMRelationRenderObject new dataObject: self.

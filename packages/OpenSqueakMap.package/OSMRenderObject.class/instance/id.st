@@ -1,4 +1,4 @@
 accessing
 id
 	
-	^ self dataObject id
+	^ self dataObject id.

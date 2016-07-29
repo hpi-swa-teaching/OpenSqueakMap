@@ -1,4 +1,4 @@
 accessing
 node
 
-	^ node
+	^ node.

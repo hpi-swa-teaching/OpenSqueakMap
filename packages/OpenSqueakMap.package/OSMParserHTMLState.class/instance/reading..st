@@ -1,3 +1,4 @@
 accessing
-reading: anObject
-	reading := anObject
+reading: aBoolean
+
+	reading := aBoolean.

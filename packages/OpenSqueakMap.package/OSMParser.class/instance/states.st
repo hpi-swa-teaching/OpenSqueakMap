@@ -1,4 +1,4 @@
 accessing
 states
 
-	^ states
+	^ states.

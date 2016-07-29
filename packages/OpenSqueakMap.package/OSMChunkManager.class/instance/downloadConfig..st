@@ -1,3 +1,4 @@
 accessing
-downloadConfig: anObject
-	downloadConfig := anObject
+downloadConfig: aDownloadConfiguration
+
+	downloadConfig := aDownloadConfiguration.

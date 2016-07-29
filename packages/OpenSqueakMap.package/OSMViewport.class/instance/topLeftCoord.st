@@ -1,3 +1,4 @@
 accessing
 topLeftCoord
-	^ topLeftCoord
+
+	^ topLeftCoord.

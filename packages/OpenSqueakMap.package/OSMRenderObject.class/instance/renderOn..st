@@ -1,4 +1,4 @@
 accessing
 renderOn: aChunk
 
-	^ self subclassResponsibility
+	^ self subclassResponsibility.

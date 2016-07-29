@@ -1,4 +1,4 @@
 accessing
-latitude: anObject
+latitude: aNumber
 
-	latitude := anObject
+	latitude := aNumber.

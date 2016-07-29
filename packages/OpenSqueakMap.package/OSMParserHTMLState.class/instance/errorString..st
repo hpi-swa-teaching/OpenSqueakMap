@@ -1,3 +1,4 @@
 accessing
-errorString: anObject
-	errorString := anObject
+errorString: aString
+
+	errorString := aString.

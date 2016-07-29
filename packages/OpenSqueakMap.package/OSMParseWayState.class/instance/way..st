@@ -1,3 +1,4 @@
 accessing
-way: anObject
-	way := anObject
+way: aWay
+
+	way := aWay.

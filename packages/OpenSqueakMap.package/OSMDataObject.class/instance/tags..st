@@ -1,4 +1,4 @@
 accessing
-tags: anObject
+tags: aDictionary
 
-	tags := anObject
+	tags := aDictionary.

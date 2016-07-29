@@ -1,4 +1,4 @@
 accessing
-dataObject: anObject
+dataObject: aDataObject
 
-	dataObject := anObject
+	dataObject := aDataObject.

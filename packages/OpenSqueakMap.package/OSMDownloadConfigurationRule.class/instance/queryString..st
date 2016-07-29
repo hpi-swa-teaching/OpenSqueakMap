@@ -1,3 +1,4 @@
 accessing
-queryString: anObject
-	queryString := anObject
+queryString: aString
+
+	queryString := aString.

@@ -1,4 +1,4 @@
 accessing
 members
 
-	^ members
+	^ members.

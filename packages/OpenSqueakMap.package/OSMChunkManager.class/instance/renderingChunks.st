@@ -1,4 +1,4 @@
 accessing
 renderingChunks
 
-	^ renderingChunks
+	^ renderingChunks.

@@ -1,3 +1,4 @@
 accessing
-topLeftCoord: anObject
-	topLeftCoord := anObject
+topLeftCoord: aPoint
+
+	topLeftCoord := aPoint.

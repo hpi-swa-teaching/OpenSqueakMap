@@ -1,4 +1,4 @@
 accessing
-rules: anObject
+rules: aOrderedCollection
 
-	rules := anObject
+	rules := aOrderedCollection.

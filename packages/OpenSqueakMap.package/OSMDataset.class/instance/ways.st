@@ -1,4 +1,4 @@
 accessing
 ways
 
-	^ ways
+	^ ways.

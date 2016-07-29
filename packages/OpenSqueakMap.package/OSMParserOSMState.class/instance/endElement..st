@@ -6,4 +6,4 @@ endElement: aQualifiedName
 		['meta']->[].
 		['osm']->[self parser states pop].
 		['bounds']->[].
-	} otherwise: [self unknownTag: aQualifiedName]
+	} otherwise: [self unknownTag: aQualifiedName].

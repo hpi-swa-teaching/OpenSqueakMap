@@ -1,4 +1,4 @@
 building
 windowTitle
 
-	^ 'OpenSqueakMap'
+	^ 'OpenSqueakMap'.

@@ -1,3 +1,4 @@
 accessing
-wayMorphs: anObject
-	wayMorphs := anObject
+wayMorphs: aDictionary
+
+	wayMorphs := aDictionary.

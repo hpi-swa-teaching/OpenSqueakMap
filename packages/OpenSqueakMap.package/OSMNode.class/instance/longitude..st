@@ -1,4 +1,4 @@
 accessing
 longitude: anObject
 
-	longitude := anObject
+	longitude := anObject.

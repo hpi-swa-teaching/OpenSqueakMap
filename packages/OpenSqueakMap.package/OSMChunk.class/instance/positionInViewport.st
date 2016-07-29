@@ -1,4 +1,4 @@
 accessing
 positionInViewport
 
-	^ positionInViewport
+	^ positionInViewport.

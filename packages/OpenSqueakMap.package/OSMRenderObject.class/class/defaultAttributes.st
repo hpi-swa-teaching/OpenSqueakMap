@@ -1,4 +1,4 @@
 as yet unclassified
 defaultAttributes
 
-	^Dictionary new add: #minZoom -> 0; add: #maxZoom -> 20; yourself
+	^Dictionary new add: #minZoom -> 0; add: #maxZoom -> 20; yourself.

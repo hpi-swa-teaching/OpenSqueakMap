@@ -1,5 +1,4 @@
 accessing
-fullMoveBy: delta
+fullMoveBy: aPoint
 
-	self wayMorphs do: [:morph |
-		morph position: morph position + delta].
+	self wayMorphs do: [ :morph | morph position: morph position + aPoint].

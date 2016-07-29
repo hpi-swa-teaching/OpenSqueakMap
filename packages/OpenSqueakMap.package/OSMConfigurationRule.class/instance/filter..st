@@ -1,4 +1,4 @@
 accessing
-filter: anObject
+filter: anElementFilter
 
-	filter := anObject
+	filter := anElementFilter.

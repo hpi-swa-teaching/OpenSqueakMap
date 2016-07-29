@@ -1,3 +1,4 @@
 accessing
-coordBounds: anObject
-	coordBounds := anObject
+coordBounds: aRectangle
+
+	coordBounds := aRectangle.

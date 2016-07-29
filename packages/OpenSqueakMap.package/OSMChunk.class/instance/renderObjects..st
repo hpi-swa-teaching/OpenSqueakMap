@@ -1,3 +1,4 @@
 accessing
-renderObjects: anObject
-	renderObjects := anObject
+renderObjects: aDictionary
+
+	renderObjects := aDictionary.

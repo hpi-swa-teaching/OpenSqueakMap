@@ -1,4 +1,4 @@
 accessing
 attributesFor: aRenderObject
 
-	^ self attributeComputer value: aRenderObject
+	^ self attributeComputer value: aRenderObject.

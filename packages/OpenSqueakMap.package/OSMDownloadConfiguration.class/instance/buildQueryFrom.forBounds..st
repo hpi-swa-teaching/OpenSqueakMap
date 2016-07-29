@@ -9,4 +9,4 @@ buildQueryFrom: aRuleCollection forBounds: aRectangle
 		'node', fullRule,
 		'way', fullRule,
 		'rel', fullRule].
-	^ boundedRules inject: '' into: [:accumulator :rule | accumulator, rule]
+	^ boundedRules inject: '' into: [:accumulator :rule | accumulator, rule].

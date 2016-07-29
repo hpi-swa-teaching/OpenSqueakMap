@@ -1,4 +1,4 @@
 accessing
-attributeComputer: anObject
+attributeComputer: aBlock
 
-	attributeComputer := anObject
+	attributeComputer := aBlock

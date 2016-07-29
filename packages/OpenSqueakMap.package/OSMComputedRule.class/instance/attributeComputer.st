@@ -1,4 +1,4 @@
 accessing
 attributeComputer
 
-	^ attributeComputer
+	^ attributeComputer.

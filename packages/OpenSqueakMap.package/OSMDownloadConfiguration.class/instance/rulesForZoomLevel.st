@@ -1,3 +1,4 @@
 accessing
 rulesForZoomLevel
-	^ rulesForZoomLevel
+
+	^ rulesForZoomLevel.

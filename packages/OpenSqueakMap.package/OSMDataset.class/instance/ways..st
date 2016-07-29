@@ -1,4 +1,4 @@
 accessing
-ways: anObject
+ways: aDictionary
 
-	ways := anObject
+	ways := aDictionary.

@@ -1,4 +1,4 @@
 accessing
-renderingChunks: anObject
+renderingChunks: aDictionary
 
-	renderingChunks := anObject
+	renderingChunks := aDictionary.

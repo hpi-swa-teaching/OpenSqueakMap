@@ -7,4 +7,4 @@ isFootway
 		value = #footway or:
 		[value = #path] or:
 		[value = #pedestrian] or:
-		[value = #steps]]
+		[value = #steps]].

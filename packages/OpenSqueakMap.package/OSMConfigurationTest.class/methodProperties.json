@@ -10,8 +10,17 @@
 		"exampleStaticRule1" : "CJ 7/29/2016 10:52",
 		"exampleStaticRule2" : "CJ 7/29/2016 10:52" },
 	"instance" : {
-		"testConfigurationInRenderer" : "CJ 7/29/2016 10:57",
-		"testConfigurationWithAttributes" : "CJ 7/29/2016 10:55",
-		"testObjectWithOverlappingRules" : "CJ 7/29/2016 10:54",
-		"testRuleWithAttributes" : "CJ 7/29/2016 10:55",
-		"testRuleWithComputedAttributes" : "CJ 7/29/2016 10:55" } }
+		"exampleAttributes1" : "lx 7/9/2016 12:53",
+		"exampleAttributes2" : "lx 7/9/2016 12:53",
+		"exampleComputedRule" : "lx 6/16/2016 15:35",
+		"exampleObject1" : "lx 5/26/2016 17:51",
+		"exampleObject2" : "lx 5/26/2016 18:32",
+		"exampleObject3" : "CJ 6/15/2016 15:44",
+		"exampleStaticRule" : "lx 6/16/2016 15:31",
+		"exampleStaticRule1" : "lx 7/27/2016 00:44",
+		"exampleStaticRule2" : "lx 7/27/2016 00:44",
+		"testConfigurationInRenderer" : "DOT 6/28/2016 18:43",
+		"testConfigurationWithAttributes" : "lx 6/16/2016 15:39",
+		"testObjectWithOverlappingRules" : "lx 6/16/2016 15:35",
+		"testRuleWithAttributes" : "lx 6/16/2016 15:36",
+		"testRuleWithComputedAttributes" : "lx 6/16/2016 15:37" } }

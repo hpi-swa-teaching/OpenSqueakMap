@@ -1,4 +1,4 @@
 accessing
 asRenderObject
 	
-	^OSMWayRenderObject on: self
+	^ OSMWayRenderObject on: self.

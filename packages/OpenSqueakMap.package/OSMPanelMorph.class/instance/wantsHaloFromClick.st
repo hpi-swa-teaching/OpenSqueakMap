@@ -1,4 +1,4 @@
 event handling
 wantsHaloFromClick 
 
-	^ false
+	^ false.

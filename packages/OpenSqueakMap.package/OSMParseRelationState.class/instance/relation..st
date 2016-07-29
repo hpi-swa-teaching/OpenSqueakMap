@@ -1,3 +1,4 @@
 accessing
-relation: anObject
-	relation := anObject
+relation: aRelation
+
+	relation := aRelation.

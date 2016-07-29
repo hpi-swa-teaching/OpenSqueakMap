@@ -1,5 +1,6 @@
 building
 buildWindowWith: builder specs: specs
+	
 	| windowSpec |
 	windowSpec := self buildWindowWith: builder.
 	specs do:[:assoc| | action widgetSpec rect |
@@ -9,4 +10,4 @@ buildWindowWith: builder specs: specs
 		widgetSpec ifNotNil:[
 			widgetSpec frame: rect.
 			windowSpec children add: widgetSpec]].
-	^windowSpec
+	^ windowSpec.

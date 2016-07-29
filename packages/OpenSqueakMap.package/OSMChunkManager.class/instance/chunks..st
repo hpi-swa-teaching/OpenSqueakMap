@@ -1,3 +1,4 @@
 accessing
-chunks: anObject
-	chunks := anObject
+chunks: aDictionary
+
+	chunks := aDictionary.
