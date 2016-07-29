@@ -1,4 +1,4 @@
-accessing
+testing
 isFootway
 
 	^ self isHighway and: [

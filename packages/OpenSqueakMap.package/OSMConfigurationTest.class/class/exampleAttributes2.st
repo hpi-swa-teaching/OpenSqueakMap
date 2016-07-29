@@ -1,4 +1,4 @@
-as yet unclassified
+mocking
 exampleAttributes2
 
 	^ {#color -> Color pantonePurpleU}

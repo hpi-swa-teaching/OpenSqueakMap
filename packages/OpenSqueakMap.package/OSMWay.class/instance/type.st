@@ -1,4 +1,4 @@
-accessing
+identity
 type
 	
 	^ #way

@@ -1,4 +1,4 @@
-as yet unclassified
+query building
 buildQueryFrom: aRuleCollection forBounds: aRectangle
 
 	| boundsString boundedRules |

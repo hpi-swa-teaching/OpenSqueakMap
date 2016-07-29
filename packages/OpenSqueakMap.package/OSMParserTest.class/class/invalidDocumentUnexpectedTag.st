@@ -1,4 +1,4 @@
-as yet unclassified
+mocking
 invalidDocumentUnexpectedTag
 	^ '
 <osm version="0.6" generator="CGImap 0.4.0 (23459 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">

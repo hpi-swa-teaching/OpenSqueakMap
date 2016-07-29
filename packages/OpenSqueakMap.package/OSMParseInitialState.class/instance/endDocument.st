@@ -1,4 +1,4 @@
-accessing
+handling - content
 endDocument
 
 	^ self.

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 for: anElementFilter computeProperties: aBlock
 	
 	^ self new

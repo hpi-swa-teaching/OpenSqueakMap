@@ -1,4 +1,4 @@
-as yet unclassified
+mocking
 exampleObject1
 
 	^ OSMRenderObject on:

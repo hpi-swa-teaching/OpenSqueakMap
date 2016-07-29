@@ -1,4 +1,4 @@
-as yet unclassified
+handling - content
 endDocument
 
 	OSMApiException new signal: self errorString.

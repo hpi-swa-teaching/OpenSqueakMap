@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 withIndex: aPoint on: aChunkManager
 
 	^ self new

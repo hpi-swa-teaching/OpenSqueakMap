@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 rulesApplyingTo: aZoomLevel 
 
 	| eligibleRulesCollections |

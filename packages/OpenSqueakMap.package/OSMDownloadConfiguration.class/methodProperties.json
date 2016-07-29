@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"testConfig" : "CJ 7/28/2016 23:00" },
+		"defaultConfiguration" : "CJ 7/29/2016 11:41",
+		"printOperator" : "CJ 7/29/2016 11:39",
+		"recursionOperator" : "CJ 7/29/2016 11:38" },
 	"instance" : {
 		"at:add:" : "CJ 7/28/2016 23:40",
 		"boundsStringFor:" : "lx 7/28/2016 01:49",
 		"buildQueryFrom:forBounds:" : "CJ 7/28/2016 23:39",
 		"initialize" : "CJ 7/28/2016 23:21",
-		"printOperator" : "lx 7/28/2016 01:54",
-		"queryStringFor:bounds:" : "CJ 7/28/2016 23:41",
-		"recursionOperator" : "lx 7/28/2016 01:54",
+		"queryStringFor:bounds:" : "CJ 7/29/2016 11:38",
 		"rulesApplyingTo:" : "CJ 7/28/2016 23:21",
 		"rulesForZoomLevel" : "CJ 7/28/2016 23:14",
 		"rulesForZoomLevel:" : "CJ 7/28/2016 23:14" } }

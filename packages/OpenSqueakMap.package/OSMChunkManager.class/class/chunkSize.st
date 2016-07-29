@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 chunkSize
 "Chunk size in lon@lat coordinates"
 

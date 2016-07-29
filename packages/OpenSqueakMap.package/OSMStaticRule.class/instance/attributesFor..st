@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 attributesFor: aRenderObject
 
 	^ self basicAttributes deepCopy

@@ -1,4 +1,4 @@
-accessing
+query building
 boundsStringFor: aRectangle
 	"The rounding is an ugly workaround to avoid 0.00001 evaluating to 1.0e-5"
 

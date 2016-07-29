@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 empty
 
 	^ self new.

@@ -1,4 +1,4 @@
-accessing
+morphic
 renderOn: aChunk
 
 	^ self subclassResponsibility

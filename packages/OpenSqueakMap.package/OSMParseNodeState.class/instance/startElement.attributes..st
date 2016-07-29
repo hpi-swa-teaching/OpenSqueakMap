@@ -1,4 +1,4 @@
-as yet unclassified
+handling - content
 startElement: aQualifiedName attributes: aDictionary
 		
 	aQualifiedName caseOf: {
