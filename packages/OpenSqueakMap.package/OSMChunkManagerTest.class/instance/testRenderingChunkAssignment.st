@@ -1,6 +1,6 @@
 as yet unclassified
 testRenderingChunkAssignment
-
+	<timeout:60>
 	| aZoomLevel firstChunk secondChunk wayInBothChunks |
 	aZoomLevel := 17.
 	firstChunk := OSMChunk withIndex: self firstChunkIndex on: self chunkManager.
@@ -13,4 +13,4 @@ testRenderingChunkAssignment
 	
 	self chunkManager processDataSetOf: secondChunk.
 	self assert: (self chunkManager renderingChunkFor: wayInBothChunks) equals: secondChunk.
-	self assert: ((self chunkManager backupChunksFor: wayInBothChunks) contains: firstChunk).
+	self assert: ((self chunkManager backupChunksFor: wayInBothChunks) includes: firstChunk).
