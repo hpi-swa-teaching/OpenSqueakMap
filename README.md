@@ -1,4 +1,4 @@
-# OpenSqueakMap [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-04.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-04)
+# OpenSqueakMap [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/OpenSqueakMap.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/OpenSqueakMap)
 An [OpenStreetMap](http://www.osm.org) browser for Smalltalk (Squeak)
 
 ## Running OpenSqueakMap
@@ -9,7 +9,7 @@ An [OpenStreetMap](http://www.osm.org) browser for Smalltalk (Squeak)
 	```smalltalk
 	Metacello new
 	  baseline: 'OpenSqueakMap';
-	  repository: 'github://HPI-SWA-Teaching/SWT16-Project-04:master/packages';
+	  repository: 'github://HPI-SWA-Teaching/OpenSqueakMap:master/packages';
 	  onConflict: [:ex | ex allow];
 	  load
 	```
