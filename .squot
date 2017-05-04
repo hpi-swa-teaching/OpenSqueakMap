@@ -1,0 +1,4 @@
+OrderedDictionary {
+	'packages\/BaselineOfOpenSqueakMap.package' : #SquotCypressCodeSerializer,
+	'packages\/OpenSqueakMap.package' : #SquotCypressCodeSerializer
+}
