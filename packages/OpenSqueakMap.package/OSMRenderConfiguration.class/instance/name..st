@@ -1,4 +1,4 @@
 accessing
 name: aString
 
-	rules := aString.
+	name := aString.
