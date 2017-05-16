@@ -6,7 +6,9 @@ alternativeConfiguration
 		for: [:x | x type = #way]
 		setAttributes: {
 			#visible -> true.
-			#color -> Color red}.
+			#color -> Color red.
+			#fillColor -> Color transparent.
+			#borderWidth -> 1}.
 	
 	^ self new
 		name: 'alternativeConfiguration';
