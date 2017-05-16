@@ -1,5 +1,5 @@
 defaults
-altnerativeConfiguration
+alternativeConfiguration
 
 	|showWaysRule|
 	showWaysRule := OSMStaticRule
@@ -9,6 +9,7 @@ altnerativeConfiguration
 			#color -> Color red}.
 	
 	^ self new
+		name: 'alternativeConfiguration';
 		add: showWaysRule;
 		yourself.
 		
