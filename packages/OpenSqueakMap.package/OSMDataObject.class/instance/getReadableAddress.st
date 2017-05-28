@@ -14,5 +14,5 @@ getReadableAddress
 			^ addrAttributes asOrderedCollection inject: '' into: [:a :b | b isNil ifFalse: [a , ', ' ,  b] ifTrue: [a]]. 
 			]
 		ifFalse:[
-			^ nil.
+			^ ''.
 			]
