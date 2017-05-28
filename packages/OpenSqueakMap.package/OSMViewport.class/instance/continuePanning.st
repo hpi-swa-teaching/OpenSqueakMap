@@ -8,4 +8,4 @@ continuePanning
 	panEndPos = self panStartPos ifTrue: [^ self]. 
 	panVector := self getPanVectorFrom: panStartPos to: panEndPos.
 	self moveViewportBy: panVector;
-		panStartPos: Sensor mousePoint - self topLeft.
+		panStartPos: panEndPos.
