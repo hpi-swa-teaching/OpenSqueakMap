@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "lx 7/28/2016 01:36",
 	"instvars" : [
-		"rules" ],
+		"rules",
+		"name" ],
 	"name" : "OSMRenderConfiguration",
 	"pools" : [
 		 ],

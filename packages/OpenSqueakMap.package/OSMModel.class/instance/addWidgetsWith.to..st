@@ -8,5 +8,6 @@ addWidgetsWith: builder to: aSpec
 		add: (self buildRightButtonWith: builder);
 		add: (self buildDownButtonWith: builder);
 		add: (self buildZoomInButtonWith: builder);
-		add: (self buildZoomOutButtonWith: builder).
+		add: (self buildZoomOutButtonWith: builder);
+		add: (self buildToggleRenderConfigurationButtonWith: builder).
 	^ aSpec.
