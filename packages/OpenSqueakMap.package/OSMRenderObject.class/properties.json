@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"MarkerCollection" ],
 	"commentStamp" : "lx 7/29/2016 12:27",
 	"instvars" : [
 		"renderAttributes",

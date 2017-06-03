@@ -1,0 +1,5 @@
+events
+doubleClicked
+
+	self addHalo.
+	
