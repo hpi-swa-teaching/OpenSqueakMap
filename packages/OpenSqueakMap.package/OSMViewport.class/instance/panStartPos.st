@@ -1,0 +1,4 @@
+accessing
+panStartPos
+
+	^ panStartPos.

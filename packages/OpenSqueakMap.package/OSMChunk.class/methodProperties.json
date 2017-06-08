@@ -2,9 +2,10 @@
 	"class" : {
 		"apiURL" : "PB 7/29/2016 10:44",
 		"boundsFrom:" : "PB 6/7/2016 18:52",
+		"findPointAt:" : "bk 5/18/2017 11:34",
 		"withIndex:on:" : "CJ 7/29/2016 22:18" },
 	"instance" : {
-		"addWayMorph:" : "lx 7/30/2016 00:23",
+		"addWayMorph:" : "bk 5/29/2017 00:25",
 		"apiQuery" : "PB 7/29/2016 11:24",
 		"applyConfiguration:" : "lx 7/7/2016 18:38",
 		"askIfRetry:" : "PB 7/10/2016 13:22",
