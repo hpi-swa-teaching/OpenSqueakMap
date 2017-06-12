@@ -1,9 +1,9 @@
 downloading
-downloadWithConfig: aDownloadConfig at: aZoomLevel
+downloadWithConfig: aDownloadConfig in: aViewport
 
 	| query |
-	query := aDownloadConfig queryStringFor: aZoomLevel bounds: self coordBounds.
-	[self tryDownload: query]
+	query := aDownloadConfig queryStringFor: aViewport zoomLevel bounds: self coordBounds.
+	[self tryDownload: query in: aViewport]
 		on: self exceptionSet
 		do: [:ex |
 			(self askIfRetry: ex messageText) caseOf: {

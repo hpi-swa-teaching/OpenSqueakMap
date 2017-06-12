@@ -8,10 +8,10 @@ downloadMissingChunksIn: aViewport
 	newChunks := OrderedCollection new.
 	"We don't use collect in order to get a partial result in case of exceptions being thrown"
 	[missingIndices do: [:x | | chunk |
-		self progressBar next.
+		"self progressBar next."
 		chunk := OSMChunk withIndex: x on: self.
-		self add: chunk at: aViewport zoomLevel.
-		newChunks add: chunk]
+		self add: chunk in: aViewport.
+		"newChunks add: chunk"]
 	] on: OSMAbortException do: [].
 	self progressBar hide.
 	^ newChunks.
