@@ -8,14 +8,18 @@ tryDownload: aString in: aViewport
 		type: nil) content utf8ToSqueak.
 	self dataSet: (OSMParser on: apiAnswer) parseDocument.
 	
-	
-	"processDataSetOf"
 	self chunkManager processDataSetOf: self.
 	aViewport addChunk: self.
 	self moveToPositionIn: self viewport.
+	
+	self chunkManager save: self.
+	
+	"self applyConfiguration: self chunkManager renderConfiguration.
+	self render."
+	
+	"self chunkManager progressBar next.
+	(self chunkManager progressBar currentItem = self chunkManager progressBar total)
+		ifTrue: [self chunkManager progressBar hide.]"
+	
 	self chunkManager applyRenderConfiguration.
-	self render.
-	""
-	""
-	""
-		
+	self chunkManager chunks do: [:chunk | chunk render].
