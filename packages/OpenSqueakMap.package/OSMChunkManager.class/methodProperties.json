@@ -7,6 +7,7 @@
 		"backupChunks" : "PB 7/29/2016 10:33",
 		"backupChunks:" : "PB 7/29/2016 10:34",
 		"backupChunksFor:" : "lx 7/29/2016 23:40",
+		"changeRenderConfiguration" : "bk 6/14/2017 09:57",
 		"chunkIndicesIn:" : "CJ 7/29/2016 00:07",
 		"chunks" : "PB 7/29/2016 10:34",
 		"chunks:" : "PB 7/29/2016 10:34",
@@ -31,5 +32,4 @@
 		"renderingChunks" : "PB 7/29/2016 10:36",
 		"renderingChunks:" : "PB 7/29/2016 10:36",
 		"save:" : "CJ 7/29/2016 22:32",
-		"switchRenderingChunkFor:from:" : "lx 7/30/2016 00:23",
-		"toggleRenderConfiguration" : "lx 7/30/2016 00:42:12" } }
+		"switchRenderingChunkFor:from:" : "lx 7/30/2016 00:23" } }

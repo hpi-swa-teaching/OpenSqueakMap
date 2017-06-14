@@ -1,0 +1,17 @@
+{
+	"category" : "OpenSqueakMap-Configuration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedTypeIndex",
+		"attributes",
+		"selectedAttribute",
+		"viewport" ],
+	"name" : "OSMRenderConfigurationBrowser",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

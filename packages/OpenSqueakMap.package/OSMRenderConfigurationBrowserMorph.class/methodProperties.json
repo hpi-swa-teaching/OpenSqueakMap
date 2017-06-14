@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"withModel:" : "bk 6/14/2017 10:00" },
+	"instance" : {
+		"attributeButtons" : "bk 6/14/2017 09:19",
+		"attributeList" : "bk 6/13/2017 15:56",
+		"buttonRowLayoutFrame" : "bk 6/13/2017 10:51",
+		"initializeWithModel:" : "bk 6/13/2017 10:49",
+		"mainPanel" : "bk 6/13/2017 10:57",
+		"mainPanelLayoutFrame" : "bk 6/13/2017 10:49",
+		"newTypeList" : "bk 6/13/2017 10:45",
+		"openColorPicker" : "bk 6/14/2017 09:03",
+		"selectedAttribute:" : "bk 6/13/2017 11:33",
+		"selectedTypeAttributes" : "bk 6/13/2017 11:23",
+		"update:" : "bk 6/13/2017 12:15" } }

@@ -1,7 +1,7 @@
 rendering
-toggleRenderConfiguration
+changeRenderConfiguration
 
-	self chunkManager toggleRenderConfiguration.
+	self chunkManager changeRenderConfiguration.
 	self changeZoomBy: 0.
 	self chunkManager
 		invalidateChunks;

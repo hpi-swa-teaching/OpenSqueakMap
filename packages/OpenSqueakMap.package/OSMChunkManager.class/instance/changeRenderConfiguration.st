@@ -1,5 +1,5 @@
 accessing
-toggleRenderConfiguration
+changeRenderConfiguration
 
 	(self renderConfiguration name = 'defaultConfiguration')
 		ifTrue: [self renderConfiguration: OSMRenderConfiguration alternativeConfiguration]

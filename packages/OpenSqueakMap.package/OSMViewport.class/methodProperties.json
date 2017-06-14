@@ -4,6 +4,7 @@
 		"topLeft:zoom:chunkManager:" : "CJ 7/29/2016 11:48" },
 	"instance" : {
 		"addChunk:" : "lx 7/5/2016 19:03",
+		"changeRenderConfiguration" : "bk 6/14/2017 09:57",
 		"changeZoomBy:" : "lx 7/2/2016 11:29",
 		"chunkManager" : "lx 6/17/2016 16:32",
 		"chunkManager:" : "lx 6/17/2016 16:32",
@@ -26,7 +27,6 @@
 		"panUp" : "lx 7/2/2016 12:45",
 		"render" : "lx 6/11/2016 20:08",
 		"startPanning" : "bk 5/28/2017 17:22",
-		"toggleRenderConfiguration" : "lx 7/30/2016 00:42:12",
 		"topLeftCoord" : "lx 7/2/2016 00:54",
 		"topLeftCoord:" : "lx 7/2/2016 00:54",
 		"zoomIn" : "lx 6/20/2016 16:27",
