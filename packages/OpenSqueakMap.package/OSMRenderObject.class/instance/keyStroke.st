@@ -1,4 +1,0 @@
-events
-keyStroke
-
-	self toggleMarker.
