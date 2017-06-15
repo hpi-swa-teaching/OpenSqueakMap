@@ -1,6 +1,7 @@
 morphic
 showStreetName: aSet
 	| streetType |
+	"#highway is key for different street types"
 	streetType := (self tags at: #highway ifAbsent: ['']).
 	Transcript show: aSet.
 	(aSet detect: [:aStreetType | aStreetType = streetType] ifNone: []) ifNotNil: 
