@@ -1,5 +1,0 @@
-accessing
-clicked
-
-	self addHalo.
-	
