@@ -7,7 +7,8 @@
 	"commentStamp" : "lx 7/29/2016 12:27",
 	"instvars" : [
 		"renderAttributes",
-		"dataObject" ],
+		"dataObject",
+		"displayedName" ],
 	"name" : "OSMRenderObject",
 	"pools" : [
 		 ],

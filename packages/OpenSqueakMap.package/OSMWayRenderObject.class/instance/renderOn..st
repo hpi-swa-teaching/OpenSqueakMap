@@ -10,3 +10,4 @@ renderOn: aChunk
 			ifFalse: [self setRenderAttributes].
 		self dataObject isOpen ifTrue: [self makeOpen].
 		aChunk addWayMorph: self].
+	self showStreetName.
