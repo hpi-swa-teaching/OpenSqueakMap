@@ -1,4 +1,4 @@
 accessing
 selectedTypeIndex
 	
-	^ selectedTypeIndex ifNil: [selectedTypeIndex := 0].
+	^ selectedTypeIndex ifNil: [selectedTypeIndex := 1].

@@ -1,4 +1,4 @@
 model access
 selectedTypeAttributes
 
-	^self model selectedTypeAttributes.
+	^ self model selectedTypeAttributes.

@@ -8,8 +8,9 @@
 	"instvars" : [
 		"selectedTypeIndex",
 		"attributes",
-		"selectedAttribute",
-		"viewport" ],
+		"viewport",
+		"typeList",
+		"selectedAttribute" ],
 	"name" : "OSMRenderConfigurationBrowser",
 	"pools" : [
 		 ],

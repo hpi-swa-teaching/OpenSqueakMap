@@ -1,0 +1,4 @@
+accessing
+getCurrentValueFor: anAttribute
+
+	^ (self renderConfiguration rules at: self selectedType) basicAttributes at: anAttribute.

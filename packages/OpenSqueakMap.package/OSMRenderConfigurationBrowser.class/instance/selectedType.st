@@ -1,4 +1,4 @@
 accessing
 selectedType
 
-	^self typeList at: selectedTypeIndex ifAbsent: [].
+	^ self typeList at: self selectedTypeIndex ifAbsent: [].

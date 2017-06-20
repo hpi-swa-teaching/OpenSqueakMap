@@ -1,4 +1,4 @@
 accessing
 selectedTypeColor
 
-	^ Color green.
+	^ (self renderConfiguration rules at: self selectedType) basicAttributes at: #color.

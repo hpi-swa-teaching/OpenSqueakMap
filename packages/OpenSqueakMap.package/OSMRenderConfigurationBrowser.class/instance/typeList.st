@@ -1,7 +1,6 @@
 accessing
 typeList
 	
-	^ OrderedCollection new
-		add: 'test1';
-		add: 'test2';
-		yourself.
+	^ typeList ifNil: [OrderedCollection new
+		addAll: self renderConfiguration rules keys;
+		yourself].

@@ -1,7 +1,11 @@
 updating
 update: aSymbol
+
 	super update: aSymbol.
-	"aSymbol == #selectedPreference
-		ifTrue: [self updateSelectedPreference]."
-	"aSymbol == #selectedTypeIndex
-		ifTrue: [self updateSelectedTypeAttributes]."
+	
+	self attributeControls delete.
+	attributeControls := nil.
+	self attributeList scroller
+		addMorph: self attributeControls.
+	
+	

@@ -1,7 +1,7 @@
 submorphs
 mainPanel
 
-	^mainPanel ifNil: 
+	^ mainPanel ifNil: 
 		[mainPanel := BorderedMorph new
 			color: Color transparent;
 			borderWidth: 0;

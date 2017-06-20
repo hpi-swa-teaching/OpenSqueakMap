@@ -2,4 +2,4 @@ initialize
 initialize
 
 	super initialize.
-	self rules: OrderedCollection new.
+	self rules: Dictionary new.

@@ -3,6 +3,6 @@ openColorPicker
 
 	(NewColorPickerMorph
 		on: self model
-		originalColor: self model selectedTypeColor
+		originalColor: (self model getCurrentValueFor: #color)
 		setColorSelector: #color:)
 		openInWorld.
