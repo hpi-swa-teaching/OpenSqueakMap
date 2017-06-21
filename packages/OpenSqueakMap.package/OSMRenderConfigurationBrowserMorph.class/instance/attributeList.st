@@ -2,11 +2,12 @@ accessing
 attributeList
 
 	^ attributeList ifNil:
-		[attributeList := ScrollPane new
-			vResizing: #spaceFill;
+		[attributeList := PluggablePanelMorph new
+			color: Color white;
 			hResizing: #spaceFill;
-			layoutFrame: (LayoutFrame fractions: (0.25@0 corner: 1@1) offsets: (4@0 corner: 0@0)).
-		attributeList scroller
-			addMorph: self attributeControls;
+			vResizing: #spaceFill;
+			layoutFrame: (LayoutFrame fractions: (0.25@0 corner: 1@1) offsets: (5@0 corner: 0@0)).
+		attributeList 
+			addMorphBack: self attributeControls;
 			on: #keyStroke send: #keyPressed: to: self.
 		attributeList.]

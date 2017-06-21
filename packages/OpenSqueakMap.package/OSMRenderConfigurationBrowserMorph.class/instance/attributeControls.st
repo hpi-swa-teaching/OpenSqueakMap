@@ -2,9 +2,12 @@ accessing
 attributeControls
 
 	^ attributeControls ifNil: [
-		attributeControls := (PluggablePanelMorph new) 
+		attributeControls := (PluggablePanelMorph new)
+			color: Color transparent;
+			layoutPolicy: TableLayout new;
+			listDirection: #topToBottom;
+			vResizing: #shrinkWrap;
 			hResizing: #spaceFill;
-			vResizing: #spaceFill;
-			layoutFrame: (LayoutFrame fractions: (0@0 corner: 1@1) offsets: (0@0 corner: 0@0));
-			addAllMorphs: (self availableControlTypes) values;
-			yourself].
+			layoutInset: 5@5;
+			addAllMorphsBack: (self availableControlTypes) values;
+			yourself.].
