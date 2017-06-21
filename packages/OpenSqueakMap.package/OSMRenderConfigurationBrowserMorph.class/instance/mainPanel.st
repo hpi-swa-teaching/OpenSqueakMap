@@ -1,4 +1,4 @@
-submorphs
+accessing
 mainPanel
 
 	^ mainPanel ifNil: 

@@ -1,5 +1,4 @@
-accessing
+retrieve
 borderWidth
 
-	self selectedAttribute: #borderWidth;
-		openColorPicker.
+	^ (self getCurrentValueFor: #borderWidth) asString.

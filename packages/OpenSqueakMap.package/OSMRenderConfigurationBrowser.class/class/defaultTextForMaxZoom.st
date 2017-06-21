@@ -1,0 +1,4 @@
+defaults
+defaultTextForMaxZoom
+
+	^ '15'.	

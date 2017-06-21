@@ -1,4 +1,4 @@
-accessing
+actions
 borderColor
 
 	self selectedAttribute: #borderColor;

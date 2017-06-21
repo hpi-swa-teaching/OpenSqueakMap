@@ -1,4 +1,4 @@
-accessing
+actions
 color
 
 	self selectedAttribute: #color;

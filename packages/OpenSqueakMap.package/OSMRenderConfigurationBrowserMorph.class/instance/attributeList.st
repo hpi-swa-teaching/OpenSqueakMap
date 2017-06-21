@@ -1,4 +1,4 @@
-submorphs
+accessing
 attributeList
 
 	^ attributeList ifNil:

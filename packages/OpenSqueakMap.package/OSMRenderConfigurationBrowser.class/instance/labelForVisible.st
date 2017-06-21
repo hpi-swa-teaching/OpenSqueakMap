@@ -1,0 +1,4 @@
+labels
+labelForVisible
+
+	^ 'Change visibility'.

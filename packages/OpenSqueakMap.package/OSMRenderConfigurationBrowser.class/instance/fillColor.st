@@ -1,4 +1,4 @@
-accessing
+actions
 fillColor
 
 	self selectedAttribute: #fillColor;

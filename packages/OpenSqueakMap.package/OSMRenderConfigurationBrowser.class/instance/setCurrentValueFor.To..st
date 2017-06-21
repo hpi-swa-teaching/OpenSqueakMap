@@ -1,4 +1,4 @@
-accessing
+update
 setCurrentValueFor: anAttribute To: aValue
 
 	| renderConfiguration rule |

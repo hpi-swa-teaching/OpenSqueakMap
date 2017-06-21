@@ -1,4 +1,4 @@
-submorphs
+types
 newTypeList
 	
 	^ (PluggableListMorph
