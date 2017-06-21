@@ -12,7 +12,8 @@
 		"renderingChunks",
 		"backupChunks",
 		"progressBar",
-		"viewport" ],
+		"viewport",
+		"cachedChunks" ],
 	"name" : "OSMChunkManager",
 	"pools" : [
 		 ],

@@ -2,8 +2,8 @@ events
 changed
 
 	| newChunks |
-	newChunks := self downloadMissingChunksIn.  
-	self applyRenderConfiguration.  
-	newChunks do: [:chunk | self viewport addChunk: chunk].
+	newChunks := self downloadMissingChunks.
+	self applyRenderConfiguration.
+	self cachedChunks do: [:chunk | self viewport addChunk: chunk].
 	self viewport chunks do: [:chunk | chunk moveToPositionIn: self viewport].
-	self class chunks do: [:chunk | chunk render].
+	self cachedChunks do: [:chunk | chunk render].

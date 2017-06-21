@@ -2,4 +2,4 @@ accessing
 viewport: anObject
 	
 	viewport := anObject.
-	self class chunks do: [:chunk | anObject addChunk: chunk].
+	self cachedChunks do: [:chunk | anObject addChunk: chunk].

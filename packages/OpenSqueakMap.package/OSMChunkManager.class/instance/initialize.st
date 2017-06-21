@@ -9,4 +9,5 @@ initialize
 		renderConfiguration: OSMRenderConfiguration defaultConfiguration;
 		progressBar: OSMProgressMorph new;
 		downloadConfiguration: OSMDownloadConfiguration defaultConfiguration;
+		updateCachedChunks;
 		invalidateChunks.

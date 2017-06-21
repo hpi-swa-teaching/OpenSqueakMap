@@ -1,4 +1,4 @@
 events
 invalidateChunks 
 
-	self class chunks do: [:chunk | chunk shouldRedraw: true].
+	self cachedChunks do: [:chunk | chunk shouldRedraw: true].
