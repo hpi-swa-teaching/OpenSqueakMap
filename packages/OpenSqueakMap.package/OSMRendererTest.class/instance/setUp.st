@@ -8,4 +8,4 @@ setUp
 			zoom: self class exampleZoom
 			chunkManager: self chunkManager).
 	self viewport hide.
-	self chunkManager didChangeOn: self viewport. 
+	self chunkManager changed. 

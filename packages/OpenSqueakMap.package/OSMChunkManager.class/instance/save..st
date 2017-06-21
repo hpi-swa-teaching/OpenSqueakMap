@@ -1,3 +1,3 @@
 downloading
 save: aChunk
-	self chunks at: aChunk index put: aChunk
+	self class chunks at: aChunk index put: aChunk
