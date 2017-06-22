@@ -1,7 +1,7 @@
 events
 didChangeOn: aViewport
 
-	| newChunks |
+	| newChunks |	
 	aViewport chunks do: [:chunk | chunk moveToPositionIn: aViewport].
 	newChunks := self downloadMissingChunksIn: aViewport.
 	newChunks do: [:chunk |
