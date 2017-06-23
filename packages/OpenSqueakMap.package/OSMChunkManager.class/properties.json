@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Chunks" ],
+		"CachedChunks" ],
 	"commentStamp" : "lx 7/29/2016 12:25",
 	"instvars" : [
 		"downloadConfiguration",
@@ -13,7 +13,7 @@
 		"backupChunks",
 		"progressBar",
 		"viewport",
-		"cachedChunks" ],
+		"chunks" ],
 	"name" : "OSMChunkManager",
 	"pools" : [
 		 ],

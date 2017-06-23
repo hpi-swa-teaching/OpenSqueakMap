@@ -2,6 +2,7 @@ downloading
 downloadMissingChunks
 
 	| newChunks missingIndices |
+	self updateChunks.
 	missingIndices := self missingIndices.
 	self progressBar center: self viewport center.
 	self progressBar show: self downloadMessage total: missingIndices size.
