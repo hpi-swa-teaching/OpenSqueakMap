@@ -4,7 +4,8 @@ SmalltalkCISpec {
       #baseline : 'OpenSqueakMap',
       #directory : 'packages',
 	  #load : [ 'TravisCI' ],
-      #platforms : [ #squeak ]
+      #platforms : [ #squeak ],
+      #useLatestMetacello : true
     }
   ]
 }
