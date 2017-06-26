@@ -1,8 +1,8 @@
 rendering
 coordBounds
 
-	| topLeft |
-	topLeft := self topLeftCoord coordAsPixelAt: self zoomLevel.
+	| center |
+	center := self centerCoord coordAsPixelAt: self zoomLevel.
 	^ (Rectangle 
-		origin: (topLeft pixelAsCoordAt: self zoomLevel)  
-		corner: ((topLeft + self extent) pixelAsCoordAt: self zoomLevel)).
+		origin: ((center  - (self extent / 2)) pixelAsCoordAt:  self zoomLevel) 
+		corner: ((center  + (self extent / 2)) pixelAsCoordAt:  self zoomLevel)).

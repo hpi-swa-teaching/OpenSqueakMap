@@ -5,6 +5,6 @@ show: aPoint at: aZoomLevel
 	osm := self basicNew.
 	^ osm
 		chunkManager: OSMChunkManager new;
-		viewport: (OSMViewport topLeft: aPoint zoom: aZoomLevel chunkManager: osm chunkManager);
+		viewport: (OSMViewport center: aPoint zoom: aZoomLevel chunkManager: osm chunkManager);
 		initialize;
 		yourself.

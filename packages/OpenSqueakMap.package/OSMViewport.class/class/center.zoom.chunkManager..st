@@ -1,8 +1,8 @@
 instance creation
-topLeft: aPoint zoom: anInteger chunkManager: aChunkManager
+center: aPoint zoom: anInteger chunkManager: aChunkManager
 
 	^ self new
 		zoomLevel: anInteger;
-		topLeftCoord: aPoint;
+		centerCoord: aPoint;
 		chunkManager: aChunkManager;
 		yourself.

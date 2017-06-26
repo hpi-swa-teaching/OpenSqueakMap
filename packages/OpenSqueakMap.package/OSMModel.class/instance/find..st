@@ -1,7 +1,7 @@
 actions
 find: aString
 
-	self viewport topLeftCoord: (OSMChunk findPointAt: aString asString).
+	self viewport centerCoord: (OSMChunk findPointAt: aString asString).
 	self viewport chunkManager
 		invalidateChunks;
 		didChangeOn: self viewport.
