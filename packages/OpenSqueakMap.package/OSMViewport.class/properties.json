@@ -9,7 +9,7 @@
 		"zoomLevel",
 		"chunks",
 		"chunkManager",
-		"topLeftCoord",
+		"centerCoord",
 		"isPanning",
 		"panStartPos" ],
 	"name" : "OSMViewport",

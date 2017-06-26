@@ -2,5 +2,5 @@ accessing
 moveToPositionIn: aViewport
 
 	self positionInViewport:
-		(self coordBounds topLeft coordAsPixelAt: aViewport zoomLevel) -
-		(aViewport topLeftCoord coordAsPixelAt: aViewport zoomLevel).
+		(self coordBounds center coordAsPixelAt: aViewport zoomLevel) -
+		(aViewport centerCoord coordAsPixelAt: aViewport zoomLevel).
