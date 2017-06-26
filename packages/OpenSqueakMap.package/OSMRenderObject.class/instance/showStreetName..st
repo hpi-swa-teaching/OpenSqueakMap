@@ -4,7 +4,7 @@ showStreetName: aSet
 	"#highway is key for different street types"
 	streetType := (self tags at: #highway ifAbsent: ['']).
 	(aSet detect: [:aStreetType | aStreetType = streetType] ifNone: []) ifNotNil:
-	[self displayedName: (self tags at: #name ifAbsent: ['']) asStringMorph.
+		[self displayedName: (self tags at: #name ifAbsent: ['']) asStringMorph.
 		self addMorphFront: self displayedName.
 		deltaX := self firstVertex x -  self lastVertex x.
 		deltaY := self firstVertex y -  self lastVertex y.
