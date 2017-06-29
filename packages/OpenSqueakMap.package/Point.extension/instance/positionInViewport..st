@@ -4,5 +4,5 @@ positionInViewport: aViewport
 
 	^ 
 		(self coordAsPixelAt: aViewport zoomLevel) +
-		aViewport bounds topLeft -
-		(aViewport topLeftCoord coordAsPixelAt: aViewport zoomLevel).
+		aViewport bounds center -
+		(aViewport centerCoord coordAsPixelAt: aViewport zoomLevel).

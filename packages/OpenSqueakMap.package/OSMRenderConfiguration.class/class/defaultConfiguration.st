@@ -3,30 +3,34 @@ defaultConfiguration
 
 	^ OSMRenderConfiguration new
 		name: 'defaultConfiguration';
-		add: (OSMStaticRule 
+		at: 'carway' put: (OSMStaticRule 
 			for: [:x | x dataObject isCarway] 
-			setAttributes: {
-				#visible -> true.
-				#color -> Color yellow lighter.
-				#borderWidth -> 5});
-		add: (OSMStaticRule 
+			setAttributes: ((Dictionary new)
+				add: #visible -> true;
+				add: #color -> Color yellow lighter;
+				add: #borderWidth -> 5;
+				yourself));
+		at: 'footway' put: (OSMStaticRule 
 			for: [:x | x dataObject isFootway] 
-			setAttributes: {
-				#visible -> true.
-				#color -> Color yellow.
-				#borderWidth -> 2});
-		add: (OSMStaticRule 
+			setAttributes: ((Dictionary new)
+				add: #visible -> true;
+				add: #color -> Color yellow;
+				add: #borderWidth -> 2;
+				yourself));
+		at: 'building' put: (OSMStaticRule 
 			for: [:x | x dataObject isBuilding] 
-			setAttributes: {
-				#visible -> true.
-				#color -> Color darkGray.
-				#fillColor -> Color lightGray.
-				#borderWidth -> 1.
-				#minZoom -> 16});
-		add: (OSMStaticRule 
+			setAttributes: ((Dictionary new)
+				add: #visible -> true;
+				add: #color -> Color darkGray;
+				add: #fillColor -> Color lightGray;
+				add: #borderWidth -> 1;
+				add: #minZoom -> 16;
+				yourself));
+		at: 'humanUsedLand' put: (OSMStaticRule 
 			for: [:x | x dataObject isHumanUsedLand] 
-			setAttributes: {
-				#visible -> true.
-				#color -> Color darkGray.
-				#borderWidth -> 2.
-				#maxZoom -> 15}).
+			setAttributes: ((Dictionary new)
+				add: #visible -> true;
+				add: #color -> Color darkGray;
+				add: #borderWidth -> 2;
+				add: #maxZoom -> 15;
+				yourself)).

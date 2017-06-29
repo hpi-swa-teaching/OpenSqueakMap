@@ -1,0 +1,20 @@
+{
+	"category" : "OpenSqueakMap-Configuration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedTypeIndex",
+		"attributes",
+		"viewport",
+		"typeList",
+		"selectedAttribute",
+		"renderConfiguration",
+		"activeColorPicker" ],
+	"name" : "OSMRenderConfigurationBrowser",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
