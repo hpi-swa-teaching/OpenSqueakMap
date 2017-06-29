@@ -10,7 +10,8 @@
 		"attributes",
 		"viewport",
 		"typeList",
-		"selectedAttribute" ],
+		"selectedAttribute",
+		"renderConfiguration" ],
 	"name" : "OSMRenderConfigurationBrowser",
 	"pools" : [
 		 ],
