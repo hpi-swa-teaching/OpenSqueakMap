@@ -9,4 +9,4 @@ renderOn: aChunk
  			ifTrue: [self addMarkerOnIntialize: true].
 		self dataObject isOpen ifTrue: [self makeOpen].
 		aChunk addWayMorph: self].
-	self showStreetName.
+	
