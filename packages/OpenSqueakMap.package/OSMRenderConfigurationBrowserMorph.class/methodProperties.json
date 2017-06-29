@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"withModel:" : "bk 6/14/2017 10:00" },
+	"instance" : {
+		"attributeControlTypes" : "bk 6/21/2017 23:30",
+		"attributeControls" : "bk 6/21/2017 23:14",
+		"attributeList" : "bk 6/21/2017 23:13",
+		"availableControlTypes" : "bk 6/20/2017 12:09",
+		"buttonRowLayoutFrame" : "bk 6/20/2017 12:10",
+		"initializeWithModel:" : "bk 6/13/2017 10:49",
+		"mainPanel" : "bk 6/20/2017 12:11",
+		"mainPanelLayoutFrame" : "bk 6/20/2017 12:11",
+		"newControlLabel:" : "bk 6/21/2017 23:28",
+		"newTypeList" : "bk 6/13/2017 10:45",
+		"selectedAttribute:" : "bk 6/20/2017 12:11",
+		"selectedTypeAttributes" : "bk 6/20/2017 12:11",
+		"update:" : "bk 6/21/2017 23:03" } }
