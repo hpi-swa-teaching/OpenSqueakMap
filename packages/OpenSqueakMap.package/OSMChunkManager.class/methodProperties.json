@@ -15,6 +15,7 @@
 		"chunkIndicesIn:" : "CJ 7/29/2016 00:07",
 		"chunks" : "HS 6/23/2017 14:13",
 		"chunks:" : "HS 6/23/2017 14:06",
+		"didChangeOn:" : " 6/29/2017 14:19:38",
 		"downloadConfiguration" : "PB 7/29/2016 19:20",
 		"downloadConfiguration:" : "PB 7/29/2016 19:21",
 		"downloadMessage" : "lx 7/6/2016 01:32",
@@ -36,7 +37,6 @@
 		"renderingChunks:" : "PB 7/29/2016 10:36",
 		"save:" : "HS 6/29/2017 11:47",
 		"switchRenderingChunkFor:from:" : "lx 7/30/2016 00:23",
-		"toggleRenderConfiguration" : "lx 7/30/2016 00:42:12",
 		"updateChunks" : "HS 6/29/2017 11:46",
 		"viewport" : "HS 6/29/2017 11:42",
 		"viewport:" : "HS 6/23/2017 14:14" } }
