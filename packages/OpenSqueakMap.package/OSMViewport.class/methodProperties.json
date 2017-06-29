@@ -4,9 +4,9 @@
 		"center:zoom:chunkManager:" : "lf 6/14/2017 14:42" },
 	"instance" : {
 		"addChunk:" : "lx 7/5/2016 19:03",
-		"changeRenderConfiguration" : "bk 6/14/2017 09:57",
 		"centerCoord" : "lf 6/14/2017 14:31",
 		"centerCoord:" : "lf 6/14/2017 14:31",
+		"changeRenderConfiguration" : "bk 6/14/2017 09:57",
 		"changeZoomBy:" : "lx 7/2/2016 11:29",
 		"chunkManager" : "lx 6/17/2016 16:32",
 		"chunkManager:" : "lx 6/17/2016 16:32",

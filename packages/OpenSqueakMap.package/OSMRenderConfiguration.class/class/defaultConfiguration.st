@@ -26,12 +26,12 @@ defaultConfiguration
 				add: #borderWidth -> 1;
 				add: #minZoom -> 16;
 				yourself));
-    at: 'water' put: (OSMStaticRule 
+		at: 'water' put: (OSMStaticRule 
 			for: [:x | x dataObject isWater]
-      setAttributes: ((Dictionary new)
+      		setAttributes: ((Dictionary new)
 				add: #visible -> true;
 				add: #color -> Color blue;
-				#fillColor -> Color blue;
+				add: #fillColor -> Color blue;
 				add: #borderWidth -> 1;
 				yourself));
 		at: 'humanUsedLand' put: (OSMStaticRule 
