@@ -24,6 +24,13 @@ defaultConfiguration
 				#borderWidth -> 1.
 				#minZoom -> 16});
 		add: (OSMStaticRule 
+			for: [:x | x dataObject isWater] 
+			setAttributes: {
+				#visible -> true.
+				#color -> Color blue.
+				#fillColor -> Color blue.
+				#borderWidth -> 1});
+		add: (OSMStaticRule 
 			for: [:x | x dataObject isHumanUsedLand] 
 			setAttributes: {
 				#visible -> true.
