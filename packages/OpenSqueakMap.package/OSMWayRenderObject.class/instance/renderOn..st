@@ -4,10 +4,9 @@ renderOn: aChunk
 	| points |
 	points := aChunk pointsFrom: self dataObject nodes.
 	(points size > 1) ifTrue: [
-		self setVertices: points.
+		self setRenderAttributesWithVertices: points.
 		self	isMarked
-			ifTrue: [self addMarkerOnIntialize: true] 
-			ifFalse: [self setRenderAttributes].
+ 			ifTrue: [self addMarkerOnIntialize: true].
 		self dataObject isOpen ifTrue: [self makeOpen].
 		aChunk addWayMorph: self].
 	

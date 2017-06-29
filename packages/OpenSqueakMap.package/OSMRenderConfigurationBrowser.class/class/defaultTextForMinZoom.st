@@ -1,0 +1,4 @@
+defaults
+defaultTextForMinZoom
+
+	^ '16'.	
