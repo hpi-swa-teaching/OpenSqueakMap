@@ -18,13 +18,21 @@ defaultConfiguration
 				add: #borderWidth -> 2;
 				yourself));
 		at: 'building' put: (OSMStaticRule 
-			for: [:x | x dataObject isBuilding] 
+			for: [:x | x dataObject isBuilding]
 			setAttributes: ((Dictionary new)
 				add: #visible -> true;
 				add: #color -> Color darkGray;
 				add: #fillColor -> Color lightGray;
 				add: #borderWidth -> 1;
 				add: #minZoom -> 16;
+				yourself));
+		at: 'water' put: (OSMStaticRule 
+			for: [:x | x dataObject isWater]
+      		setAttributes: ((Dictionary new)
+				add: #visible -> true;
+				add: #color -> Color blue;
+				add: #fillColor -> Color blue;
+				add: #borderWidth -> 1;
 				yourself));
 		at: 'humanUsedLand' put: (OSMStaticRule 
 			for: [:x | x dataObject isHumanUsedLand] 
