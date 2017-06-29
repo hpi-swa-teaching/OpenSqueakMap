@@ -1,0 +1,4 @@
+constants
+maxCacheSize
+
+	^ 10.

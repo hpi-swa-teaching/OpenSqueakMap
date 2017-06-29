@@ -1,5 +1,5 @@
 accessing
 addChunk: aRenderChunk
 
-	self chunks add: aRenderChunk.
+	self chunks addIfNotPresent: aRenderChunk.
 	aRenderChunk viewport: self.
