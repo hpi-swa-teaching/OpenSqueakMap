@@ -11,7 +11,8 @@
 		"viewport",
 		"typeList",
 		"selectedAttribute",
-		"renderConfiguration" ],
+		"renderConfiguration",
+		"activeColorPicker" ],
 	"name" : "OSMRenderConfigurationBrowser",
 	"pools" : [
 		 ],

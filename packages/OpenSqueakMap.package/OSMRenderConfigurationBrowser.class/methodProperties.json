@@ -4,6 +4,8 @@
 		"defaultTextForMinZoom" : "lh 6/21/2017 14:46",
 		"withViewport:" : "bk 6/29/2017 12:04" },
 	"instance" : {
+		"activeColorPicker" : "bk 6/29/2017 12:08",
+		"activeColorPicker:" : "bk 6/29/2017 12:08",
 		"borderColor" : "bk 6/20/2017 11:15",
 		"borderWidth" : "lh 6/21/2017 15:01",
 		"borderWidth:" : "lh 6/21/2017 15:01",
@@ -22,7 +24,7 @@
 		"maxZoom:" : "lh 6/21/2017 14:53",
 		"minZoom" : "lh 6/21/2017 14:51",
 		"minZoom:" : "lh 6/21/2017 14:41",
-		"openColorPicker" : "bk 6/20/2017 11:12",
+		"openColorPicker" : "bk 6/29/2017 12:11",
 		"renderConfiguration" : "bk 6/29/2017 12:03",
 		"renderConfiguration:" : "bk 6/29/2017 12:03",
 		"selectedAttribute" : "bk 6/20/2017 10:51",
