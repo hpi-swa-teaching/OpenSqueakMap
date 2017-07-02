@@ -5,4 +5,4 @@ updateRenderConfigurationTo: aRenderConfiguration
 		renderConfiguration: aRenderConfiguration;
 		applyRenderConfiguration;
 		invalidateChunks;
-		didChangeOn: self.
+		changed.
