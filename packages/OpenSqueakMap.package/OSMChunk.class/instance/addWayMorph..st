@@ -1,10 +1,10 @@
 rendering
 addWayMorph: aMorph
+
 	| streetseparator |
-	
 	self wayMorphs at: aMorph id put: aMorph.
 	self viewport addMorph: aMorph.
-
+	
 	streetseparator := (aMorph tags at: #highway ifAbsent: []).
 	streetseparator ifNotNil: [self selectStreetsToShow: aMorph.].
 	

@@ -1,0 +1,3 @@
+accessing
+shouldRenderLabels
+	^ shouldRenderLabels

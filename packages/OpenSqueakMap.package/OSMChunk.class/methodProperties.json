@@ -5,7 +5,7 @@
 		"findPointAt:" : "bk 5/18/2017 11:34",
 		"withIndex:on:" : "CJ 7/29/2016 22:18" },
 	"instance" : {
-		"addWayMorph:" : "HS 6/21/2017 15:28",
+		"addWayMorph:" : "HS 7/3/2017 18:03",
 		"apiQuery" : "PB 7/29/2016 11:24",
 		"applyConfiguration:" : "lx 7/7/2016 18:38",
 		"askIfRetry:" : "PB 7/10/2016 13:22",
@@ -28,7 +28,7 @@
 		"pointsFrom:" : "lx 7/6/2016 02:04",
 		"positionInViewport" : "PB 7/29/2016 10:22",
 		"positionInViewport:" : "PB 7/29/2016 10:23",
-		"render" : "HS 6/21/2017 15:30",
+		"render" : "HS 7/4/2017 16:50",
 		"renderObjects" : "PB 7/29/2016 10:24",
 		"renderObjects:" : "PB 7/29/2016 10:30",
 		"selectStreetsToShow:" : "jz 6/15/2017 12:33",

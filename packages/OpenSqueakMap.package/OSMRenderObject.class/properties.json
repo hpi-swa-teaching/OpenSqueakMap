@@ -8,7 +8,8 @@
 	"instvars" : [
 		"renderAttributes",
 		"dataObject",
-		"displayedName" ],
+		"displayedName",
+		"shouldRenderLabels" ],
 	"name" : "OSMRenderObject",
 	"pools" : [
 		 ],
