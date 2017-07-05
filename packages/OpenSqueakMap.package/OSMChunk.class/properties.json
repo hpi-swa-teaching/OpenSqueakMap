@@ -10,6 +10,7 @@
 		"dataSet",
 		"renderObjects",
 		"wayMorphs",
+		"streetnames",
 		"coordBounds",
 		"viewport",
 		"positionInViewport",
