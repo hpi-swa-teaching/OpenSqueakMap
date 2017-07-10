@@ -5,6 +5,7 @@
 		"findPointAt:" : "bk 5/18/2017 11:34",
 		"withIndex:on:" : "CJ 7/29/2016 22:18" },
 	"instance" : {
+		"=" : "lf 7/10/2017 13:13",
 		"addWayMorph:" : "lh 7/5/2017 17:24",
 		"apiQuery" : "PB 7/29/2016 11:24",
 		"applyConfiguration:" : "lx 7/7/2016 18:38",
@@ -18,6 +19,7 @@
 		"downloadWithConfig:at:" : "HS 6/21/2017 15:35",
 		"exceptionSet" : "PB 7/29/2016 11:25",
 		"fullMoveBy:" : "lh 7/5/2017 17:19",
+		"hash" : "lf 7/10/2017 13:07",
 		"index" : "CJ 7/29/2016 22:18",
 		"index:" : "CJ 7/29/2016 22:18",
 		"initialize" : "lh 7/5/2017 16:39",
