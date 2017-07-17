@@ -2,4 +2,4 @@ rendering
 moveViewportBy: aDegreeVector
 
 	self centerCoord: self centerCoord + aDegreeVector.
-	self chunkManager didChangeOn: self.
+	self chunkManager changed.

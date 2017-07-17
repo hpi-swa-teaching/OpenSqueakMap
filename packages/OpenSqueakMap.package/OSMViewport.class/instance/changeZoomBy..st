@@ -5,4 +5,4 @@ changeZoomBy: anInt
 	self chunkManager
 		invalidateChunks;
 		abortActiveDownloads;
-		didChangeOn: self.
+		changed.
