@@ -1,0 +1,4 @@
+labels
+labelForColor
+
+	^ 'Change color'.

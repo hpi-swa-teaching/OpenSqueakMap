@@ -1,5 +1,5 @@
 rendering
 moveViewportBy: aDegreeVector
 
-	self topLeftCoord: self topLeftCoord + aDegreeVector.
+	self centerCoord: self centerCoord + aDegreeVector.
 	self chunkManager didChangeOn: self.

@@ -14,7 +14,8 @@
 		"viewport",
 		"positionInViewport",
 		"shouldRedraw",
-		"index" ],
+		"index",
+		"zoomlevelAbstraction" ],
 	"name" : "OSMChunk",
 	"pools" : [
 		 ],

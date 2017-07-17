@@ -1,12 +1,11 @@
 {
 	"class" : {
-		"alternativeConfiguration" : "lx 7/30/2016 00:42:12",
-		"defaultConfiguration" : "PB 7/29/2016 18:59" },
+		"defaultConfiguration" : "lh 6/21/2017 14:27" },
 	"instance" : {
-		"add:" : "lx 5/26/2016 19:14",
 		"applyTo:" : "PB 7/29/2016 09:08",
 		"applyToAll:" : "PB 7/29/2016 10:52",
-		"initialize" : "PB 7/29/2016 09:08",
+		"at:put:" : "bk 6/20/2017 10:04",
+		"initialize" : "bk 6/20/2017 09:58",
 		"name" : "lx 7/30/2016 00:42:12",
 		"name:" : "lx 7/30/2016 00:42:12",
 		"rules" : "PB 7/29/2016 10:52",

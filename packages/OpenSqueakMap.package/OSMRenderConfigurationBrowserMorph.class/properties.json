@@ -1,0 +1,16 @@
+{
+	"category" : "OpenSqueakMap-Configuration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mainPanel",
+		"attributeList",
+		"attributeControls" ],
+	"name" : "OSMRenderConfigurationBrowserMorph",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }
