@@ -20,6 +20,9 @@ tryDownload: aString in: aViewport
 	"self chunkManager progressBar next.
 	(self chunkManager progressBar currentItem = self chunkManager progressBar total)
 		ifTrue: [self chunkManager progressBar hide.]"
+		
+	self chunkManager finishedDownloadAt: self index.
 	
 	self chunkManager applyRenderConfiguration.
 	self chunkManager chunks do: [:chunk | chunk render].
+	"self render."

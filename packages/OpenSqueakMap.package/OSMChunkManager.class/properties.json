@@ -12,7 +12,8 @@
 		"nodes",
 		"renderingChunks",
 		"backupChunks",
-		"progressBar" ],
+		"progressBar",
+		"chunksCurrentlyDownloading" ],
 	"name" : "OSMChunkManager",
 	"pools" : [
 		 ],

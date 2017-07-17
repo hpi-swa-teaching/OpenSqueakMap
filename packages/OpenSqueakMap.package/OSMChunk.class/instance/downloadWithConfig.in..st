@@ -6,8 +6,9 @@ downloadWithConfig: aDownloadConfig in: aViewport
 	[self tryDownload: query in: aViewport]
 		on: self exceptionSet
 		do: [:ex |
-			(self askIfRetry: ex messageText) caseOf: {
+			ex retry].
+			"(self askIfRetry: ex messageText) caseOf: {
 				[#continue] -> [self dataSet: OSMDataset empty].
 				[#retry] ->[ex retry].
 				[#abort] ->[OSMAbortException new signal].
-				[#debug] ->[ToolSet debugError: ex]}].
+				[#debug] ->[ToolSet debugError: ex]}]".
