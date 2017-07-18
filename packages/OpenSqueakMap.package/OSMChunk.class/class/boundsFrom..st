@@ -1,9 +1,11 @@
 geometry
 boundsFrom: aPoint
-
+	"aPoint represents the index of the corresponding chunk."
+	
 	| topLeft |
 	topLeft := aPoint * OSMChunkManager chunkSize.
 	topLeft  := topLeft translateBy: -180@(-90).
+	
 	^ Rectangle 
 		left: topLeft x
 		right: (topLeft x + OSMChunkManager chunkSize x)
