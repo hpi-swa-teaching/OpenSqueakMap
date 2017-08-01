@@ -1,0 +1,3 @@
+defaults
+defaultFontSize
+	^16.
