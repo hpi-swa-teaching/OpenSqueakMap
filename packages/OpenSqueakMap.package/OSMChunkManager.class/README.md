@@ -1,5 +1,6 @@
-I manage the Chunks of an OpenSqueakMap instance. My didChangeOn: method is to be called every time something in the Viewport should change (i.e. zooming, panning, new configuration). I will automatically create Chunks when they are needed, move them and delete them (although deletion has not been implemented yet). 
+I manage the Chunks of an OpenSqueakMap instance. My 'changed' method is to be called every time something in the Viewport should change (i.e. zooming, panning, new configuration). I will automatically create Chunks when they are needed, move them and delete them (although deletion has not been implemented yet but partially in another branch). 
 I keep record of which Chunk is responsible for which WayRenderObject, so that Ways that span across more than one Chunk get rendered only once.
+Additionally I manage the Cache on classside. Chunks which were download once are stored in the cache and pickuped from there if needed.
 
 Instance Variables
 	backupChunks:		<Dictionary>

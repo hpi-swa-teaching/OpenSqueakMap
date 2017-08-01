@@ -1,3 +1,3 @@
 accessing
-chunkManager: anObject
-	chunkManager := anObject
+chunkManager: anOSMChunkManager
+	chunkManager := anOSMChunkManager.
