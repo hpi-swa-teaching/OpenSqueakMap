@@ -1,11 +1,12 @@
 running
 setUp
-	
+
+	super setUp.
 	self
-		chunkManager: (OSMChunkManager) new;
 		viewport: (OSMViewport
 			center: self class exampleCoord
 			zoom: self class exampleZoom
-			chunkManager: self chunkManager).
+			chunkManager: OSMChunkManager new).
 	self viewport hide.
-	self chunkManager changed. 
+	(self viewport chunkManager) viewport: self viewport.
+	self viewport chunkManager changed.

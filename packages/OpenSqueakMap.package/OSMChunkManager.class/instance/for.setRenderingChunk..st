@@ -1,7 +1,9 @@
 chunk assignment
 for: aWay setRenderingChunk: aChunk
-
-	self renderingChunks at: aWay id ifPresent: [:oldChunk |
-		oldChunk wayMorphs at: aWay id ifPresent: [:wayMorph | wayMorph delete].
-		(self backupChunksFor: aWay) add: oldChunk.].
+	
+	| dispayedChunk |
+	self renderingChunks at: aWay id 
+		ifPresent: [:oldChunk | dispayedChunk :=  self chunks at: (oldChunk index).
+				     dispayedChunk wayMorphs at: (aWay id) ifPresent: [:wayMorph | wayMorph delete].
+				     (self backupChunksFor: aWay) add: dispayedChunk.].
 	self renderingChunks at: aWay id put: aChunk.
