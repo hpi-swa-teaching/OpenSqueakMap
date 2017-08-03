@@ -1,4 +1,4 @@
-as yet unclassified
+examples
 exampleObject1
 
 	^ OSMRenderObject on:

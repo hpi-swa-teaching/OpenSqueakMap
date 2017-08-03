@@ -5,7 +5,6 @@ addWayMorph: aMorph
 	self viewport addMorphBack: aMorph.
 	(self checkForStreet: aMorph)
 		ifTrue: [self handleStreetMorph: aMorph].
-		
 	aMorph
 		on: #startDrag send: #startPanning to: self viewport;
 		on: #mouseUp send: #endPanning to: self viewport;

@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testConfigurationInRenderer
 
 	| configuration osmObjects dataSet chunk |

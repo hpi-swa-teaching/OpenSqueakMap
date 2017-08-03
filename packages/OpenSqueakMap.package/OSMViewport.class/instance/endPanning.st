@@ -6,5 +6,5 @@ endPanning
 	self isPanning: false.
 	panEndPos := Sensor mousePoint - self topLeft.
 	panEndPos = self panStartPos ifTrue: [^ self]. 
-	panVector := self getPanVectorFrom: panStartPos to: panEndPos.
+	panVector := self getPanVectorFrom: self panStartPos to: panEndPos.
 	self moveViewportBy: panVector.

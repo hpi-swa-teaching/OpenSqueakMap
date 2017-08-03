@@ -5,8 +5,8 @@
 		"findPointAt:" : "bk 5/18/2017 11:34",
 		"withIndex:on:" : "CJ 7/29/2016 22:18" },
 	"instance" : {
-		"addWayMorph:" : "jz 8/1/2017 17:20",
-		"apiQuery" : "PB 7/29/2016 11:24",
+		"addWayMorph:" : "lh 8/3/2017 17:16",
+		"apiQuery" : "lh 8/3/2017 18:48",
 		"applyConfiguration:" : "lx 7/7/2016 18:38",
 		"askIfRetry:" : "PB 7/10/2016 13:22",
 		"checkForStreet:" : "jz 8/1/2017 17:16",
@@ -43,5 +43,5 @@
 		"viewport:" : "PB 7/29/2016 10:31",
 		"wayMorphs" : "PB 7/29/2016 10:24",
 		"wayMorphs:" : "PB 7/29/2016 10:32",
-		"zoomlevelAbstraction" : "bk 7/6/2017 20:23",
+		"zoomlevelAbstraction" : "lh 8/3/2017 18:28",
 		"zoomlevelAbstraction:" : "jz 6/8/2017 15:28" } }

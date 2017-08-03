@@ -1,4 +1,4 @@
-as yet unclassified
+examples
 exampleAttributes2
 
 	^ {#color -> Color pantonePurpleU}

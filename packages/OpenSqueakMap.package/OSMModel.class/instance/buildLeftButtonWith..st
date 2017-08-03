@@ -8,4 +8,4 @@ buildLeftButtonWith: aBuilder
 			fractions: (0@0.5 corner: 0@0.5)
 			offsets: (Rectangle
 				origin:0@(self class buttonHeight / 2 negated)
-				corner: self class buttonWidth @ (self buttonHeight / 2))).
+				corner: self class buttonWidth @ (self class buttonHeight / 2))).

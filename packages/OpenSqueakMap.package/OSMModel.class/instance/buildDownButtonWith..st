@@ -8,4 +8,4 @@ buildDownButtonWith: aBuilder
 			fractions: (0.5@1 corner: 0.5@1)
 			offsets: (Rectangle
 				origin: (self class buttonWidth / 2 negated) @ (self class buttonHeight negated)
-				corner: (self buttonWidth / 2) @ 0)).
+				corner: (self class buttonWidth / 2) @ 0)).

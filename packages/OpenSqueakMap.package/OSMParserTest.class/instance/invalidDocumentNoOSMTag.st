@@ -1,4 +1,4 @@
-as yet unclassified
+tags
 invalidDocumentNoOSMTag
 	^ '
  <bounds minlat="52.3866000" minlon="13.1153000" maxlat="52.3968000" maxlon="13.1387000"/>

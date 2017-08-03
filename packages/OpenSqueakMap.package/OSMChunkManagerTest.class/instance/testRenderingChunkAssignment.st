@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testRenderingChunkAssignment
 	<timeout:60>
 	

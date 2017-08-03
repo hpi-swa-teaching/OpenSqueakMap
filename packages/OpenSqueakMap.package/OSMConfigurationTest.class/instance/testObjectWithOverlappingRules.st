@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testObjectWithOverlappingRules
 
 	| object1 object2 rule1 rule2 |

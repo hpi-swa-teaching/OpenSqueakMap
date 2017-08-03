@@ -1,7 +1,7 @@
 downloading
 apiQuery
 
-| boundsString|
+	| boundsString|
 	boundsString := '(',
 		(self coordBounds bottom roundTo: 0.0001), ',',
 		(self coordBounds left roundTo: 0.0001), ',',

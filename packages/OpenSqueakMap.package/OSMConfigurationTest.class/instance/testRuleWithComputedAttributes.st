@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testRuleWithComputedAttributes
 
 	| object1 object2 object3 |
