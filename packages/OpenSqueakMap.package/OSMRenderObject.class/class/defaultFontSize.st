@@ -1,3 +1,4 @@
 defaults
 defaultFontSize
-	^16.
+
+	^ 16.

@@ -1,4 +1,4 @@
 handling - content
 endElement: aQualifiedName
 		
-		self unmatchedClosingTag: aQualifiedName.
+	self unmatchedClosingTag: aQualifiedName.

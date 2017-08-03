@@ -1,3 +1,4 @@
 accessing
 displayedName: aStringMorph
-	displayedName := aStringMorph
+
+	displayedName := aStringMorph.

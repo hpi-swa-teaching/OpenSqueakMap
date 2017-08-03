@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"chunkManager" : "CJ 7/29/2016 13:57",
-		"chunkManager:" : "jz 8/1/2017 15:50",
+		"chunkManager" : "lh 8/3/2017 18:10",
+		"chunkManager:" : "lh 8/3/2017 18:10",
 		"firstChunkIndex" : "CJ 7/29/2016 14:05",
 		"secondChunkIndex" : "CJ 7/29/2016 14:07",
 		"setUp" : "bk 7/9/2017 19:56",
 		"tearDown" : "HS 8/3/2017 18:23",
-		"testRenderingChunkAssignment" : "bk 7/9/2017 20:41",
-		"wayIn:and:" : "CJ 7/29/2016 22:41",
+		"testRenderingChunkAssignment" : "HS 8/3/2017 21:30",
+		"wayIn:and:" : "HS 8/3/2017 21:30",
 		"zoomLevel" : "lx 7/30/2016 00:05" } }

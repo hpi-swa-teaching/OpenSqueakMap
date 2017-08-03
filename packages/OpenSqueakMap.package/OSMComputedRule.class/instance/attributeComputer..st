@@ -1,4 +1,4 @@
 accessing
 attributeComputer: aBlock
 
-	attributeComputer := aBlock
+	attributeComputer := aBlock.

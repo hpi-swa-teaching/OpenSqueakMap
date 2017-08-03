@@ -1,4 +1,4 @@
 identity
 isNilNode
 
-	^ latitude isNil or: [longitude isNil].
+	^ self latitude isNil or: [self longitude isNil].

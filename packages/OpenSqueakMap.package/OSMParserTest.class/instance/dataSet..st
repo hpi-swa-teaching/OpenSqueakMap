@@ -1,4 +1,4 @@
 accessing
 dataSet: anObject
 	
-	dataSet := anObject
+	dataSet := anObject.

@@ -1,4 +1,4 @@
-as yet unclassified
+set up
 setUp
 	
 	OSMChunkManager resetCachedChunks.

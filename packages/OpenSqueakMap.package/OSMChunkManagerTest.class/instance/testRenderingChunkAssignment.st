@@ -1,7 +1,7 @@
-as yet unclassified
+running
 testRenderingChunkAssignment
-	<timeout:60>
 	
+	<timeout:60>
 	| firstChunk secondChunk wayInBothChunks |
 	firstChunk := OSMChunk withIndex: self firstChunkIndex on: self chunkManager.
 	self chunkManager add: firstChunk at: self zoomLevel.

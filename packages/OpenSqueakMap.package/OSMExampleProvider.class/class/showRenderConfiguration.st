@@ -4,7 +4,6 @@ showRenderConfiguration
 
 	| osm |
 	osm := OpenSqueakMap show: 13.12695@52.39338.
-
 	^ osm renderConfiguration: 
 		(OSMRenderConfiguration new
 			add: (OSMStaticRule 

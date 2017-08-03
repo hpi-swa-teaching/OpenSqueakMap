@@ -1,7 +1,7 @@
 accessing
 selectedTypeIndex: anIndex
 
-	anIndex = 0
+	anIndex = 0 
 		ifTrue: [^self].
 	selectedTypeIndex := anIndex.
 	self changed: #selectedTypeIndex.
