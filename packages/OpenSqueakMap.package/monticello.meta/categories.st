@@ -4,4 +4,3 @@ SystemOrganization addCategory: #'OpenSqueakMap-Parser'!
 SystemOrganization addCategory: #'OpenSqueakMap-Data'!
 SystemOrganization addCategory: #'OpenSqueakMap-Examples'!
 SystemOrganization addCategory: #'OpenSqueakMap-Configuration'!
-SystemOrganization addCategory: #OpenSqueakMap!
