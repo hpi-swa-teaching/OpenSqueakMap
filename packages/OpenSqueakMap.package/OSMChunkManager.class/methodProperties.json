@@ -6,7 +6,7 @@
 		"maxCacheSize" : "HS 6/23/2017 14:00",
 		"resetCachedChunks" : "HS 6/23/2017 14:05" },
 	"instance" : {
-		"add:at:" : "HS 6/21/2017 16:02",
+		"add:at:" : "lf 7/10/2017 15:07",
 		"applyRenderConfiguration" : "HS 6/23/2017 14:07",
 		"backupChunks" : "PB 7/29/2016 10:33",
 		"backupChunks:" : "PB 7/29/2016 10:34",
@@ -20,7 +20,7 @@
 		"downloadConfiguration:" : "PB 7/29/2016 19:21",
 		"downloadMessage" : "lx 7/6/2016 01:32",
 		"downloadMissingChunks" : "HS 6/23/2017 14:09",
-		"for:setRenderingChunk:" : "CJ 7/29/2016 22:57",
+		"for:setRenderingChunk:" : "lf 7/10/2017 15:04",
 		"initialize" : "HS 6/23/2017 14:13",
 		"invalidateChunks" : "HS 6/23/2017 14:09",
 		"missingIndices" : "HS 6/23/2017 14:09",

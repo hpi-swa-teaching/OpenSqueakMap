@@ -2,14 +2,13 @@ running
 testMorphs
 
 	<timeout: 60>
-	|carWayMorph catholicChapel|
+	| catholicChapel |
 	self shouldnt: [
-		carWayMorph := self viewport submorphs detect: [:e | e dataObject id = '251039063'].
-		self assert: [(carWayMorph borderColor) = (Color yellow lighter)].
-		self assert: [(carWayMorph dataObject tags at: 'highway') = 'track'].
-		
-		catholicChapel := self viewport submorphs detect: [:e | e dataObject id = '251039053'].
-		self assert: [(catholicChapel borderColor) = (Color darkGray)].
+		self viewport chunks do: [:aChunk | aChunk wayMorphs 
+			detect: [:e | e dataObject id = '251039053'] 
+			ifFound: [:aMorph | catholicChapel := aMorph] 
+			ifNone: []].
+		self assert: [(catholicChapel borderColor) = ((OSMRenderConfiguration defaultConfiguration rules at: 'building') basicAttributes at: #color)].
 		self assert: [(catholicChapel dataObject tags at: 'amenity') = 'place_of_worship'].
 		self assert: [(catholicChapel dataObject tags at: 'denomination') = 'roman_catholic'].
 		]

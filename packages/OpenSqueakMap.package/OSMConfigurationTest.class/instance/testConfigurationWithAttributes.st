@@ -2,7 +2,7 @@ running
 testConfigurationWithAttributes
 
 	| configuration objects |
-	configuration := OSMRenderConfiguration new add: self exampleStaticRule.
+	configuration := OSMRenderConfiguration new at: 'exampleStaticRule' put: self exampleStaticRule.
 	
 	objects := OrderedCollection new add: self exampleObject1; add: self exampleObject2; yourself.
 	

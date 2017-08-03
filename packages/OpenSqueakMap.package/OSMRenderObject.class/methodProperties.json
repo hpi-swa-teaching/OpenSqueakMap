@@ -15,6 +15,7 @@
 		"checkIfStreetIsLongEnough" : "jz 8/1/2017 17:38",
 		"dataObject" : "PB 7/29/2016 10:59",
 		"dataObject:" : "PB 7/29/2016 11:00",
+		"delete" : "lf 7/10/2017 14:58",
 		"defaultPositionOfStreetmorph" : "jz 8/1/2017 17:49",
 		"deleteMorph" : "lx 7/7/2016 19:02",
 		"deleteOldStreetnameMorph" : "jz 8/1/2017 17:32",
