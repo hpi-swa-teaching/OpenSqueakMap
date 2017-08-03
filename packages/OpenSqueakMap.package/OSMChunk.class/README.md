@@ -4,11 +4,13 @@ Instance Variables
 	chunkManager:		<OSMChunkManager>
 	coordBounds:		<Rectangle>
 	dataSet:		<OSMDataset>
+	index: 		<Point>
 	positionInViewport:		<Point>
 	renderObjects:		<Dictionary>
 	shouldRedraw:		<Booleans>
 	viewport:		<OSMViewport>
 	wayMorphs:		<Dictionary>
+	zoomlevelADictionary: 	<Dictionary>
 
 chunkManager
 	- The ChunkManager that manages me.
@@ -18,6 +20,9 @@ coordBounds
 
 dataSet
 	- Dataset that contains all DataObjects inside my coordBounds.
+
+index
+	- point coordinate to distinguish me from the other chunks.
 
 positionInViewport
 	- My position relative to the Viewport in pixels. I.e. if there was a Node whose coordinates equal my coordBounds topLeft, then the node would be rendered at my positionInViewport.
@@ -33,3 +38,11 @@ viewport
 
 wayMorphs
 	- Dictionary of the WayRenderObjects I am responsible for (dataObject id->renderObject). Consists of the WayRenderObjects in my renderObjects variable minus the ones of which I am not the renderingChunk.
+	
+zoomLevelAbstraction
+	- Dictionary which says which streettypes should contain their printed streetnames at the actual zoomlevel
+	
+	
+
+	
+
