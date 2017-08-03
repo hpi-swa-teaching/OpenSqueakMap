@@ -1,4 +1,4 @@
 instance creation
 show: aPoint
 
-		^ self show: aPoint at: self defaultZoomLevel.
+	^ self show: aPoint at: self defaultZoomLevel.

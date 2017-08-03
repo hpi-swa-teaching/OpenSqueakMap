@@ -1,4 +1,4 @@
 constants
 maxCacheSize
 
-	^ 10.
+	^ 4.

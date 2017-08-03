@@ -1,3 +1,4 @@
 accessing
 streetnames: anObject
-	streetnames := anObject
+
+	streetnames := anObject.
