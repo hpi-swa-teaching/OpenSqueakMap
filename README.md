@@ -1,4 +1,4 @@
-# OpenSqueakMap [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/OpenSqueakMap.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/OpenSqueakMap)
+# OpenSqueakMap [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/OpenSqueakMap.svg?branch=dev)](https://travis-ci.org/HPI-SWA-Teaching/OpenSqueakMap)
 An [OpenStreetMap](http://www.osm.org) browser for Smalltalk (Squeak)
 
 ## Running OpenSqueakMap
