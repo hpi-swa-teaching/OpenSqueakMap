@@ -2,16 +2,16 @@
 	"class" : {
 		"defaultZoomLevel" : "PB 7/29/2016 10:44",
 		"find:" : "bk 5/18/2017 11:34",
-		"show:" : "bk 8/3/2017 21:32",
+		"show:" : "PB 6/29/2016 17:55",
 		"show:at:" : "lf 6/29/2017 14:01" },
 	"instance" : {
 		"buildWindow" : "lx 6/30/2016 21:12",
-		"chunkManager" : "bk 8/3/2017 21:32",
-		"chunkManager:" : "bk 8/3/2017 21:32",
+		"chunkManager" : "PB 6/2/2016 10:18",
+		"chunkManager:" : "PB 6/2/2016 10:18",
 		"downloadConfiguration:" : "HS 6/15/2017 11:35",
 		"initialize" : "lx 7/2/2016 11:27",
 		"renderConfiguration:" : "HS 6/15/2017 11:35",
-		"viewport" : "bk 8/3/2017 21:32",
-		"viewport:" : "bk 8/3/2017 21:33",
-		"window" : "bk 8/3/2017 21:33",
+		"viewport" : "lx 5/27/2016 18:13",
+		"viewport:" : "lx 5/27/2016 18:13",
+		"window" : "lx 6/28/2016 23:38",
 		"window:" : "PB 7/29/2016 11:27" } }

@@ -2,11 +2,10 @@ running
 testRuleWithAttributes
 
 	| concernedObject unconcernedObject |
+	concernedObject := self class exampleObject1.
+	unconcernedObject := self class exampleObject2.
 	
-	concernedObject := self exampleObject1.
-	unconcernedObject := self exampleObject2.
-	
-	self exampleStaticRule
+	self class exampleStaticRule
 		applyTo: concernedObject;
 		applyTo: unconcernedObject.
 		

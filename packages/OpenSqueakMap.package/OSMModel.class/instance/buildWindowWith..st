@@ -3,8 +3,7 @@ buildWindowWith: builder
 	
 	| windowSpec |
 	windowSpec := builder pluggableWindowSpec new.
-	windowSpec 
-		model: self;
-		label: #windowTitle;
-		children: OrderedCollection new.
+	windowSpec model: self.
+	windowSpec label: #windowTitle.
+	windowSpec children: OrderedCollection new.
 	^ windowSpec.

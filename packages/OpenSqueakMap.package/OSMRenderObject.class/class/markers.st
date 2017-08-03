@@ -2,5 +2,4 @@ accessing
 markers
 
 	^ Markers
-		ifNil: [
-			Markers := Dictionary new].
+		ifNil: [Markers := Dictionary new].

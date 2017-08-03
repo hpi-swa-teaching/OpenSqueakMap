@@ -1,4 +1,3 @@
 accessing
-chunkManager: aChunkManager
-
-	chunkManager := aChunkManager.
+chunkManager: anObject
+	chunkManager := anObject

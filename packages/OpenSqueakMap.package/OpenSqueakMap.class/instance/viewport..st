@@ -1,4 +1,3 @@
 accessing
-viewport: aViewport
-
-	viewport := aViewport.
+viewport: anObject
+	viewport := anObject

@@ -3,6 +3,5 @@ addViewport: aViewport
 
 	self viewport: aViewport.
 	self panel addMorph: aViewport.
-	aViewport 
-		hResizing: #spaceFill;
-		vResizing: #spaceFill.
+	aViewport hResizing: #spaceFill.
+	aViewport vResizing: #spaceFill.

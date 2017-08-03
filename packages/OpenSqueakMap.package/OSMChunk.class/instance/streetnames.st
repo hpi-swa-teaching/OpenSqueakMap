@@ -1,4 +1,3 @@
 accessing
 streetnames
-
-	^ streetnames.
+	^ streetnames

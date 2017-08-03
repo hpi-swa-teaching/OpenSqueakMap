@@ -1,4 +1,4 @@
 handling - content
 endDocument
 
-	^self state endDocument.	
+	^ self state endDocument.	

@@ -1,4 +1,3 @@
 accessing
 chunkManager
-
-	^ chunkManager.
+	^ chunkManager

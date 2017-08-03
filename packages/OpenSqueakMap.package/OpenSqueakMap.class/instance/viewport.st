@@ -1,4 +1,3 @@
 accessing
 viewport
-
-	^ viewport.
+	^ viewport
