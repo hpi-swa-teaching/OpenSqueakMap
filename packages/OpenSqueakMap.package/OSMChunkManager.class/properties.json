@@ -12,6 +12,7 @@
 		"renderingChunks",
 		"backupChunks",
 		"progressBar",
+		"chunksCurrentlyDownloading",
 		"viewport",
 		"chunks" ],
 	"name" : "OSMChunkManager",

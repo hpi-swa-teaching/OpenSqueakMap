@@ -8,6 +8,7 @@ initialize
 		backupChunks: Dictionary new;
 		renderConfiguration: OSMRenderConfiguration defaultConfiguration;
 		progressBar: OSMProgressMorph new;
+		chunksCurrentlyDownloading: Dictionary new;
 		downloadConfiguration: OSMDownloadConfiguration defaultConfiguration;
 		updateChunks;
 		invalidateChunks.
