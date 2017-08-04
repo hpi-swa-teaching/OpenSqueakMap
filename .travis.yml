@@ -7,4 +7,4 @@ os:
 
 # Select compatible Smalltalk image(s)
 smalltalk:
-  - Squeak-5.0
+  - Squeak-trunk
